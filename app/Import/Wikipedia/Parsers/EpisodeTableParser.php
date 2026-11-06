@@ -54,6 +54,8 @@ abstract class EpisodeTableParser implements EpisodeListParser
                 continue;
             }
 
+            // Optionale Spalte: fehlt sie, bleibt der Sender leer.
+            $broadcasterColumn = $table->columnIndex('/^Sender$/u');
             $previousNumber = null;
 
             foreach ($table->rows as $cells) {
@@ -111,6 +113,9 @@ abstract class EpisodeTableParser implements EpisodeListParser
                     wikipediaRef: Wikitext::firstLinkTarget($cells[$columns['title']]),
                     fromAnnouncedSection: $announced,
                     positionAfter: $number === null ? $previousNumber : null,
+                    broadcaster: $broadcasterColumn === null
+                        ? null
+                        : (Wikitext::toPlainText($cells[$broadcasterColumn]) ?: null),
                 );
 
                 if ($number !== null) {

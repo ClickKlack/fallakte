@@ -14,6 +14,7 @@ final readonly class ParsedEpisode
      * @param  int|null  $positionAfter  bei Filmen ohne Nummer: Nummer der vorangehenden Folge
      * @param  string|null  $wikipediaRef  Ziel des Titel-Links (Artikelname), stabiler Schlüssel
      * @param  string|null  $teamRaw  Rohwert der Ermittler-Spalte (bereinigt, ohne Gastauftritte)
+     * @param  string|null  $broadcaster  produzierender Sender als Klartext
      */
     public function __construct(
         public ?int $number,
@@ -23,5 +24,6 @@ final readonly class ParsedEpisode
         public ?string $wikipediaRef,
         public bool $fromAnnouncedSection = false,
         public ?int $positionAfter = null,
+        public ?string $broadcaster = null,
     ) {}
 }

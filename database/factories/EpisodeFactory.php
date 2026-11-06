@@ -24,6 +24,7 @@ class EpisodeFactory extends Factory
             'number' => fake()->unique()->numberBetween(1, 999_999),
             'title' => rtrim(fake()->sentence(3), '.'),
             'first_aired' => fake()->dateTimeBetween('-50 years', '-1 day'),
+            'broadcaster' => fake()->randomElement(['NDR', 'WDR', 'BR', 'SWR', 'MDR', 'HR', 'RBB', 'SR', 'RB', 'ORF', 'SRF']),
             'team_id' => null,
             'seen' => false,
             'seen_at' => null,
@@ -42,6 +43,16 @@ class EpisodeFactory extends Factory
     public function withoutDate(): static
     {
         return $this->state(['first_aired' => null]);
+    }
+
+    /** Film ohne offizielle Nummer, einsortiert nach der angegebenen Folge. */
+    public function unnumbered(int $after, int $index = 1): static
+    {
+        return $this->state([
+            'number' => null,
+            'sort_key' => $after * Episode::SORT_STEP + $index,
+            'wikipedia_ref' => fake()->unique()->sentence(3),
+        ]);
     }
 
     /** Gesehene Folge, optional mit Datum. */

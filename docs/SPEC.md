@@ -67,14 +67,16 @@ Zweck: Wikipedia schreibt Ermittlerteams nicht einheitlich. Der Import ordnet Ro
 |---|---|---|
 | id | PK | |
 | series_id | FK | |
-| number | int | Folgennummer laut Wikipedia |
+| number | int, nullable | Folgennummer laut Wikipedia; leer bei Filmen ohne offizielle Nummer (siehe `docs/wikipedia-structure.md`) |
+| sort_key | int | Reihenfolge: Nummer × 100; Filme ohne Nummer: vorherige Nummer × 100 + laufender Index → Ersatznummer „59a“ |
 | title | string | |
 | first_aired | date, nullable | Erstausstrahlung |
+| broadcaster | string, nullable | produzierender Sender laut Wikipedia (z. B. „NDR“, „SWR/SRF“, „DFF“) |
 | team_id | FK, nullable | |
 | status | enum `aired`, `announced` | siehe 4.3 |
 | seen | bool, default false | |
 | seen_at | date, nullable | optional |
-| wikipedia_ref | string, nullable | Quelle/Abschnitt |
+| wikipedia_ref | string, nullable | Artikelname der Folge (Linkziel des Titels); Abgleichsschlüssel für Filme ohne Nummer |
 | manual_fields | JSON, default `[]` | Liste manuell geänderter Felder, siehe 4.2 |
 | timestamps | | |
 
@@ -92,11 +94,12 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Quellen: die deutschsprachigen Wikipedia-Episodenlisten zu Tatort und Polizeiruf 110.
 - Abruf über die **MediaWiki-API** (Wikitext), kein HTML-Scraping. Eigener User-Agent mit Kontaktangabe setzen.
 - **Vor der Implementierung die aktuelle Struktur der beiden Listen prüfen** (Seitennamen, ggf. Unterseiten, Tabellenspalten) und den Parser darauf auslegen. Parser je Serie als eigene Klasse, gemeinsame Schnittstelle.
-- Upsert über `(series_id, number)`.
+- Upsert über `(series_id, number)`; Rückfall über `wikipedia_ref` nur für Folgen ohne Nummer oder mit manuell geänderter Nummer.
+- In Wikipedia entfernte Folgen werden nicht gelöscht.
 - Der Import fasst `seen` und `seen_at` **nie** an.
 
 ### 4.2 Schutz manueller Korrekturen
-- Wird `title`, `first_aired`, `team_id` oder `number` in der App geändert, wird der Feldname in `manual_fields` eingetragen.
+- Wird `title`, `first_aired`, `broadcaster`, `team_id` oder `number` in der App geändert, wird der Feldname in `manual_fields` eingetragen.
 - Der Import überschreibt diese Felder nicht und zählt sie als „übersprungen (geschützt)".
 - In der Bearbeitungsmaske lässt sich der Schutz je Feld zurücksetzen („wieder von Wikipedia übernehmen").
 
@@ -121,7 +124,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 ## 5. Funktionen der Oberfläche
 
 ### 5.1 Folgenliste (Startseite)
-- Tabelle: Reihe, Nr., Titel, Erstausstrahlung, Team, Gesehen (Haken), Gesehen am
+- Tabelle: Reihe, Nr., Titel, Erstausstrahlung, Sender, Team, Gesehen (Haken), Gesehen am
 - Filter (kombinierbar, im URL-Query gehalten):
   - Reihe (Tatort / Polizeiruf / beide)
   - Team
@@ -134,7 +137,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Haken entfernen setzt `seen_at` auf null
 
 ### 5.2 Folge bearbeiten
-- Formular für Titel, Nr., Erstausstrahlung, Team, Gesehen, Gesehen am
+- Formular für Titel, Nr., Erstausstrahlung, Sender, Team, Gesehen, Gesehen am
 - Anzeige, welche Felder geschützt sind, mit Reset je Feld
 - Manuelles Anlegen einer Folge möglich (z. B. wenn Wikipedia hinterherhinkt); alle Felder gelten dann als geschützt
 
@@ -225,6 +228,17 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Controller/Query für Liste mit Filtern, Sortierung, Paginierung
 - Endpunkt zum Abhaken / Entfernen des Hakens inkl. optionalem Datum
 - **Tests:** jeder Filter einzeln und kombiniert; Sortierung; angekündigte Folge kann nicht abgehakt werden (422); Haken entfernen setzt `seen_at` auf null; Validierung des Datums
+
+### Schritt 5a – UI-Grundlagen (Design)
+Zeitpunkt bewusst nach dem Import (echte Daten vorhanden) und vor der ersten echten Seite, damit Schritte 6–9 auf einheitlichen Bausteinen aufbauen.
+- **Gestaltung im Tatort-Stil:** klar und logisch, Grundfarbe **Dunkelblau mit weißer Schrift**, eine Akzentfarbe für Hervorhebungen; Farben als zentrale Design-Tokens (Tailwind-Theme), nicht verstreut im Code
+- **Logo:** eigene Bildmarke, die an den Tatort-Vorspann erinnert (z. B. Fadenkreuz mit Auge) plus Schriftzug „Amis Fallakte“ als SVG; **kein Nachbau des geschützten ARD-Logos** (öffentliches Repo)
+- **Responsive / Mobile first:** alle Seiten am Smartphone bequem bedienbar (Touch-Ziele ≥ 44 px, keine horizontale Seiten-Scrollbar, Tabellen werden auf schmalen Bildschirmen zu Karten/Listen, Filter einklappbar)
+- Layout mit Navigation (Folgen, Teams, Statistik, Profil, Abmelden), mobil als einklappbares Menü
+- Basiskomponenten: Tabelle/Liste, Filterleiste, Abhak-Checkbox mit Datum, Status-Kennzeichen „angekündigt“, Fortschrittsbalken, Buttons, Bestätigungsdialog, Pagination
+- Login-Seite und vorhandene Seiten (Dashboard-Hülle, Profil) im neuen Design
+- **Tests:** Vitest für Komponenten mit Logik (z. B. Fortschrittsberechnung, Datumsformatierung); Feature-Test, dass die Seiten weiterhin rendern
+- **Smoketest** zusätzlich auf dem Smartphone (bzw. in der mobilen Ansicht der Browser-Entwicklertools)
 
 ### Schritt 6 – Folgenliste (Frontend)
 - Vue-Seite mit Tabelle, Filterleiste (Zustand im URL-Query), Inline-Abhaken mit Datepicker

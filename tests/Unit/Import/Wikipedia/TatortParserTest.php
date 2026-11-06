@@ -57,13 +57,15 @@ describe('real page snapshot', function () {
             ->and($first->title)->toBe('Taxi nach Leipzig')
             ->and($first->firstAired->toDateString())->toBe('1970-11-29')
             ->and($first->teamRaw)->toBe('Trimmel')
+            ->and($first->broadcaster)->toBe('NDR')
             ->and($first->wikipediaRef)->toBe('Tatort: Taxi nach Leipzig (1970)')
             ->and($first->fromAnnouncedSection)->toBeFalse();
     });
 
-    test('every episode has a date and a team', function () {
+    test('every episode has a date, a broadcaster and a team', function () {
         foreach ($this->result->episodes as $episode) {
             expect($episode->firstAired, "Folge {$episode->number}")->not->toBeNull()
+                ->and($episode->broadcaster, "Folge {$episode->number}")->not->toBeNull()
                 ->and($episode->teamRaw, "Folge {$episode->number}")->not->toBeNull();
         }
     });
@@ -82,7 +84,8 @@ describe('real page snapshot', function () {
             ->and(byTitle($episodes, 'König in Gelb')->firstAired->toDateString())->toBe('2026-09-13')
             ->and(byTitle($episodes, 'Kressin und der tote Mann im Fleet')->teamRaw)->toBe('Kressin')
             ->and(byTitle($episodes, 'Unter Freunden')->teamRaw)->toBe('Şahin und Krieger')
-            ->and(byTitle($episodes, 'Explosive Mischung')->teamRaw)->toBe('Odenthal und Stern');
+            ->and(byTitle($episodes, 'Explosive Mischung')->teamRaw)->toBe('Odenthal und Stern')
+            ->and(byTitle($episodes, 'Frei wie ein Adler')->broadcaster)->toBe('SRF');
     });
 
     test('double episodes are two separate episodes', function () {
@@ -151,6 +154,16 @@ describe('edge cases', function () {
         expect($result->episodes)->toBe([])
             ->and($result->errors)->toHaveCount(2)
             ->and($result->errors[0])->toContain('Ausgestrahlte Folgen');
+    });
+
+    test('broadcaster column is optional', function () {
+        $result = (new TatortParser)->parse(
+            "=== Ausgestrahlte Folgen ===\n{|\n! Folge !! Titel !! Erstausstrahlung !! Ermittler\n|-\n| 1 || X || {{DatumZelle|2000-01-01}} || T\n|}\n"
+            ."=== Bisher noch nicht im Fernsehen ausgestrahlte Folgen ===\n{|\n! Folge !! Titel !! Erstausstrahlung !! Ermittler\n|}",
+        );
+
+        expect($result->errors)->toBe([])
+            ->and($result->episodes[0]->broadcaster)->toBeNull();
     });
 
     test('missing columns are reported as error', function () {

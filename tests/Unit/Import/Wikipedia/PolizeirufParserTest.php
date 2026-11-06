@@ -47,6 +47,7 @@ describe('real page snapshot', function () {
             ->and($first->title)->toBe('Der Fall Lisa Murnau')
             ->and($first->firstAired->toDateString())->toBe('1971-06-27')
             ->and($first->teamRaw)->toBe('Peter Fuchs, Vera Arndt')
+            ->and($first->broadcaster)->toBe('DFF')
             ->and($first->wikipediaRef)->toBe('Polizeiruf 110: Der Fall Lisa Murnau');
     });
 
@@ -84,6 +85,7 @@ describe('edge cases', function () {
         $film = $this->result->episodes[1];
 
         expect($film->positionAfter)->toBe(59)
+            ->and($film->broadcaster)->toBe('Fernsehen der DDR')
             ->and($film->firstAired->toDateString())->toBe('1979-06-24')
             ->and($film->teamRaw)->toBe('Woltersdorf');
     });

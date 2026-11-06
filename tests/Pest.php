@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Http\Client\Request;
+use Illuminate\Support\Facades\Http;
 use Tests\TestCase;
 
 /*
@@ -20,31 +22,41 @@ pest()->extend(TestCase::class)
 
 /*
 |--------------------------------------------------------------------------
-| Expectations
+| Hilfsfunktionen
 |--------------------------------------------------------------------------
-|
-| When you're writing tests, you often need to check that values meet certain conditions. The
-| "expect()" function gives you access to a set of "expectations" methods that you can use
-| to assert different things. Of course, you may extend the Expectation API at any time.
-|
 */
 
-expect()->extend('toBeOne', function () {
-    return $this->toBe(1);
-});
-
-/*
-|--------------------------------------------------------------------------
-| Functions
-|--------------------------------------------------------------------------
-|
-| While Pest is very powerful out-of-the-box, you may have some testing code specific to your
-| project that you don't want to repeat in every file. Here you can also expose helpers as
-| global functions to help you to reduce the number of lines of code in your test files.
-|
-*/
-
-function something()
+/**
+ * Simuliert die MediaWiki-API: Seitentitel => Wikitext (oder HTTP-Status als int).
+ *
+ * @param  array<string, string|int>  $pages
+ */
+function fakeWikipedia(array $pages): void
 {
-    // ..
+    // Http::fake() hängt Regeln nur an (die erste passende gewinnt) – daher gemeinsamer Speicher,
+    // damit ein späterer Aufruf im selben Test die Seiten ersetzt.
+    $GLOBALS['fakeWikipediaPages'] = $pages;
+
+    Http::fake([
+        'de.wikipedia.org/w/api.php*' => function (Request $request) {
+            $title = $request->data()['titles'] ?? '';
+            $page = $GLOBALS['fakeWikipediaPages'][$title] ?? null;
+
+            if (is_int($page)) {
+                return Http::response('Fehler', $page);
+            }
+
+            return Http::response(['query' => ['pages' => [
+                $page === null
+                    ? ['title' => $title, 'missing' => true]
+                    : ['title' => $title, 'revisions' => [['revid' => 123, 'slots' => ['main' => ['content' => $page]]]]],
+            ]]]);
+        },
+    ]);
+}
+
+/** Liest eine Wikitext-Fixture. */
+function wikiFixture(string $name): string
+{
+    return file_get_contents(__DIR__.'/Fixtures/wikipedia/'.$name);
 }

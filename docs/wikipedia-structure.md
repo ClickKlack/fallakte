@@ -27,7 +27,9 @@ Beide Listen nutzen eine Wikitabelle je Abschnitt mit neun Spalten, eine Zeile j
 | Erstausstrahlung | Erstausstrahlung / Geplante Erstausstrahlung | Erstausstr. / Geplante Erstausstr. | `Erstausstr` |
 | Ermittler | Ermittler | Ermittler (als Link) | `^Ermittler$` |
 
-Weitere Spalten (Sender, Fall, Autor, Regie, Besonderheiten) werden nicht verwendet.
+| Sender (optional) | Sender | Sender | `^Sender$` |
+
+Weitere Spalten (Fall, Autor, Regie, Besonderheiten) werden nicht verwendet.
 
 ### Wikitext-Besonderheiten
 
@@ -80,6 +82,20 @@ Weitere Spalten (Sender, Fall, Autor, Regie, Besonderheiten) werden nicht verwen
   „Hinrichs und Diekmann“) und wechselnde Besetzungen (DDR-Polizeiruf: „Peter Fuchs, Vera Arndt“,
   „Peter Fuchs, Vera Arndt, Lutz Subras“ …) werden **in der App zusammengeführt**; über die Aliase
   ordnet der nächste Import sie automatisch richtig zu.
+
+### Sender
+- Klartext der Zelle, Links aufgelöst (`[[Deutscher Fernsehfunk|DFF]]` → „DFF“).
+- Koproduktionen bleiben als Text erhalten („SWR/SRF“, „Radio Bremen/WDR“, „NDR und MDR“).
+- Historische Sender kommen vor (SFB, SDR, SWF, ORB, „Fernsehen der DDR“).
+
+## Abgleich beim Import
+
+- Primär über `(Reihe, Folgennummer)`.
+- Rückfall über den Artikelnamen (`wikipedia_ref`) **nur** für Folgen ohne Nummer oder mit manuell
+  geänderter Nummer – mehrere Folgen können auf denselben Artikel verlinken
+  (z. B. „Wendemanöver (1)“ und „(2)“).
+- Bei MariaDB mit `utf8mb4_unicode_ci` gelten Schreibweisen wie „Sahin“/„Şahin“ beim Alias-Abgleich
+  als gleich; unter SQLite (Standard) sind sie verschieden und werden in der App zusammengeführt.
 
 ## Robustheit
 

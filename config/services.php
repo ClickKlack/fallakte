@@ -28,6 +28,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'wikipedia' => [
+        'endpoint' => env('WIKIPEDIA_API_ENDPOINT', 'https://de.wikipedia.org/w/api.php'),
+        // Wikipedia verlangt einen aussagekräftigen User-Agent mit Kontaktmöglichkeit.
+        // Ohne WIKIPEDIA_USER_AGENT wird die E-Mail-Adresse des (einzigen) Benutzers als Kontakt angehängt.
+        'user_agent' => env('WIKIPEDIA_USER_AGENT'),
+        'user_agent_base' => 'fallakte/1.0 (+https://github.com/ClickKlack/fallakte)',
+    ],
+
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
