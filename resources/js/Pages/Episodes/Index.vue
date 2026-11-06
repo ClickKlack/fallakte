@@ -5,7 +5,7 @@
  * bei einem Fehler zurückgesetzt. So bleibt eine Folge auch im Filter „ungesehen“ stehen, bis neu gefiltert wird.
  */
 import { computed, reactive, ref, watch } from 'vue';
-import { Head, router } from '@inertiajs/vue3';
+import { Head, Link, router, usePage } from '@inertiajs/vue3';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import EpisodeFilterBar from '@/Components/Episodes/EpisodeFilterBar.vue';
 import EpisodeListHeader from '@/Components/Episodes/EpisodeListHeader.vue';
@@ -84,6 +84,18 @@ async function changeSeen(episode, payload) {
 }
 
 const showSeries = computed(() => !form.series);
+
+// Aktueller Listenzustand (Filter, Sortierung, Seite) für die Rückkehr nach dem Bearbeiten
+const page = usePage();
+const returnTo = computed(() => {
+    const index = page.url.indexOf('?');
+    return index === -1 ? '' : page.url.slice(index);
+});
+const editUrl = (episode) =>
+    route('episodes.edit', { episode: episode.id, return_to: returnTo.value || undefined });
+const createUrl = computed(() =>
+    route('episodes.create', { return_to: returnTo.value || undefined }),
+);
 const subtitle = computed(() =>
     props.episodes.meta.total === 1
         ? t('episodes.count_one')
@@ -96,7 +108,27 @@ const subtitle = computed(() =>
 
     <AuthenticatedLayout>
         <template #header>
-            <PageTitle :title="$t('episodes.title')" :subtitle="subtitle" />
+            <PageTitle :title="$t('episodes.title')" :subtitle="subtitle">
+                <template #actions>
+                    <Link
+                        :href="createUrl"
+                        class="inline-flex min-h-11 items-center gap-2 rounded-lg border border-line-strong px-4 text-sm font-semibold text-fg transition hover:bg-surface-hover"
+                        data-test="create"
+                    >
+                        <svg
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-4 w-4"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M10 4a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H5a1 1 0 1 1 0-2h4V5a1 1 0 0 1 1-1Z"
+                            />
+                        </svg>
+                        {{ $t('episodes.create') }}
+                    </Link>
+                </template>
+            </PageTitle>
         </template>
 
         <div class="space-y-4">
@@ -126,6 +158,7 @@ const subtitle = computed(() =>
                         :episode="episode"
                         :show-series="showSeries"
                         :busy="!!busy[episode.id]"
+                        :edit-url="editUrl(episode)"
                         @seen="(payload) => changeSeen(episode, payload)"
                     />
                 </ul>

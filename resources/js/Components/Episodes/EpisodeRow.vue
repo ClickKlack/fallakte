@@ -3,6 +3,7 @@
  * Eine Folge in der Liste. Smartphone: zweizeilige Karte. Ab Tablet: Spalten wie in der Kopfzeile.
  * Links stehen immer Haken und „gesehen am“ (feste Breite, auch ohne Haken reserviert).
  */
+import { Link } from '@inertiajs/vue3';
 import SeenDate from '@/Components/SeenDate.vue';
 import SeenToggle from '@/Components/SeenToggle.vue';
 import SeriesIcon from '@/Components/SeriesIcon.vue';
@@ -14,6 +15,7 @@ defineProps({
     episode: { type: Object, required: true },
     showSeries: { type: Boolean, default: true },
     busy: { type: Boolean, default: false },
+    editUrl: { type: String, required: true },
 });
 
 defineEmits(['seen']);
@@ -53,7 +55,12 @@ defineEmits(['seen']);
                 <span class="mr-1.5 font-semibold tabular-nums text-muted">{{
                     episode.number
                 }}</span>
-                {{ episode.title }}
+                <Link
+                    :href="editUrl"
+                    class="hover:text-accent-strong hover:underline"
+                    data-test="edit"
+                    >{{ episode.title }}</Link
+                >
                 <StatusBadge class="ml-1 align-text-bottom" :status="episode.status" />
             </p>
             <p class="text-sm text-subtle">
@@ -74,7 +81,9 @@ defineEmits(['seen']);
                 {{ episode.number }}
             </span>
             <span class="min-w-0 font-medium">
-                {{ episode.title }}
+                <Link :href="editUrl" class="hover:text-accent-strong hover:underline">{{
+                    episode.title
+                }}</Link>
                 <StatusBadge class="ml-1 align-text-bottom" :status="episode.status" />
             </span>
             <span class="text-sm tabular-nums text-muted">
