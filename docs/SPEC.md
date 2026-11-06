@@ -56,6 +56,7 @@ Per Seeder angelegt.
 | Feld | Typ | Hinweis |
 |---|---|---|
 | id | PK | |
+| series_id | FK | redundant zum Team, sichert den Unique-Index `(series_id, raw_value)` ab; wird beim Speichern aus dem Team übernommen |
 | team_id | FK | |
 | raw_value | string, unique je Serie | Rohwert aus Wikipedia (Ermittler-/Ort-Spalte) |
 
@@ -158,7 +159,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Zielsystem: Webspace mit **SSH und Composer, aber ohne Node**; PHP 8.3+ mit `pdo_sqlite`
 - SQLite-Datei liegt außerhalb des Web-Roots in einem für PHP beschreibbaren Verzeichnis (Pfad nur in `.env`); Deployment darf die Datei nie überschreiben
 - Frontend-Build (`npm run build`) erfolgt lokal; `public/build` wird mit deployed
-- README mit Deployment-Schritten: Upload, `composer install --no-dev`, `.env`, `php artisan migrate --force`, `php artisan user:create`, `php artisan episodes:import`
+- README mit Deployment-Schritten: Upload, `composer install --no-dev`, `.env`, `php artisan migrate --force`, `php artisan db:seed --force` (legt die Reihen an, keine Benutzer), `php artisan user:create`, `php artisan episodes:import`
 - Import wird manuell per SSH ausgeführt; optional über Laravel-Scheduler, falls Cron auf dem Webspace verfügbar ist (im README beschreiben, nicht voraussetzen)
 
 ## 8. Nicht im Umfang

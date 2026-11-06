@@ -20,7 +20,7 @@ composer install
 cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
-php artisan migrate
+php artisan migrate --seed   # legt Tabellen und die beiden Reihen an
 php artisan user:create   # Login-Benutzer anlegen (Registrierung ist deaktiviert)
 npm install
 npm run dev
@@ -46,4 +46,4 @@ die Datei wird nie committet.
 
 _Folgt in Schritt 10._ Kurzfassung: Frontend lokal bauen (`npm run build`, `public/build` ist eingecheckt),
 hochladen, `composer install --no-dev`, `.env` anlegen (SQLite-Pfad außerhalb des Web-Roots),
-`php artisan migrate --force`, `php artisan user:create`, `php artisan episodes:import`.
+`php artisan migrate --force`, `php artisan db:seed --force`, `php artisan user:create`, `php artisan episodes:import`.
