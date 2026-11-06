@@ -94,8 +94,9 @@ Weitere Spalten (Fall, Autor, Regie, Besonderheiten) werden nicht verwendet.
 - Rückfall über den Artikelnamen (`wikipedia_ref`) **nur** für Folgen ohne Nummer oder mit manuell
   geänderter Nummer – mehrere Folgen können auf denselben Artikel verlinken
   (z. B. „Wendemanöver (1)“ und „(2)“).
-- Bei MariaDB mit `utf8mb4_unicode_ci` gelten Schreibweisen wie „Sahin“/„Şahin“ beim Alias-Abgleich
-  als gleich; unter SQLite (Standard) sind sie verschieden und werden in der App zusammengeführt.
+- Der Alias-Abgleich ist exakt (Groß-/Kleinschreibung und Akzente zählen): „Sahin“ und „Şahin“ sind
+  verschiedene Rohwerte und werden bewusst in der App zusammengeführt. Unter MariaDB/MySQL ist die Spalte
+  dafür auf `utf8mb4_bin` gestellt, damit sie sich wie SQLite verhält.
 
 ## Robustheit
 

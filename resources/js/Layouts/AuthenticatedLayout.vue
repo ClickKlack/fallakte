@@ -13,6 +13,7 @@ const showingNavigationDropdown = ref(false);
 // Hauptnavigation; weitere Punkte (Teams) kommen mit den jeweiligen Schritten dazu.
 const navigation = [
     { route: 'episodes.index', label: 'nav.episodes' },
+    { route: 'teams.index', label: 'nav.teams' },
     { route: 'dashboard', label: 'nav.statistics' },
 ];
 </script>
