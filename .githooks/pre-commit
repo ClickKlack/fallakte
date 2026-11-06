@@ -1,0 +1,53 @@
+#!/bin/sh
+# Verhindert, dass Zugangsdaten, Hosting-Informationen oder lokale Pfade ins Repository gelangen.
+# Aktivierung (einmalig pro Klon): git config core.hooksPath .githooks
+#
+# Zusätzliche, private Suchbegriffe (Hostnamen, SSH-Benutzer, Serverpfade, Domains …)
+# gehören zeilenweise in die Datei .secrets-denylist im Projekt-Root.
+# Diese Datei ist per .gitignore ausgeschlossen und wird nie committet.
+
+fail=0
+
+# 1. Verbotene Dateien
+forbidden=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '(^|/)\.env($|\.)|\.sqlite|\.sqlite3$|\.db$|\.pem$|\.key$|id_rsa|id_ed25519|(^|/)auth\.json$|\.local($|\.)|(^|/)\.secrets-denylist$' | grep -v -E '(^|/)\.env\.example$')
+if [ -n "$forbidden" ]; then
+    echo "✖ Verbotene Dateien im Commit:"
+    echo "$forbidden" | sed 's/^/    /'
+    fail=1
+fi
+
+# 2. Verdächtige Inhalte in hinzugefügten Zeilen
+added=$(git diff --cached -U0 --diff-filter=ACMR -- . ':(exclude).githooks/pre-commit' | grep -E '^\+[^+]')
+
+check() {
+    hits=$(printf '%s\n' "$added" | grep -n -i -E -e "$1" | grep -v -i -E -e '[=:][[:space:]]*["'"'"']?(null|false|true|""|<[^>]*>)["'"'"']?[[:space:]]*$')
+    if [ -n "$hits" ]; then
+        echo "✖ $2:"
+        printf '%s\n' "$hits" | head -5 | sed 's/^/    /'
+        fail=1
+    fi
+}
+
+check '-----BEGIN [A-Z ]*PRIVATE KEY-----' 'Privater Schlüssel'
+check 'APP_KEY=base64:' 'Laravel APP_KEY'
+check '(PASSWORD|PASSWD|SECRET|TOKEN)[A-Z_]*[[:space:]]*[=:][[:space:]]*["'"'"']?[^[:space:]"'"'"'$<{]{4,}' 'Passwort/Token-Zuweisung'
+check '(/Users/[A-Za-z0-9._-]+|/home/[A-Za-z0-9._-]+|/var/www/|/kunden/|/homepages/|/htdocs/|/httpdocs/|C:\\\\Users\\\\)' 'Absoluter lokaler/Server-Pfad'
+check '(ssh|sftp|scp|rsync)[^|]*[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' 'SSH-/Deploy-Ziel'
+
+# 3. Private Denylist
+if [ -f .secrets-denylist ]; then
+    while IFS= read -r term || [ -n "$term" ]; do
+        case "$term" in ''|'#'*) continue ;; esac
+        if printf '%s\n' "$added" | grep -q -i -F -- "$term"; then
+            echo "✖ Begriff aus .secrets-denylist gefunden (Begriff wird nicht angezeigt)"
+            fail=1
+        fi
+    done < .secrets-denylist
+fi
+
+if [ "$fail" -ne 0 ]; then
+    echo ""
+    echo "Commit abgebrochen. Sensible Daten gehören in .env oder lokale, ignorierte Dateien."
+    exit 1
+fi
+exit 0

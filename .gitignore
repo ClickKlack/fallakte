@@ -1,0 +1,53 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Umgebungen und Zugangsdaten – niemals committen
+.env
+.env.*
+!.env.example
+/auth.json
+/storage/*.key
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Lokale Hosting-/Deployment-Notizen und -Skripte (enthalten Hosts, Pfade, Benutzer)
+*.local
+*.local.*
+/deploy/
+/.secrets-denylist
+
+# Datenbanken
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+
+# Abhängigkeiten und Build-Artefakte
+/node_modules
+/vendor
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+/storage/pail
+# public/build wird bewusst eingecheckt (Webspace ohne Node, siehe docs/SPEC.md Abschnitt 7)
+
+# Tests
+.phpunit.result.cache
+/.phpunit.cache
+/coverage
+
+# IDE / Tools
+.phpactor.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+/.claude/settings.local.json
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.vscode
+/.zed
