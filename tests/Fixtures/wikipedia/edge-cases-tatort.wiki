@@ -1,0 +1,183 @@
+Einleitung mit [[Link]] und {{Vorlage|x}}.
+
+== Gemeinschaftsproduktionen ==
+=== Ausgestrahlte Folgen ===
+{{Tabellenstile}}
+{| class="wikitable sortable" style="width:100%;"
+! style="width:03%"| Folge
+! style="width:19%"| Titel
+! style="width:04%"| Sender
+! style="width:07%"| Erstausstrahlung
+! style="width:13%"| Ermittler
+! style="width:03%"| Fall
+! style="width:13%"| Autor
+! style="width:13%"| Regie
+! style="width:25%" class="unsortable"| Besonderheiten
+
+|-
+| 1
+| [[Tatort: Taxi nach Leipzig (1970)|Taxi nach Leipzig]]<br /><small>(Folge 1000 trägt den gleichen Titel)</small>
+| NDR
+| {{DatumZelle|1970-11-29}}{{Anker|A1970}}
+| [[Paul Trimmel|Trimmel]]
+| 1
+| [[Friedhelm Werremeier]]
+| [[Peter Schulze-Rohr]]
+| Erst nach der Fertigstellung
+zum ''Tatort'' umgewidmet.<ref>Mehrzeiliger
+Einzelnachweis</ref>
+|-
+| 2
+| [[Tatort: Saarbrücken, an einem Montag …|Saarbrücken, an einem Montag&nbsp;…]]
+| SR
+| {{DatumZelle|1970-12-13}}<ref name="x" />
+| [[Dieter Eppler|Liersdahl]] und [[Manfred Heidmann|Schäfermann]]
+| 1
+| Johannes Niem
+| [[Karlheinz Bieber]]
+|
+|-
+| 3
+| [[Tatort: Kressin und der tote Mann im Fleet|Kressin und der tote Mann im Fleet]]
+| WDR
+| {{DatumZelle|1971-01-10}}
+| [[Zolloberinspektor Kressin|Kressin]]<br />(Gastauftritt&nbsp;[[Paul Trimmel|Trimmel]] und [[Edgar Hoppe|Höffgen]])
+| 1
+| [[Wolfgang Menge]]
+| [[Peter Beauvais]]
+|
+|-
+|4||[[Tatort: Mike & Nisha|Mike &amp; Nisha]]||SWR||13. Sep. 2026||[[Thiel und Boerne]] (Gastauftritt [[Ballauf und Schenk]])||1||Autor||Regie||Inline-Zeile mit Klartextdatum
+|-
+| 5
+||[[Tatort: Kinderland|Kinderland]]
+| MDR
+| {{DatumZelle|2012-11-26}}
+| [[Ehrlicher und Kain]]<br /><br />[[Ballauf und Schenk]]
+| 1
+| Autor
+| Regie
+| Erster Teil einer Doppelfolge
+|-
+| 6
+| [[Tatort: Ihr Kinderlein kommet|Ihr Kinderlein kommet]]
+| WDR
+| {{DatumZelle|2012-11-27}}
+| [[Ballauf und Schenk]]<br /><br />[[Ehrlicher und Kain]]
+| 1
+| Autor
+| Regie
+| Zweiter Teil einer Doppelfolge
+|-
+| 7
+| [[Tatort: Ohne Datum|Ohne Datum]]
+| BR
+|
+| [[Franken-Tatort|Voss und Rathgeber]]
+| 1
+| Autor
+| Regie
+|
+|-
+| 8
+| [[Tatort: Kaputt|Kaputt]]
+| BR
+| irgendwann 2027
+| [[Batic und Leitmayr]]
+| 1
+| Autor
+| Regie
+| Unlesbares Datum
+|-
+| 9
+| Ohne Link
+| BR
+| {{DatumZelle|2000-01-02}}
+| Unbekannt
+| 1
+| Autor
+| Regie
+|
+<!--
+|-
+| Nr
+| [[Tatort: …|…]]
+| Sender
+| {{DatumZelle|2026-MM-TT}}
+-->
+|-
+| 9
+| [[Tatort: Doppelt|Doppelt]]
+| BR
+| {{DatumZelle|2000-01-03}}
+| [[Batic und Leitmayr]]
+| 1
+| Autor
+| Regie
+| Doppelte Nummer
+|-
+| 10
+| [[Tatort: Zu kurz|Zu kurz]]
+| BR
+|-
+| 11a
+| [[Tatort: Buchstabe|Buchstabe]]
+| BR
+| {{DatumZelle|2000-01-04}}
+| [[Batic und Leitmayr]]
+| 1
+| Autor
+| Regie
+| Nicht numerisch
+|}
+
+=== Bisher noch nicht im Fernsehen ausgestrahlte Folgen ===
+{| class="wikitable sortable"
+!style="width:3%"| Folge
+!style="width:19%"| Titel
+!style="width:4%"| Sender
+!style="width:7%"| Geplante Erstausstrahlung
+!style="width:13%"| Ermittler
+!style="width:3%"| Fall
+!style="width:13%"| Autor
+!style="width:13%"| Regie
+!class="unsortable" style="width:25%"| Besonderheiten
+
+|-
+| 12
+| [[Tatort: Bald|Bald]]
+| SRF
+| {{DatumZelle|2099-11-08}}
+| [[Grandjean und Ott]]
+| 12
+| Autor
+| Regie
+|
+|-
+| –
+| [[Tatort: Zwischenwelten|Zwischenwelten]]
+| BR
+|
+| [[Tatort (München)|Buvak und Hammermann]]
+| 1
+| Autor
+| Regie
+|
+|}
+
+== ORF-eigene Produktionen ==
+{| class="wikitable"
+! Folge !! Titel !! Sender !! Erstausstrahlung !! Ermittler !! Fall !! Autor !! Regie !! Besonderheiten
+|-
+|168a
+|[[Tatort: Fahrerflucht|Fahrerflucht]]
+|ORF
+|19. Mai 1985
+|[[Kurt Jaggberg|Hirth]]
+|(2)
+|Autor
+|Regie
+|
+|}
+
+== Siehe auch ==

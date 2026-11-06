@@ -1,0 +1,4555 @@
+[[Datei:Polizeiruf 110 Logo ab 2019.svg|mini|Das aktuelle ''Polizeiruf-110''-Logo]]
+Die '''Liste der Polizeiruf-110-Folgen''' enthält alle Filme der Krimireihe ''[[Polizeiruf 110]]''.
+
+== Gesendete Folgen ==
+Die Nummerierung der Folgen richtet sich nach Peter Hoffs Buch ''Polizeiruf 110 – Filme, Fälle, Fakten''.<ref>Peter Hoff: ''Polizeiruf 110. Filme, Fakten, Fälle''. Das Neue Berlin, Berlin 2001. Filme 1 bis 231.</ref> Filme, die zwar als Polizeiruf gedreht, aber nicht im Rahmen der Reihe gesendet wurden, werden nicht gezählt; ebenso der 2011 rekonstruierte Film ''[[Polizeiruf 110: Im Alter von …|Im Alter von …]]'', da der Film ''[[Polizeiruf 110: Die verlorene Tochter|Die verlorene Tochter]]'' allgemein als 320. Film der Reihe gilt.<ref>[https://www.tagesspiegel.de/medien/tv-krimi-sehr-sozialistisch-sehr-beliebig/4323884.html ''Sehr sozialistisch – sehr beliebig''] von Katja Hübner in [[Der Tagesspiegel]] 25. Juni 2011.</ref><ref>{{Webarchiv|url=http://www.mediabiz.de/film/news/ard-feiert-40-jahre-polizeiruf-mit-maria-simon/305322/1623 |wayback=20150626112716 |text=''ARD feiert 40 Jahre Polizeiruf mit Maria Simon'' |archiv-bot=2026-05-02 05:16:01 InternetArchiveBot }} auf mediabiz.de.</ref> Nicht aufgenommen wurde die Folge ''[[Polizeiruf 110: Rosis Mann|Rosis Mann]]'', die von März bis April 1984 gedreht, jedoch nicht gesendet wurde und als vernichtet gilt.
+
+Da sich die Ermittlerteams verändern und um für jeden Ermittler die genaue Episodenanzahl zu erhalten, werden die Fälle für jeden Ermittler einzeln und nicht als Team geführt.
+<!--Einige Titel verwenden veraltete Rechtschreibregeln. Bitte bei diesen Sendungen keine Korrekturen vornehmen, da es sich um den Originaltitel handelt.-->
+
+<div class="noprint" style="background:#F2F2F2; border:1px solid #AAAAAA; padding:0; max-width:38em;">
+<div class="center">'''Direkt zum Jahrgang'''<br />
+----
+{{0|1970 –}} [[#A1971|1971]] – [[#A1972|1972]] – [[#A1973|1973]] – [[#A1974|1974]] – [[#A1975|1975]] – [[#A1976|1976]] – [[#A1977|1977]] – [[#A1978|1978]] – [[#A1979|1979]]<br />
+[[#A1980|1980]] – [[#A1981|1981]] – [[#A1982|1982]] – [[#A1983|1983]] – [[#A1984|1984]] – [[#A1985|1985]] – [[#A1986|1986]] – [[#A1987|1987]] – [[#A1988|1988]] – [[#A1989|1989]]<br />
+[[#A1990|1990]] – [[#A1991|1991]] {{0|– 1992 –}} [[#A1993|1993]] – [[#A1994|1994]] – [[#A1995|1995]] – [[#A1996|1996]] – [[#A1997|1997]] – [[#A1998|1998]] – [[#A1999|1999]]<br />
+[[#A2000|2000]] – [[#A2001|2001]] – [[#A2002|2002]] – [[#A2003|2003]] – [[#A2004|2004]] – [[#A2005|2005]] – [[#A2006|2006]] – [[#A2007|2007]] – [[#A2008|2008]] – [[#A2009|2009]]<br />
+[[#A2010|2010]] – [[#A2011|2011]] – [[#A2012|2012]] – [[#A2013|2013]] – [[#A2014|2014]] – [[#A2015|2015]] – [[#A2016|2016]] – [[#A2017|2017]] – [[#A2018|2018]] – [[#A2019|2019]]<br />
+[[#A2020|2020]] – [[#A2021|2021]] – [[#A2022|2022]] – [[#A2023|2023]] – [[#A2024|2024]] – [[#A2025|2025]] – [[#A2026|2026]] {{0|2027 –}} {{0|2028 –}} {{0|2029 –}} <!-- – [[#A2027|2027]] – [[#A2018|2028]] – [[#A2029|2029]]-->
+</div></div>
+
+{{Tabellenstile}}
+{| class="wikitable sortable tabelle-kopf-fixiert" style="width: 100%; font-size: 93%;"
+|- class="hintergrundfarbe6"
+! style="width:1%"| Nr.
+! style="width:15%"| Titel
+! style="width:3%"| Sender
+! style="width:8%"| Erstausstr.
+! style="width:16%"| [[Liste der Polizeiruf-110-Ermittler|Ermittler]]
+! style="width:16%"| Fall
+! style="width:13%"| Autor
+! style="width:13%"| [[Liste der Polizeiruf-110-Regisseure|Regie]]
+! style="width:15%"| Besonderheiten
+|-
+| 1
+| [[Polizeiruf 110: Der Fall Lisa Murnau|Der Fall Lisa Murnau]]
+| [[Deutscher Fernsehfunk|DFF]]
+| {{DatumZelle|1971-06-27}}{{Anker|A1971}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (1), Arndt (1)
+| [[Helmut Krätzig]], [[Hans-Jürgen Faschina]]
+| [[Helmut Krätzig]]
+| Schwarz-Weiß-Film (sw)
+|-
+| 2
+| [[Polizeiruf 110: Die Schrottwaage|Die Schrottwaage]]
+| DFF
+| {{DatumZelle|1971-10-03}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (2), Arndt (2)
+| [[Heinz Seibert]]
+| [[Heinz Seibert]]
+| sw; derzeit gibt es nur Film-Fragmente mit Tonspur in einer Gesamtlänge von ca. 10 Minuten.
+|-
+| 3
+| [[Polizeiruf 110: Die Maske|Die Maske]]
+| DFF
+| {{DatumZelle|1972-01-30}}{{Anker|A1972}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (3), Arndt (3)
+| [[Rudolf Böhm (Schriftsteller)|Rudolf Böhm]]
+| [[Helmut Krätzig]]
+| sw; Deutsche Version gilt als verschollen; es existiert nur noch eine Synchronisation in russischer Sprache
+|-
+| 4
+| [[Polizeiruf 110: Verbrannte Spur|Verbrannte Spur]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-02-27}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (4), Arndt (4)
+| [[Hans Lucke]]
+| [[Heinz Seibert]]
+| sw
+|-
+| 5
+| [[Polizeiruf 110: Das Haus an der Bahn|Das Haus an der Bahn]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-03-26}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (5), Arndt (5)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Gerhard Respondek]]
+| sw
+|-
+| 6
+| [[Polizeiruf 110: Der Tote im Fließ|Der Tote im Fließ]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-06-04}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (6), Arndt (6)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Helmut Krätzig]]
+| sw
+|-
+| 7
+| [[Polizeiruf 110: Blutgruppe AB|Blutgruppe AB]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-07-16}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (1)
+| [[Gerhard Jäckel]]
+| [[Bernhard Stephan]]
+| sw; Erster Fall mit Hübner
+|-
+| 8
+| [[Polizeiruf 110: Ein bißchen Alibi|Ein bißchen Alibi]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-08-20}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (7), Arndt (7), Subras (1)
+| [[Tom Wittgen]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| sw; Erster Fall mit Subras
+|-
+| 9
+| [[Polizeiruf 110: Minuten zu spät|Minuten zu spät]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-09-17}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (8), Arndt (8)
+| [[Horst Bastian]]
+| [[Manfred Mosblech]]
+| sw
+|-
+| 10
+| [[Polizeiruf 110: Blütenstaub|Blütenstaub]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-10-22}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (9), Hübner (2), Subras (2)
+| [[Gerhard Respondek]]
+| [[Gerhard Respondek]]
+| sw
+|-
+| 11
+| [[Polizeiruf 110: Das Ende einer Mondscheinfahrt|Das Ende einer Mondscheinfahrt]]
+| Fernsehen der DDR
+| {{DatumZelle|1972-12-29}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (9), Hübner (3), Subras (3)
+| [[Ulrich Waldner]]
+| [[Hubert Hoelzke]]
+| sw
+|-
+| 12
+| [[Polizeiruf 110: In der selben Nacht|In der selben Nacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-01-27}}{{Anker|A1973}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (10), Arndt (10), Subras (4)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| sw
+|-
+| 13
+| [[Polizeiruf 110: Siegquote 180|Siegquote 180]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-02-25}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (11), Arndt (11)
+| [[Walter Dorn (Autor)|Walter Dorn]]
+| [[Wolfgang Luderer]]
+| sw
+|-
+| 14
+| [[Polizeiruf 110: Gesichter im Zwielicht|Gesichter im Zwielicht]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-04-01}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (12), Arndt (12), Subras (5)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Manfred Mosblech]]
+| Erster Farbfilm in der Reihe.
+|-
+| 15
+| [[Alarm am See]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-04-15}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (4)
+| [[Gerhard Branstner]]
+| [[Jerzy Bednarczyk]]
+| sw; Erstsendung laut polizeiruf110-lexikon.de im Nachmittagsprogramm ohne Polizeiruf-Titel; im DDR-Fernsehen nicht wiederholt
+|-
+| 16
+| [[Polizeiruf 110: Freitag gegen Mitternacht|Freitag gegen Mitternacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-05-06}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (13), Arndt (13)
+| [[Heiner Rank]]
+| [[Werner Röwekamp]]
+| sw
+|-
+| 17
+| [[Polizeiruf 110: Vorbestraft|Vorbestraft]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-07-01}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Hübner (5), Subras (6)
+| [[Rudolf Böhm (Schriftsteller)|Rudolf Böhm]]
+| [[Heinz Seibert]]
+| sw
+|-
+| 18
+| [[Polizeiruf 110: Der Ring mit dem blauen Saphir|Der Ring mit dem blauen Saphir]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-08-26}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (14), Arndt (14)
+| [[Dorothea Kleine]]
+| [[Norbert Büchner]]
+|
+|-
+| 19
+| [[Polizeiruf 110: Nachttresor|Nachttresor]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-09-30}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (15), Hübner (6)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 20
+| [[Polizeiruf 110: Eine Madonna zuviel|Eine Madonna zuviel]]
+| Fernsehen der DDR
+| {{DatumZelle|1973-11-18}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (16), Hübner (7)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 21
+| [[Polizeiruf 110: Per Anhalter|Per Anhalter]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-01-27}}{{Anker|A1974}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (15), Arndt (17), Hübner (8), Subras (7)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 22
+| [[Polizeiruf 110: Konzert für einen Außenseiter|Konzert für einen Außenseiter]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-02-24}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (18), Hübner (9)
+| [[Gert Lindner]], [[Hans Dieter Ziesing]]
+| [[Werner Röwekamp]]
+|
+|-
+| 23
+| [[Polizeiruf 110: Lohnraub|Lohnraub]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-04-07}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (16), Arndt (19), Subras (8)
+| [[Georg Redmann]]
+| [[Helmut Krätzig]]
+|
+|-
+| 24
+| [[Polizeiruf 110: Die verschwundenen Lords|Die verschwundenen Lords]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-05-12}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (17), Arndt (20), Subras (9)
+| [[Werner Röwekamp]]
+| [[Werner Röwekamp]]
+| sw
+|-
+| 25
+| [[Polizeiruf 110: Fehlrechnung|Fehlrechnung]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-07-14}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (21), Hübner (10)
+| [[Rudolf Böhm (Schriftsteller)|Rudolf Böhm]]
+| [[Kurt Jung-Alsen]]
+|
+|-
+| 26
+| [[Polizeiruf 110: Kein Paradies für Elstern|Kein Paradies für Elstern]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-09-07}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (18), Arndt (22), Subras (10)
+| [[Jürgen Fricke]]
+| [[Norbert Büchner]]
+| sw
+|-
+| 27
+| [[Polizeiruf 110: Das Inserat|Das Inserat]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-09-29}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Hübner (11), Subras (11)
+| [[Ulrich Waldner]]
+| [[Heinz Seibert]]
+|
+|-
+| 28
+| [[Polizeiruf 110: Der Tod des Professors|Der Tod des Professors]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-11-23}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (19), Arndt (23)
+| [[Gerhard Jäckel]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| sw
+|-
+| 29
+| [[Polizeiruf 110: Nachttaxi|Nachttaxi]]
+| Fernsehen der DDR
+| {{DatumZelle|1974-12-15}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (24), Hübner (12), Subras (12)
+| [[Hans Siebe]]
+| [[Werner Röwekamp]]
+|
+|-
+| 30
+| [[Polizeiruf 110: Der Mann|Der Mann]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-03-23}}{{Anker|A1975}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Hübner (13), Subras (13)
+| [[Horst Bastian]]
+| [[Manfred Mosblech]]
+|
+|-
+| 31
+| [[Polizeiruf 110: Heiße Münzen|Heiße Münzen]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-05-18}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (20), Subras (14)
+| [[Dieter Frenzel (Autor)|Dieter Frenzel]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 32
+| [[Polizeiruf 110: Ein Fall ohne Zeugen|Ein Fall ohne Zeugen]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-06-29}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (25), Hübner (14), Subras (15)
+| [[Edwin Marian]]
+| [[Roland Oehme]]
+| sw
+|-
+| 33
+| [[Polizeiruf 110: Der Spezialist|Der Spezialist]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-07-27}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Hübner (15), Subras (16)
+| [[Peter Graetz]]
+| [[Edgar Kaufmann (Regisseur)|Edgar Kaufmann]]
+| Filmmaterial komplett.<br /> Der Ton gilt weiter als verschollen.
+|-
+| 34
+| [[Polizeiruf 110: Die Rechnung geht nicht auf|Die Rechnung geht nicht auf]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-10-14}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (21), Arndt (26), Subras (17)
+| [[Joachim Plötner]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| sw
+|-
+| 35
+| [[Polizeiruf 110: Zwischen den Gleisen|Zwischen den Gleisen]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-11-02}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Hübner (16), Subras (18)
+| [[Günter Mehnert]]
+| [[Werner Röwekamp]]
+| sw
+|-
+| 36
+| [[Polizeiruf 110: Das letzte Wochenende|Das letzte Wochenende]]
+| Fernsehen der DDR
+| {{DatumZelle|1975-11-30}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (27), Hübner (17), Subras (19)
+| [[Hans Siebe]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 37
+| [[Polizeiruf 110: Reklamierte Rosen|Reklamierte Rosen]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-02-22}}{{Anker|A1976}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (22), Subras (20)
+| [[Rudolf Böhm (Schriftsteller)|Rudolf Böhm]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 38
+| [[Polizeiruf 110: Schwarze Ladung|Schwarze Ladung]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-04-25}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (23), Subras (21)
+| [[Hans Siebe]]
+| [[Otto Holub]]
+|
+|-
+| 39
+| [[Polizeiruf 110: Der Fensterstecher|Der Fensterstecher]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-05-31}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (28), Hübner (18), Subras (22)
+| [[Gerhard Stübe]]
+| [[Hans Knötzsch]]
+| Letzter Schwarzweißfilm der Reihe.
+|-
+| 40
+| [[Polizeiruf 110: Eine fast perfekte Sache|Eine fast perfekte Sache]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-07-11}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (24), Arndt (29), Subras (23)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 41
+| [[Polizeiruf 110: Ein ungewöhnlicher Auftrag|Ein ungewöhnlicher Auftrag]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-09-05}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (19)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 42
+| [[Polizeiruf 110: Vorurteil?|Vorurteil?]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-10-03}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (25)
+| [[Erich Loest|Bernd Diksen]]
+| [[Hans Knötzsch]]
+|
+|-
+| 43
+| [[Polizeiruf 110: Bitte zahlen|Bitte zahlen]]
+| Fernsehen der DDR
+| {{DatumZelle|1976-12-12}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Arndt (30), Hübner (20), Subras (24)
+| [[Rudolf Böhm (Schriftsteller)|Rudolf Böhm]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Mit 69,8 Prozent höchste Einschaltquote eines Polizeirufes.
+|-
+| 44
+| [[Polizeiruf 110: Vermißt wird Peter Schnok|Vermißt wird Peter Schnok]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-02-06}}{{Anker|A1977}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (26), Arndt (31), Subras (25)
+| [[Otto Holub]]
+| [[Otto Holub]]
+|
+|-
+| 45
+| [[Polizeiruf 110: Kollision|Kollision]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-04-03}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (27), Arndt (32)
+| [[Claus Ulrich Wiesner]]
+| [[Manfred Mosblech]]
+| Auftritt von [[Jürgen Zartmann]], allerdings als [[Abschnittsbevollmächtigter]] (ABV) der [[Deutsche Volkspolizei|VP]], Unterleutnant Gustav Stresow
+|-
+| 46
+| [[Polizeiruf 110: Trickbetrügerin gesucht|Trickbetrügerin gesucht]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-05-21}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (28), Subras (26)
+| [[Hans-Jürgen Faschina]]
+| [[Hans Knötzsch]]
+|
+|-
+| 47
+| [[Polizeiruf 110: Des Alleinseins müde|Des Alleinseins müde]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-06-19}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (29), Subras (27)
+| [[Lothar Creutz]]
+| [[Kurt Jung-Alsen]], [[Helmut Krätzig]]
+| Regisseur Kurt Jung-Alsen verstarb während der Dreharbeiten; der Film wurde von Helmut Krätzig fertiggestellt.
+|-
+| 48
+| [[Polizeiruf 110: Alibi für eine Nacht|Alibi für eine Nacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-07-24}}
+| [[Peter Borgelt|Peter Fuchs]], [[Alfred Rücker (Schauspieler)|Lutz Subras]]
+| Fuchs (30), Subras (28)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| Letzter Fall mit [[Alfred Rücker (Schauspieler)|Lutz Subras]].
+|-
+| 49
+| [[Polizeiruf 110: Die Abrechnung|Die Abrechnung]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-09-04}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (33), Hübner (21)
+| [[Eberhard Görner]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| 50
+| [[Polizeiruf 110: Ein unbequemer Zeuge|Ein unbequemer Zeuge]]
+| Fernsehen der DDR
+| {{DatumZelle|1977-12-04}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (31), Arndt (34)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 51
+| [[Polizeiruf 110: Holzwege|Holzwege]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-01-29}}{{Anker|A1978}}
+| [[Peter Borgelt|Peter Fuchs]], [[Werner Tietze|Woltersdorf]]<ref group="Anm.">Unbekannter Vorname. Wird nur als Leutnant Woltersdorf geführt.</ref>
+| Fuchs (32), Woltersdorf (1)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Manfred Mosblech]]
+| Erster Fall mit Woltersdorf.
+|-
+| 52
+| [[Polizeiruf 110: Bonnys Blues|Bonnys Blues]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-03-26}}
+| [[Jürgen Frohriep|Hübner]], [[Werner Tietze|Woltersdorf]]
+| Hübner (22), Woltersdorf (2)
+| [[Claus Ulrich Wiesner]], [[Eberhard Görner]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| 53
+| [[Polizeiruf 110: In Maske und Kostüm|In Maske und Kostüm]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-05-14}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (23)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 54
+| [[Polizeiruf 110: Doppeltes Spiel|Doppeltes Spiel]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-07-02}}
+| [[Peter Borgelt|Peter Fuchs]], [[Werner Tietze|Woltersdorf]]
+| Fuchs (33), Woltersdorf (3)
+| [[Horst Angermüller]]
+| [[Ingrid Sander]]
+|
+|-
+| 55
+| [[Polizeiruf 110: Schuldig|Schuldig]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-10-01}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Arndt]], ([[Werner Tietze|Woltersdorf]])
+| Fuchs (34), Arndt (35), Woltersdorf (4)
+| [[Rolf Römer (Schauspieler)|Rolf Römer]]
+| [[Rolf Römer (Schauspieler)|Rolf Römer]]
+|
+|-
+| 56
+| [[Polizeiruf 110: Die letzte Chance|Die letzte Chance]]
+| Fernsehen der DDR
+| {{DatumZelle|1978-10-22}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (35), Arndt (36)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 57
+| [[Polizeiruf 110: Walzerbahn|Walzerbahn]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-03-04}}{{Anker|A1979}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (24)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 58
+| [[Polizeiruf 110: Tödliche Illusion|Tödliche Illusion]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-04-08}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (25)
+| [[Otto Bonhoff]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| 59
+| [[Polizeiruf 110: Heidemarie Göbel|Heidemarie Göbel]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-06-17}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (26)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| <nowiki>–</nowiki>
+| [[Gelb ist nicht nur die Farbe der Sonne]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-06-24}}
+| [[Werner Tietze|Woltersdorf]]
+| Woltersdorf (5)
+| [[Rainer Bär]], [[Manfred Dorschan]]
+| [[Rainer Bär]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 60
+| [[Polizeiruf 110: Am Abgrund|Am Abgrund]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-09-02}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (36), Arndt (37)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+| 61
+| [[Polizeiruf 110: Barry schwieg|Barry schwieg]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-10-14}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Fuchs (37), Arndt (38), Hübner (27)
+| [[Manfred Drews]]
+| [[Hans Knötzsch]]
+|
+|-
+| 62
+| [[Polizeiruf 110: Die letzte Fahrt|Die letzte Fahrt]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-12-02}}
+| [[Jürgen Frohriep|Hübner]], [[Werner Tietze|Woltersdorf]]
+| Hübner (28), Woltersdorf (6)
+| [[Gerhard Stübe]]
+| [[Manfred Mosblech]]
+|
+|-
+| <nowiki>–</nowiki>
+| [[Herbstzeit]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-12-11}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (38), Arndt (39)
+| [[Manfred Mosblech]], [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Manfred Mosblech]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 63
+| [[Polizeiruf 110: Vergeltung?|Vergeltung?]]
+| Fernsehen der DDR
+| {{DatumZelle|1980-03-09}}{{Anker|A1980}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Arndt]], [[Jürgen Frohriep|Hübner]], [[Werner Tietze|Woltersdorf]]
+| Fuchs (39), Arndt (40), Hübner (29), Woltersdorf (7)
+| [[Eberhard Görner]] (Motive: [[Hasso Mager]])
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Auftritt von [[Lutz Riemann]], allerdings als Schmied Haugwitz.
+|-
+| 64
+| [[Polizeiruf 110: Der Einzelgänger|Der Einzelgänger]]
+| Fernsehen der DDR
+| {{DatumZelle|1980-05-18}}
+| [[Peter Borgelt|Peter Fuchs]], [[Werner Tietze|Woltersdorf]]
+| Fuchs (40), Woltersdorf (8)
+| [[Helmut Nitzschke]]
+| [[Helmut Nitzschke]]
+| Letzter Fall mit [[Werner Tietze|Woltersdorf]].
+|-
+| 65
+| [[Polizeiruf 110: In einer Sekunde|In einer Sekunde]]
+| Fernsehen der DDR
+| {{DatumZelle|1980-06-29}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (30)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 66
+| [[Polizeiruf 110: Die Entdeckung|Die Entdeckung]]
+| Fernsehen der DDR
+| {{DatumZelle|1980-10-05}}
+| [[Sigrid Göhler|Vera Arndt]]
+| Arndt (41)
+| [[Claus Ulrich Wiesner]]
+| [[Manfred Mosblech]]
+|
+|-
+| 67
+| [[Polizeiruf 110: Zeuge gesucht|Zeugen gesucht]]<ref group="Anm.">Der Vorspann des Films läuft unter dem Titel ''Zeuge gesucht'' („Zeuge“ in der Einzahl), obwohl der Titel in allen offiziellen Dokumentationen (Schriftgutbestand [[Deutsches Rundfunkarchiv]] Potsdam-Babelsberg sowie ''Filmo-bibliografische Jahresberichte'' der [[Filmuniversität Babelsberg|Hochschule für Film und Fernsehen der DDR]]) als ''Zeugen gesucht'' geführt wird.</ref>
+| Fernsehen der DDR
+| {{DatumZelle|1980-11-09}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (41), Arndt (42)
+| [[Ulrich Waldner]]
+| [[Vera Loebner]]
+|
+|-
+| 68
+| [[Polizeiruf 110: Der Hinterhalt|Der Hinterhalt]]
+| Fernsehen der DDR
+| {{DatumZelle|1980-12-07}}
+| [[Peter Borgelt|Peter Fuchs]], ([[Jürgen Frohriep|Jürgen Hübner]])
+| Fuchs (42), Hübner (31)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 69
+| [[Polizeiruf 110: Der Teufel hat den Schnaps gemacht|Der Teufel hat den Schnaps gemacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-01-18}}{{Anker|A1981}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Zartmann|Manfred Bergmann]]
+| Fuchs (43), Bergmann (1)
+| [[Manfred Mosblech]]
+| [[Manfred Mosblech]]
+| Erster Fall mit Bergmann.
+|-
+| 70
+| [[Polizeiruf 110: Nerze|Nerze]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-02-22}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (44), Arndt (43)
+| [[Ulrich Waldner]]
+| [[Lothar Hans]]
+|
+|-
+| 71
+| [[Polizeiruf 110: Alptraum|Alptraum]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-05-10}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Zartmann|Manfred Bergmann]]
+| Fuchs (45), Bergmann (2)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| 72
+| [[Polizeiruf 110: Auftrag per Post|Auftrag per Post]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-06-08}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (32)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 73
+| [[Polizeiruf 110: Harmloser Anfang|Harmloser Anfang]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-08-02}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Fuchs (46), Hübner (33)
+| [[Helmut Nitzschke]] (Erzählung: [[Dorothea Kleine]])
+| [[Helmut Nitzschke]]
+|
+|-
+| 74
+| [[Polizeiruf 110: Der Schweigsame|Der Schweigsame]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-09-06}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Jürgen Zartmann|Manfred Bergmann]]
+| Hübner (34), Bergmann (3)
+| [[Otto Bonhoff]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| 75
+| [[Polizeiruf 110: Trüffeljagd|Trüffeljagd]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-10-25}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Jürgen Zartmann|Manfred Bergmann]]
+| Fuchs (47), Arndt (44), Hübner (35), Bergmann (4)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 76
+| [[Polizeiruf 110: Glassplitter|Glassplitter]]
+| Fernsehen der DDR
+| {{DatumZelle|1981-11-29}}
+| [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Arndt (45), Hübner (36)
+| Werner Fiedler, [[Georg Schiemann (Regisseur)|Georg Schiemann]]
+| [[Georg Schiemann (Regisseur)|Georg Schiemann]]
+|
+|-
+| 77
+| [[Polizeiruf 110: Schranken|Schranken]]
+| Fernsehen der DDR
+| {{DatumZelle|1982-01-24}}{{Anker|A1982}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (48)
+| [[Hans-Werner Honert]]
+| [[Richard Engel (Regisseur)|Richard Engel]]
+|
+|-
+| 78
+| [[Polizeiruf 110: Petra|Petra]]
+| Fernsehen der DDR
+| {{DatumZelle|1982-03-14}}
+| [[Friedhelm Eberle|Wolfgang Reichenbach]]
+| Reichenbach (1)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 79
+| [[Polizeiruf 110: Der Rettungsschwimmer|Der Rettungsschwimmer]]
+| Fernsehen der DDR
+| {{DatumZelle|1982-05-23}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (37)
+| [[Percy Dreger]]
+| [[Lothar Hans]]
+|
+|-
+| 80
+| [[Polizeiruf 110: Der Unfall|Der Unfall]]
+| Fernsehen der DDR
+| {{DatumZelle|1982-09-05}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (49)
+| [[Manfred Mosblech]], [[Eberhard Görner]]
+| [[Manfred Mosblech]]
+|
+|-
+| 81
+| [[Polizeiruf 110: Im Tal|Im Tal]]
+| Fernsehen der DDR
+| {{DatumZelle|1982-11-07}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (38)
+| [[Walter Flegel]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| Auftritt von [[Lutz Riemann]], allerdings als [[Abschnittsbevollmächtigter]] (ABV) der [[Deutsche Volkspolizei|VP]], Oberleutnant Karl-Heinz Schlenker
+|-
+| 82
+| [[Polizeiruf 110: Auskünfte in Blindenschrift|Auskünfte in Blindenschrift]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-01-02}}{{Anker|A1983}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (39)
+| [[Jens Bahre]], [[Peter Vogel (Regisseur)|Peter Vogel]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+|
+|-
+| <nowiki>–</nowiki>
+| [[Die lieben Luder]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-02-15}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (50)
+| [[Helmut Krätzig]], [[Eberhard Görner]]
+| [[Helmut Krätzig]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 83
+| [[Polizeiruf 110: Die Spur des 13. Apostels|Die Spur des 13. Apostels]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-03-06}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (51), Arndt (46)
+| [[Wolfgang Held (Schriftsteller, 1930)|Wolfgang Held]]
+| [[Jörg Wilbrandt]]
+|
+|-
+| 84
+| [[Polizeiruf 110: Es ist nicht immer Sonnenschein|Es ist nicht immer Sonnenschein]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-04-17}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (52), Arndt (47), Hübner (40), Zimmermann (1)
+| [[Manfred Mosblech]]
+| [[Manfred Mosblech]]
+| Letzter Fall mit [[Sigrid Göhler|Vera Arndt]], erster Fall mit [[Lutz Riemann|Lutz Zimmermann]].
+|-
+| 85
+| [[Polizeiruf 110: Der Selbstbetrug|Der Selbstbetrug]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-09-04}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (41)
+| [[Hans-Werner Honert]]
+| [[Hans-Werner Honert]]
+|
+|-
+| 86
+| [[Polizeiruf 110: Eine nette Person|Eine nette Person]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-09-25}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (53)
+| [[Gabriele Gabriel]]
+| [[Gunter Friedrich]]
+| Auftritt von [[Andreas Schmidt-Schaller]] als Ermittler, allerdings als Leutnant Hellwig der Kriminalpolizei.
+|-
+| 87
+| [[Polizeiruf 110: Schnelles Geld|Schnelles Geld]]
+| Fernsehen der DDR
+| {{DatumZelle|1983-11-13}}
+| [[Lutz Riemann|Lutz Zimmermann]]
+| Zimmermann (2)
+| [[Manfred Mosblech]] (Erzählung: [[Gerhard Scherfling]])
+| [[Manfred Mosblech]]
+|
+|-
+| 88
+| [[Polizeiruf 110: Im Sog|Im Sog]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-02-05}}{{Anker|A1984}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Hübner (42), Zimmermann (3)
+| [[Regina Weicker]]
+| [[Edgar Kaufmann (Regisseur)|Edgar Kaufmann]]
+|
+|-
+| 89
+| [[Polizeiruf 110: Das vergessene Labor|Das vergessene Labor]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-05-27}}
+| [[Peter Borgelt|Peter Fuchs]], [[Friedhelm Eberle|Wolfgang Reichenbach]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (54), Reichenbach (2), Zimmermann (4)
+| [[Ulrich Waldner]]
+| [[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+| 90
+| [[Polizeiruf 110: Schwere Jahre (1. Teil)|Schwere Jahre (1)]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-06-29}}
+| [[Friedhelm Eberle|Reichenbach]]
+| Reichenbach (3)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| Doppelfolge
+|-
+| 91
+| [[Polizeiruf 110: Schwere Jahre (2. Teil)|Schwere Jahre (2)]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-07-01}}
+| [[Jürgen Frohriep|Hübner]], [[Friedhelm Eberle|Reichenbach]]
+| Hübner (43), Reichenbach (4)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| Doppelfolge
+|-
+| 92
+| [[Polizeiruf 110: Draußen am See|Draußen am See]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-07-22}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (44)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+| Auftritt von [[Andreas Schmidt-Schaller]] als Nachbar Per Niemann.
+|-
+| 93
+| [[Polizeiruf 110: Freunde|Freunde]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-08-19}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (45)
+| [[Gerhard Scherfling]]
+| [[Klaus Grabowsky]]
+| Auftritt von [[Andreas Schmidt-Schaller]] als Ermittler, allerdings als Andreas Schöpke.
+|-
+| <nowiki>–</nowiki>
+| [[Klassenkameraden]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-11-18}}
+| [[Alfred Müller (Schauspieler)|Hannes Bergemann]]
+| Bergemann, Haase
+| [[Rainer Bär]]
+| [[Rainer Bär]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 94
+| [[Polizeiruf 110: Inklusive Risiko|Inklusive Risiko]]
+| Fernsehen der DDR
+| {{DatumZelle|1984-12-16}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (55)
+| [[Hariette Plath]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| <nowiki>–</nowiki>
+| [[Außenseiter (Film)|Außenseiter]]<!-- Schreibweise des Lemma, Schreibweise „Aussenseiter“ nur im Vorspann -->
+| Fernsehen der DDR
+| {{DatumZelle|1985-01-27}}{{Anker|A1985}}
+| [[Jürgen Zartmann|Lenz]]
+| Lenz
+| [[Günther Karl (Autor)|Günther Karl]], [[Karl Heinz Berger]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.<ref group="Anm.">Laut polizeiruf110-lexikon.de zunächst als Polizeiruf 110 produziert, jedoch nur als Einzelfilm gesendet. Wird von der ARD jedoch als Polizeiruf 110 geführt und gesendet.</ref>
+|-
+| 95
+| [[Polizeiruf 110: Traum des Vergessens|Traum des Vergessens]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-03-24}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (46)
+| [[Hans-Werner Honert]]
+| [[Hans-Werner Honert]]
+|
+|-
+| 96
+| [[Polizeiruf 110: Laß mich nicht im Stich|Laß mich nicht im Stich]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-05-19}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (47)
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 97
+| [[Polizeiruf 110: Treibnetz|Treibnetz]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-06-30}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (56), Hübner (48), Zimmermann (5)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 98
+| [[Polizeiruf 110: Verführung|Verführung]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-08-11}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]]
+| Fuchs (57), Hübner (49)
+| [[Regine Weicker]]
+| [[Peter Hagen (Regisseur)|Peter Hagen]]
+|
+|-
+| 99
+| [[Polizeiruf 110: Ein Schritt zu weit|Ein Schritt zu weit]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-09-01}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Friedhelm Eberle|Wolfgang Reichenbach]]
+| Hübner (50), Reichenbach (5)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+|
+|-
+| 100
+| [[Polizeiruf 110: Verlockung|Verlockung]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-09-29}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (58)
+| [[Manfred Hoffmann]]
+| [[Gunter Friedrich]]
+|
+|-
+| 101
+| [[Polizeiruf 110: Der zersprungene Spiegel|Der zersprungene Spiegel]]
+| Fernsehen der DDR
+| {{DatumZelle|1985-12-08}}
+| [[Peter Borgelt|Peter Fuchs]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (59), Zimmermann (6)
+| [[Gabriele Gabriel]]
+| [[Hans-Werner Honert]]
+|
+|-
+| 102
+| [[Polizeiruf 110: Mit List und Tücke|Mit List und Tücke]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-02-02}}{{Anker|A1986}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (60)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 103
+| [[Polizeiruf 110: Ein großes Talent|Ein großes Talent]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-04-04}}
+| [[Peter Borgelt|Peter Fuchs]], [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Fuchs (61), Zimmermann (7), Grawe (Crawe) (1)
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]] (Szenarium: [[Joachim Goll]])
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| Erster Fall mit Grawe (laut Abspann als ''Leutnant Crawe'')
+|-
+| 104
+| [[Polizeiruf 110: Parkplatz der Liebe|Parkplatz der Liebe]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-05-18}}
+| [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Zimmermann (8), Grawe (2)
+| [[Ulrich Waldner]]
+| [[Hans Knötzsch]]
+|
+|-
+| 105
+| [[Polizeiruf 110: Bedenkzeit|Bedenkzeit]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-07-06}}
+| [[Peter Borgelt|Peter Fuchs]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (62), Zimmermann (9)
+| [[Hans-Werner Honert]] (Szenarium: [[Gerhard Wolff]])
+| [[Hans-Werner Honert]]
+|
+|-
+| 106
+| [[Polizeiruf 110: Gier|Gier]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-08-03}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Thomas Grawe]]
+| Fuchs (63), Hübner (51), Grawe (3)
+| [[Hans Knötzsch]] (Roman: [[Hasso Mager]])
+| [[Hans Knötzsch]]
+|
+|-
+| 107
+| [[Polizeiruf 110: Kein Tag ist wie der andere|Kein Tag ist wie der andere]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-11-16}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Hübner (52), Zimmermann (10), Grawe (4)
+| [[Ulrich Frohriep]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| <nowiki>–</nowiki>
+| [[Kalter Engel]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-12-06}}
+| [[Hans Teuscher|Stein]], [[Dietmar Terne|Berg]] (Gastauftritt [[Peter Borgelt|Fuchs]]) 
+| Stein, Berg
+| [[Lothar Dutombé]], [[Peter Vogel (Regisseur)|Peter Vogel]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 108
+| [[Polizeiruf 110: Das habe ich nicht gewollt|Das habe ich nicht gewollt]]
+| Fernsehen der DDR
+| {{DatumZelle|1986-12-21}}
+| [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Zimmermann (11), Grawe (5)
+| [[Regina Weicker]]
+| [[Peter Hagen (Regisseur)|Peter Hagen]]
+|
+|-
+| 109
+| [[Polizeiruf 110: Im Kreis|Im Kreis]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-02-08}}{{Anker|A1987}}
+| [[Peter Borgelt|Peter Fuchs]], [[Klaus Gendries|Reger]]
+| Fuchs (64), Reger (1)
+| [[Peter Vogel (Regisseur)|Peter Vogel]] (Erzählung: [[Lothar Dutombé]])
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Erster Fall mit Reger.
+|-
+| 110
+| [[Polizeiruf 110: Die alte Frau im Lehnstuhl|Die alte Frau im Lehnstuhl]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-03-29}}
+| [[Lutz Riemann|Zimmermann]], [[Wolfgang Dehler|Dillinger]]
+| Zimmermann (12), Dillinger (1)
+| [[Edgar Kaufmann (Regisseur)|Edgar Kaufmann]]
+| [[Edgar Kaufmann (Regisseur)|Edgar Kaufmann]]
+| Erster Fall mit Dillinger.
+|-
+| 111
+| [[Polizeiruf 110: Unheil aus der Flasche|Unheil aus der Flasche]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-05-03}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]], [[Jörg Hengstler|Becker]]
+| Fuchs (65), Grawe (6), Becker (1)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 112
+| [[Polizeiruf 110: Explosion|Explosion]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-06-28}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Thomas Grawe]]
+| Fuchs (66), Hübner (53), Grawe (7)
+| [[Percy Dreger]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 113
+| [[Polizeiruf 110: Der Tote zahlt|Der Tote zahlt]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-08-09}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (67), Grawe (8)
+| [[Horst Ansorge]]
+| [[Hans Knötzsch]]
+|
+|-
+| 114
+| [[Polizeiruf 110: Zwei Schwestern|Zwei Schwestern]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-10-25}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (68), Grawe (9)
+| [[Günter Mehnert]]
+| [[Hans-Werner Honert]]
+|
+|-
+| 115
+| [[Polizeiruf 110: Die letzte Kundin|Die letzte Kundin]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-11-15}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (69), Grawe (10)
+| [[Hariette Plath]]
+| [[Hubert Hoelzke]]
+|
+|-
+| 116
+| [[Polizeiruf 110: Abschiedslied für Linda|Abschiedslied für Linda]]
+| Fernsehen der DDR
+| {{DatumZelle|1987-12-20}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Fuchs (70), Hübner (54), Zimmermann (13), Grawe (11)
+| [[Werner Hecht (Autor)|Werner Hecht]]
+| [[Christa Mühl]]
+|
+|-
+| 117
+| [[Polizeiruf 110: Ihr faßt mich nie!|Ihr faßt mich nie!]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-01-24}}{{Anker|A1988}}
+| [[Peter Borgelt|Peter Fuchs]], [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Fuchs (71), Zimmermann (14), Grawe (12)
+| [[Thomas Steinke]] (Idee: [[Manfred Drews]])
+| [[Gerald Hujer]]
+|
+|-
+| 118
+| [[Polizeiruf 110: Der Mann im Baum|Der Mann im Baum]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-03-13}}
+| [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Zimmermann (15), Grawe (13)
+| [[Manfred Mosblech]]
+| [[Manfred Mosblech]]
+| Auftritt von [[Anne Kasprik]] als Ermittlerin, allerdings als Unterleutnant Görz.
+|-
+| 119
+| [[Polizeiruf 110: Still wie die Nacht|Still wie die Nacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-05-22}}
+| [[Friedhelm Eberle|Wolfgang Reichenbach]], [[Thomas Grawe]]
+| Reichenbach (6), Grawe (14)
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]]
+| Letzter Fall mit [[Friedhelm Eberle|Wolfgang Reichenbach]].
+|-
+| 120
+| [[Polizeiruf 110: Amoklauf|Amoklauf]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-06-26}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (72)
+| [[Eberhard Görner]]
+| [[Wolfgang Hübner (Regisseur)|Wolfgang Hübner]]
+|
+|-
+| 121
+| [[Polizeiruf 110: Eifersucht|Eifersucht]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-08-28}}
+| [[Peter Borgelt|Peter Fuchs]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (73), Zimmermann (16)
+| [[Regina Weicker]]
+| [[Bernd Böhlich]]
+| Auftritt von [[Horst Krause]] als Ermittler, allerdings als Leutnant Schön.
+|-
+| 122
+| [[Polizeiruf 110: Eine unruhige Nacht|Eine unruhige Nacht]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-10-02}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (74), Hübner (55), Zimmermann (17)
+| [[Fred Unger (Schriftsteller)|Fred Unger]]<br /><small>als Albert Wachtermann</small>
+| [[Hubert Hoelzke]]
+|
+|-
+| 123
+| [[Polizeiruf 110: Der Kreuzworträtselfall|Der Kreuzworträtselfall]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-11-06}}
+| [[Thomas Grawe]], [[Günter Naumann|Beck]]
+| Grawe (15), Beck (1)
+| [[Gabriele Gabriel]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| Basierend auf einer [[Kreuzworträtselmord|wahren Begebenheit]].<br />Erster Fall mit [[Günter Naumann|Beck]].
+|-
+| 124
+| [[Polizeiruf 110: Flüssige Waffe|Flüssige Waffe]]
+| Fernsehen der DDR
+| {{DatumZelle|1988-12-18}}
+| [[Klaus Gendries|Reger]], [[Jörg Hengstler|Becker]]
+| Reger (2), Becker (2)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+| Letzter Fall mit Reger und Becker.
+|-
+| 125
+| [[Polizeiruf 110: Mitternachtsfall|Mitternachtsfall]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-01-08}}{{Anker|A1989}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (75), Grawe (16)
+| [[Günter Radtke (Schriftsteller, 1927)|Günter Radtke]]
+| [[Gunter Friedrich]]
+|
+|-
+| 126
+| [[Polizeiruf 110: Variante Tramper|Variante Tramper]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-02-19}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (76), Grawe (17)
+| [[Klaus Jörn]] (Roman: [[Klaus Möckel]])
+| [[Gerald Hujer]]
+|
+|-
+| 127
+| [[Polizeiruf 110: Der Fund|Der Fund]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-04-02}}
+| [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Zimmermann (18), Grawe (18)
+| [[Gerhard Stübe]]
+| [[Hans Knötzsch]]
+|
+|-
+| 128
+| [[Polizeiruf 110: Gestohlenes Glück|Gestohlenes Glück]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-05-21}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Thomas Grawe]]
+| Hübner (56), Grawe (19)
+| [[Ulrich Waldner]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 129
+| [[Polizeiruf 110: Unsichtbare Fährten|Unsichtbare Fährten]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-06-11}}
+| [[Lutz Riemann|Lutz Zimmermann]], [[Thomas Grawe]]
+| Zimmermann (19), Grawe (20)
+| [[Horst Ansorge]]
+| [[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+| 130
+| [[Polizeiruf 110: Trio zu viert|Trio zu viert]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-06-25}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (77), Grawe (21)
+| [[Wolfgang Dehler]]
+| [[Edgar Kaufmann (Regisseur)|Edgar Kaufmann]]
+|
+|-
+| 131
+| [[Polizeiruf 110: Drei Flaschen Tokajer|Drei Flaschen Tokajer]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-08-27}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Hübner (57), Zimmermann (20)
+| [[Margot Beichler]] (Erzählung: [[Klaus Möckel]])
+| [[Udo Witte]]
+|
+|-
+| 132
+| [[Polizeiruf 110: Der Wahrheit verpflichtet|Der Wahrheit verpflichtet]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-10-01}}
+| [[Günter Naumann|Beck]], [[Anne Kasprik|Ikser]]
+| Beck (2), Ikser (1)
+| [[Ulrich Waldner]]
+| [[Hans-Joachim Kasprzik]]
+| Einziger Fall mit [[Anne Kasprik|Ikser]].
+|-
+| 133
+| [[Polizeiruf 110: Katharina|Katharina]]
+| Fernsehen der DDR
+| {{DatumZelle|1989-10-27}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Thomas Grawe]]
+| Hübner (58), Grawe (22)
+| [[Ulrich Frohriep]]
+| [[Georg Schiemann (Regisseur)|Georg Schiemann]]
+|
+|-
+| 134
+| [[Polizeiruf 110: Der Tod des Pelikan|Der Tod des Pelikan]]
+| Fernsehen der DDR
+| {{DatumZelle|1990-01-01}}{{Anker|A1990}}
+| [[Thomas Grawe]]
+| Grawe (23)
+| [[Rainer Bär]]
+| [[Rainer Bär]]
+|
+|-
+| 135
+| [[Polizeiruf 110: Zahltag|Zahltag]]
+| Fernsehen der DDR
+| {{DatumZelle|1990-01-28}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (78), Grawe (24)
+| [[Otto Bonhoff]]
+| [[Hans Knötzsch]]
+|
+|-
+| 136
+| [[Polizeiruf 110: Tödliche Träume|Tödliche Träume]]
+| Fernsehen der DDR
+| {{DatumZelle|1990-03-04}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Thomas Grawe]]
+| Fuchs (79), Hübner (59), Grawe (25)
+| [[Percy Dreger]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 137
+| [[Polizeiruf 110: Falscher Jasmin|Falscher Jasmin]]
+| DFF
+| {{DatumZelle|1990-04-22}}
+| [[Thomas Grawe]], [[Günter Naumann|Günter Beck]]
+| Grawe (26), Beck (3)
+| [[Manfred Mosblech]]
+| [[Manfred Mosblech]]
+|
+|-
+| 138
+| [[Polizeiruf 110: Warum ich …|Warum ich …]]
+| DFF
+| {{DatumZelle|1990-07-22}}
+| [[Lutz Riemann|Zimmermann]]
+| Zimmermann (21)
+| [[Wolfgang Müller (Schriftsteller)|Wolfgang Müller]], [[Gabriele Kotte (Autorin)|Gabriele Kotte]]
+| [[Ursula Bonhoff]]
+|
+|-
+| 139
+| [[Polizeiruf 110: Abgründe (1990)|Abgründe]]
+| DFF
+| {{DatumZelle|1990-08-19}}
+| [[Jürgen Frohriep|Hübner]], [[Lutz Riemann|Zimmermann]]
+| Hübner (60), Zimmermann (22)
+| [[Hubertus Methe]]
+| [[Reinhard Stein]]
+| Gleicher Titel wie Folge 174 (ORF).
+|-
+| 140
+| [[Polizeiruf 110: Ball der einsamen Herzen|Ball der einsamen Herzen]]
+| DFF
+| {{DatumZelle|1990-09-02}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (80), Grawe (27)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 141
+| [[Polizeiruf 110: Tod durch elektrischen Strom|Tod durch elektrischen Strom]]
+| DFF
+| {{DatumZelle|1990-10-07}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Hübner (61), Zimmermann (23)
+| [[Horst Ansorge]]
+| [[Peter Hagen (Regisseur)|Peter Hagen]]
+|
+|-
+| 142
+| [[Unter Brüdern (1990)|Unter Brüdern]]
+| DFF/[[Westdeutscher Rundfunk Köln|WDR]]
+| {{DatumZelle|1990-10-28}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (81), Grawe (28)
+| [[Helmut Krätzig]], [[Veith von Fürstenberg]]
+| [[Helmut Krätzig]]
+| [[Crossover (Medien)#Fernsehen|Crossover]] zwischen ''Polizeiruf 110'' und ''[[Tatort (Fernsehreihe)|Tatort]]'' mit den Ermittlern [[Horst Schimanski|Schimanski]] und [[Eberhard Feik|Thanner]].
+|-
+| 143
+| [[Polizeiruf 110: Das Duell|Das Duell]]
+| DFF
+| {{DatumZelle|1990-11-04}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (4)
+| [[Ulrich Frohriep]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 144
+| [[Polizeiruf 110: Allianz für Knete|Allianz für Knete]]
+| DFF
+| {{DatumZelle|1990-12-09}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Fuchs (82), Hübner (62), Zimmermann (24)
+| [[Jürgen Wenzel]]
+| [[Gerald Hujer]]
+|
+|-
+| 145
+| [[Polizeiruf 110: Zerstörte Hoffnung|Zerstörte Hoffnung]]
+| DFF
+| {{DatumZelle|1991-01-06}}{{Anker|A1991}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Lutz Riemann|Lutz Zimmermann]]
+| Hübner (63), Zimmermann (25)
+| [[Regina Weicker]]
+| [[Peter Hagen (Regisseur)|Peter Hagen]]
+| Letzter Fall mit [[Lutz Riemann|Lutz Zimmermann]].
+|-
+| 146
+| [[Polizeiruf 110: Der Fall Preibisch|Der Fall Preibisch]]
+| DFF
+| {{DatumZelle|1991-02-17}}
+| [[Peter Borgelt|Peter Fuchs]], [[Jürgen Zartmann|Manfred Bergmann]]
+| Fuchs (83), Bergmann (5)
+| [[Hans Schneider (Autor)|Hans Schneider]]
+| [[Lothar Hans]]
+| Letzter Fall mit [[Jürgen Zartmann|Jürgen Zartmann als KOK Manfred Bergmann]].
+|-
+| 147
+| [[Polizeiruf 110: Big Band Time|Big Band Time]]
+| DFF
+| {{DatumZelle|1991-03-31}}
+| [[Peter Borgelt|Peter Fuchs]]
+| Fuchs (84)
+| [[Eberhard Görner]]
+| [[Wolfgang Hübner (Regisseur)|Wolfgang Hübner]]
+|
+|-
+| 148
+| [[Polizeiruf 110: Der Riß|Der Riß]]
+| DFF
+| {{DatumZelle|1991-04-28}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Michael Kind|Joachim Raabe]]
+| Hübner (64), Raabe (1)
+| [[Jürgen Wenzel]]
+| [[Jan Ruzicka (Regisseur)|Jan Růžička]]
+| Erster Fall mit Raabe.
+|-
+| 149
+| [[Polizeiruf 110: Das Treibhaus|Das Treibhaus]]
+| DFF
+| {{DatumZelle|1991-07-17}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (5)
+| [[Gabriele Kotte (Autorin)|Gabriele Kotte]], [[Wolfgang Müller (Schriftsteller)|Wolfgang Müller]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 150
+| [[Polizeiruf 110: Todesfall im Park|Todesfall im Park]]
+| DFF
+| {{DatumZelle|1991-08-28}}
+| [[Jürgen Frohriep|Jürgen Hübner]]
+| Hübner (65)
+| [[Helmut Krätzig]]
+| [[Helmut Krätzig]]
+|
+|-
+| 151
+| [[Polizeiruf 110: Mit dem Anruf kommt der Tod|Mit dem Anruf kommt der Tod]]
+| DFF
+| {{DatumZelle|1991-09-01}}
+| [[Thomas Grawe]], [[Günter Naumann|Günter Beck]]
+| Grawe (29), Beck (6)
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| Basierend auf einer wahren Begebenheit
+|-
+| 152
+| [[Polizeiruf 110: Ein verhängnisvoller Verdacht|Ein verhängnisvoller Verdacht]]
+| DFF
+| {{DatumZelle|1991-11-17}}
+| [[Wolfgang Dehler|Dillinger]]
+| Dillinger (2)
+| [[Wolfgang Dehler]]
+| [[Peter Vogel (Regisseur)|Peter Vogel]]
+| Letzter Fall mit Dillinger.
+|-
+| 153
+| [[Polizeiruf 110: Thanners neuer Job|Thanners neuer Job]]
+| DFF
+| {{DatumZelle|1991-12-22}}
+| [[Peter Borgelt|Peter Fuchs]], [[Thomas Grawe]]
+| Fuchs (85), Grawe (30)
+| [[Veith von Fürstenberg]]
+| [[Bodo Fürneisen]]
+| Letzter Fall mit [[Peter Borgelt|Peter Fuchs]]. Zweiter Gastauftritt von [[Eberhard Feik|Christian Thanner]].<br /> Letzter vom DFF produzierter und ausgestrahlter Polizeiruf
+
+{{Anker|A1992}}
+|-
+| 154
+| [[Polizeiruf 110: und tot bist du|und tot bist du]]
+| [[Mitteldeutscher Rundfunk|MDR]]
+| {{DatumZelle|1993-06-13}}{{Anker|A1993}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (7)
+| [[Barbara Schön]], [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 155
+| [[Polizeiruf 110: Tod im Kraftwerk|Tod im Kraftwerk]]
+| MDR
+| {{DatumZelle|1993-09-08}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (8)
+| [[Uwe Petzold (Drehbuchautor)|Uwe Petzold]]
+| [[Michael Knof]]
+|
+|-
+| 156
+| [[Polizeiruf 110: In Erinnerung an …|"In Erinnerung an …"]]
+| MDR
+| {{DatumZelle|1993-10-03}}
+| [[Michael Kind|Joachim Raabe]]
+| Raabe (2)
+| [[Mischa Bach|Michaela Bach]], [[Jörg Schade]]
+| [[Hans-Werner Honert]]
+|
+|-
+| 157
+| [[Polizeiruf 110: Blue Dream – Tod im Regen|Blue Dream – Tod im Regen]]
+| [[Ostdeutscher Rundfunk Brandenburg|ORB]]/[[Sender Freies Berlin|SFB]]
+| {{DatumZelle|1993-10-17}}
+| [[Tanja Voigt|Voigt und Hoffmann]]
+| [[Katrin Sass|Voigt]] (1), [[Dirk Schoedon|Hoffmann]] (1)
+| [[André Hennicke]]
+| [[Bodo Fürneisen]]
+| Erster Fall mit [[Katrin Sass|Voigt]] und [[Dirk Schoedon|Hoffmann]]<br /> Romanvorlage: [[Tom Wittgen]]
+|-
+| 158
+| [[Polizeiruf 110: Bullerjahn|Bullerjahn]]
+| [[Norddeutscher Rundfunk|NDR]]
+| {{DatumZelle|1994-01-30}}{{Anker|A1994}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (1), [[Uwe Steimle|Hinrichs]] (1)
+| [[Gert Möbius]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| Erster Fall mit [[Kurt Böwe|Groth]] und [[Uwe Steimle|Hinrichs]]
+|-
+| 159
+| [[Polizeiruf 110: Arme Schweine|Arme Schweine]]
+| MDR
+| {{DatumZelle|1994-03-13}}
+| [[Thomas Grawe]]
+| Grawe (31)
+| [[Bernd Böhlich]]
+| [[Bernd Böhlich]]
+|
+|-
+| 160
+| [[Polizeiruf 110: Totes Gleis|Totes Gleis]]
+| ORB/SFB
+| {{DatumZelle|1994-04-10}}
+| [[Tanja Voigt|Voigt und Hoffmann]]
+| [[Katrin Sass|Voigt]] (2), [[Dirk Schoedon|Hoffmann]] (2)
+| [[Jürgen Pomorin|Leo P. Ard]], [[Michael Illner]]
+| [[Bernd Böhlich]]
+| Ausgezeichnet mit dem [[Grimme-Preis|Adolf-Grimme-Preis]] 1995.
+|-
+| 161
+| [[Polizeiruf 110: Kiwi und Ratte|Kiwi und Ratte]]
+| NDR
+| {{DatumZelle|1994-08-07}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (2), [[Uwe Steimle|Hinrichs]] (2)
+| [[Peter Kahane]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 162
+| [[Polizeiruf 110: Gespenster|Gespenster]]
+| [[Bayerischer Rundfunk|BR]]
+| {{DatumZelle|1994-09-11}}
+| [[Leslie Malton|Antonia Reiser]]
+| Reiser (1)
+| [[Klaus Emmerich (Regisseur)|Klaus Emmerich]]
+| [[Klaus Emmerich (Regisseur)|Klaus Emmerich]]
+| Einziger Fall mit [[Leslie Malton|Antonia Reiser]].
+|-
+| 163
+| [[Polizeiruf 110: Samstags, wenn Krieg ist|Samstags, wenn Krieg ist]]
+| [[Süddeutscher Rundfunk|SDR]]
+| {{DatumZelle|1994-09-18}}
+| [[Angelica Domröse|Vera Bilewski]]
+| Bilewski (1)
+| [[Klaus-Peter Wolf]]
+| [[Roland Suso Richter]]
+| Folge war 9 Jahre [[Polizeiruf 110#Zeitweise gesperrte Folge|gesperrt]].
+|-
+| 164
+| [[Polizeiruf 110: Lauf, Anna, lauf!|Lauf, Anna, lauf!]]
+| [[Österreichischer Rundfunk|ORF]]
+| {{DatumZelle|1994-10-23}}
+| [[Helmut Berger (Schauspieler, 1949)|Gerhard Walleck]]
+| Walleck (1)
+| [[Albert Stein (Drehbuchautor)|Albert Stein]]
+| [[Franz Novotny (Regisseur)|Franz Novotny]]
+| Erster Fall mit Walleck.
+|-
+| 165
+| [[Polizeiruf 110: Keine Liebe, kein Leben|Keine Liebe, kein Leben]]
+| MDR
+| {{DatumZelle|1994-11-06}}
+| [[Jürgen Frohriep|Jürgen Hübner]], [[Michael Kind|Joachim Raabe]]
+| Hübner (66), Raabe (3)
+| [[André Hennicke]]
+| [[Jan Ruzicka (Regisseur)|Jan Růžička]]
+| Letzter Fall mit [[Jürgen Frohriep|Jürgen Hübner]].
+|-
+| 166
+| [[Polizeiruf 110: Opfergang|Opfergang]]
+| ORB
+| {{DatumZelle|1994-11-20}}
+| [[Tanja Voigt]], Jürgen Kochan
+| [[Katrin Sass|Voigt]] (3), [[Michael Greiling|Kochan]] (1)
+| [[Jürgen Pomorin|Leo P. Ard]], [[Michael Illner]]
+| [[Carlo Rola]]
+| Einziger Fall mit [[Michael Greiling|Kochan]]. [[Dirk Schoedon|Jens Hoffmann]] tritt als Gast auf.
+|-
+| 167
+| [[Polizeiruf 110: Über Bande|Über Bande]]
+| NDR
+| {{DatumZelle|1995-01-29}}{{Anker|A1995}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (3), [[Uwe Steimle|Hinrichs]] (3)
+| [[Gert Möbius]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 168
+| [[Polizeiruf 110: Taxi zur Bank|Taxi zur Bank]]
+| NDR
+| {{DatumZelle|1995-02-26}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (4), [[Uwe Steimle|Hinrichs]] (4)
+| [[Oliver G. Wachlin]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 169
+| [[Polizeiruf 110: 1A Landeier|1a Landeier...]]
+| WDR
+| {{DatumZelle|1995-04-09}}
+| [[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+| Möller (1), Küppers (1)
+| [[Dirk Salomon]], [[Thomas Wesskamp]]
+| [[Ulrich Stark]]
+| Ausgezeichnet mit dem [[Grimme-Preis|Adolf-Grimme-Preis]] 1996.
+|-
+| 170
+| [[Polizeiruf 110: Sieben Tage Freiheit|Sieben Tage Freiheit]]
+| SFB
+| {{DatumZelle|1995-05-28}}
+| [[Tanja Voigt|Voigt und Hoffmann]]
+| [[Katrin Sass|Voigt]] (4), [[Dirk Schoedon|Hoffmann]] (3)
+| [[Ulrich Stieler]], [[Dagmar Wittmers]]
+| [[Dagmar Wittmers]]
+|
+|-
+| 171
+| [[Polizeiruf 110: Schwelbrand|Schwelbrand]]
+| MDR
+| {{DatumZelle|1995-06-11}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]], Martin Markwardt
+| [[Günter Naumann|Beck]] (9), [[Til Schweiger|Markwardt]] (1)
+| [[Mischa Bach|Michaela Bach]], [[Jörg Schade]]
+| [[Petra Haffter]]
+| Einziger Fall mit [[Til Schweiger|Markwardt]].
+|-
+| 172
+| [[Polizeiruf 110: Bruder Lustig|Bruder Lustig]]
+| MDR
+| {{DatumZelle|1995-07-02}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (10)
+| [[Friedemann Schreiter]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 173
+| [[Polizeiruf 110: Im Netz|Im Netz]]
+| SFB
+| {{DatumZelle|1995-07-23}}
+| [[Tanja Voigt|Voigt und Hoffmann]]
+| [[Katrin Sass|Voigt]] (5), [[Dirk Schoedon|Hoffmann]] (4)
+| [[Uwe Petzold (Drehbuchautor)|Uwe Petzold]]
+| [[Rodica Doehnert]]
+| Letzter Fall mit [[Dirk Schoedon|Jens Hoffmann]].
+|-
+| 174
+| [[Polizeiruf 110: Abgründe (1995)|Abgründe]]
+| ORF
+| {{DatumZelle|1995-09-03}}
+| [[Helmut Berger (Schauspieler, 1949)|Gerhard Walleck]]
+| Walleck (2)
+| [[Manfred Rebhandl]]
+| [[Susanne Zanke]]
+| Gleicher Titel wie Folge 139 (DFF). Letzter Fall mit Walleck.
+|-
+| 175
+| [[Polizeiruf 110: Alte Freunde|Alte Freunde]]
+| NDR
+| {{DatumZelle|1995-09-10}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (5), [[Uwe Steimle|Hinrichs]] (5)
+| [[Wolf-Heinrich Schultz]]
+| [[Markus Imboden]]
+|
+|-
+| 176
+| [[Polizeiruf 110: Grawes letzter Fall|Grawes letzter Fall]]
+| MDR
+| {{DatumZelle|1995-10-29}}
+| [[Thomas Grawe]]
+| Grawe (32)
+| [[Wolfgang Brenner]]
+| [[Christian Steinke]]
+| Letzter Fall mit [[Thomas Grawe|Grawe]].
+|-
+| 177
+| [[Polizeiruf 110: Roter Kaviar|Roter Kaviar]]
+| WDR
+| {{DatumZelle|1995-11-19}}
+| [[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+| Möller (2), Küppers (2)
+| [[Dirk Salomon]], [[Thomas Wesskamp]]
+| [[Ulrich Stark]]
+|
+|-
+| 178
+| [[Polizeiruf 110: Jutta oder Die Kinder von Damutz|Jutta oder Die Kinder von Damutz]]
+| ORB
+| {{DatumZelle|1995-12-03}}
+| [[Tanja Voigt]]
+| [[Katrin Sass|Voigt]] (6)
+| [[Helmut Bez]], [[Bernd Böhlich]]
+| [[Bernd Böhlich]]
+|
+|-
+| 179
+| [[Polizeiruf 110: Der Pferdemörder|Der Pferdemörder]]
+| MDR
+| {{DatumZelle|1996-03-17}}{{Anker|A1996}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (1), [[Wolfgang Winkler (Schauspieler)|Schneider]] (1)
+| [[Gabriele Gabriel]]
+| [[Matti Geschonneck]]
+| Erster Fall mit [[Jaecki Schwarz|Schmücke]] und [[Wolfgang Winkler (Schauspieler)|Schneider]].
+|-
+| 180
+| [[Polizeiruf 110: Lauf oder stirb|Lauf oder stirb]]
+| MDR
+| {{DatumZelle|1996-04-14}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (2), [[Wolfgang Winkler (Schauspieler)|Schneider]] (2)
+| [[Peter Probst]]
+| [[Matti Geschonneck]]
+|
+|-
+| 181
+| [[Polizeiruf 110: Gefährliche Küsse|Gefährliche Küsse]]
+| NDR
+| {{DatumZelle|1996-04-21}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (6), [[Uwe Steimle|Hinrichs]] (6)
+| [[Gert Möbius]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 182
+| [[Polizeiruf 110: Kleine Dealer, große Träume|Kleine Dealer, große Träume]]
+| SDR
+| {{DatumZelle|1996-06-16}}
+| [[Angelica Domröse|Vera Bilewski]]
+| Bilewski (2)
+| [[Klaus-Peter Wolf]], [[Friedhelm Zündel]]
+| [[Urs Odermatt]]
+|
+|-
+| 183
+| [[Polizeiruf 110: Der schlanke Tod|Der schlanke Tod]]
+| MDR
+| {{DatumZelle|1996-09-15}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (3), [[Wolfgang Winkler (Schauspieler)|Schneider]] (3)
+| [[Axel Götz]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 184
+| [[Polizeiruf 110: Die Gazelle|Die Gazelle]]
+| NDR/ORB
+| {{DatumZelle|1996-11-17}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]], [[Tanja Voigt]]
+| [[Kurt Böwe|Groth]] (7), [[Uwe Steimle|Hinrichs]] (7), [[Katrin Sass|Voigt]] (7)
+| [[Jürgen Pomorin]], [[Michael Illner]]
+| [[Bodo Fürneisen]]
+| Die NDR-Kommissare [[Kurt Böwe|Groth]] und [[Uwe Steimle|Hinrichs]] ermitteln zusammen mit [[Katrin Sass|Tanja Voigt]] die für den ORB als Ermittlerin arbeitet.
+|-
+| 185
+| [[Polizeiruf 110: Kurzer Traum|Kurzer Traum]]
+| ORB
+| {{DatumZelle|1996-12-22}}
+| [[Tanja Voigt]]
+| [[Katrin Sass|Voigt]] (8)
+| [[Scarlett Kleint]]
+| [[Bernd Böhlich]]
+| Erster Auftritt von Horst Krause als Dorfpolizist Herbert (Krause).
+|-
+| 186
+| [[Polizeiruf 110: Der Tausch|Der Tausch]]
+| MDR
+| {{DatumZelle|1997-03-09}}{{Anker|A1997}}
+| [[Günter Beck (Polizeiruf)|Günter Beck]]
+| [[Günter Naumann|Beck]] (11)
+| [[Hans-Ullrich Krause]]
+| [[Andreas Dresen]]
+| Letzter Fall mit [[Günter Naumann|Günter Beck]].
+|-
+| 187
+| [[Polizeiruf 110: Gänseblümchen|Gänseblümchen]]
+| WDR
+| {{DatumZelle|1997-03-16}}
+| [[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+| Möller (3), Küppers (3)
+| [[Dirk Salomon]], [[Thomas Wesskamp]]
+| [[Ulrich Stark]]
+|
+|-
+| 188
+| [[Polizeiruf 110: Der Fremde|Der Fremde]]
+| NDR
+| {{DatumZelle|1997-04-27}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (8), [[Uwe Steimle|Hinrichs]] (8)
+| [[Jürgen Pomorin|Leo P. Ard]], [[Rainer Butt]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 189
+| [[Polizeiruf 110: Über den Tod hinaus|Über den Tod hinaus]]
+| NDR
+| {{DatumZelle|1997-05-11}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (9), [[Uwe Steimle|Hinrichs]] (9)
+| [[Gert Möbius]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 190
+| [[Polizeiruf 110: Die falsche Sonja|Die falsche Sonja]]
+| MDR
+| {{DatumZelle|1997-07-13}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (4), [[Wolfgang Winkler (Schauspieler)|Schneider]] (4)
+| [[Knut Boeser]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 191
+| [[Polizeiruf 110: Feuertod|Feuertod]]
+| HR
+| {{DatumZelle|1997-07-20}}
+| [[Walter Renneisen|Lubig]], [[Horst Günter Marx|Loster]]
+| Lubig (1), Loster (1)
+| [[Heinz Schirk]]
+| [[Heinz Schirk]]
+| Einziger mit Fall mit [[Walter Renneisen|Lubig]] und [[Horst Günter Marx|Loster]].
+|-
+| 192
+| [[Polizeiruf 110: Heißkalte Liebe|Heißkalte Liebe]]
+| MDR
+| {{DatumZelle|1997-08-17}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (5), [[Wolfgang Winkler (Schauspieler)|Schneider]] (5)
+| [[Thomas Knauf]]
+| [[Rolf Liccini]]
+|
+|-
+| 193
+| [[Polizeiruf 110: Der Sohn der Kommissarin|Der Sohn der Kommissarin]]
+| ORB
+| {{DatumZelle|1997-09-21}}
+| [[Tanja Voigt]]
+| [[Katrin Sass|Voigt]] (9)
+| [[Stefan Kolditz]]
+| [[Jan Ruzicka (Regisseur)|Jan Růžička]]
+|
+|-
+| 194
+| [[Polizeiruf 110: Im Netz der Spinne|Im Netz der Spinne]]
+| BR
+| {{DatumZelle|1997-10-26}}
+| [[Gaby Dohm|Silvia Jansen]]
+| Jansen (1)
+| [[Klaus-Peter Wolf]], [[Erwin Keusch]]
+| [[Erwin Keusch]]
+|
+|-
+| 195
+| [[Polizeiruf 110: Feuer!|Feuer!]]
+| BR
+| {{DatumZelle|1997-11-30}}
+| [[Gaby Dohm|Silvia Jansen]]
+| Jansen (2)
+| [[Klaus-Peter Wolf]]
+| [[Maria Knilli]]
+|
+|-
+| 196
+| [[Polizeiruf 110: Das Wunder von Wustermark|Das Wunder von Wustermark]]
+| ORB
+| {{DatumZelle|1998-01-04}}{{Anker|A1998}}
+| [[Tanja Voigt]]
+| [[Katrin Sass|Voigt]] (10)
+| [[Jürgen Pomorin|Leo P. Ard]], [[Michael Illner]]
+| [[Bernd Böhlich]]
+| Fortsetzung von Folge 160 (Totes Gleis)<br />Letzter Fall mit [[Katrin Sass|Tanja Voigt]]. Auftritt von [[Horst Krause|Krause]] als Dorfpolizist Horst Krause.
+|-
+| 197
+| [[Polizeiruf 110: Hetzjagd|Hetzjagd]]
+| SDR
+| {{DatumZelle|1998-01-25}}
+| [[Angelica Domröse|Vera Bilewski]]
+| Bilewski (3)
+| [[Klaus-Peter Wolf]], [[Ulrich Bendele]]
+| [[Ute Wieland]]
+| Letzter Fall mit [[Angelica Domröse|Vera Bilewski]].
+|-
+| 198
+| [[Polizeiruf 110: Todsicher|Todsicher]]
+| MDR
+| {{DatumZelle|1998-02-22}}
+| [[Schmücke und Schneider]]
+| [[Jaecki Schwarz|Schmücke]] (6), [[Wolfgang Winkler (Schauspieler)|Schneider]] (6)
+| [[Axel Götz]]
+| [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+| 199
+| [[Polizeiruf 110: Live in den Tod|Live in den Tod]]
+| NDR
+| {{DatumZelle|1998-03-15}}
+| [[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+| [[Kurt Böwe|Groth]] (10), [[Uwe Steimle|Hinrichs]] (10)
+| [[Gert Möbius]],<br />[[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+| [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+| 200
+| [[Polizeiruf 110: Kleiner Engel|Kleiner Engel]]
+| HR
+| {{DatumZelle|1998-05-24}}
+| [[Dieter Montag|Schlosser]], [[Chantal de Freitas|Reeding]], [[Oliver Stokowski|Grosche]]
+| Schlosser (1), Reeding (1), Grosche (1)
+| [[Rudolf Bergmann (Autor)|Rudolf Bergmann]], [[Rolf Silber]]
+| [[Michael Knof]]
+|
+|-
+|201
+|[[Polizeiruf 110: Mordsmäßig Mallorca|Mordsmäßig Mallorca]]
+|WDR
+|{{DatumZelle|1998-06-07}}
+|[[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+|Möller (4), Küppers (4)
+|[[Thomas Wesskamp]], [[Dirk Salomon]]
+|[[Ulrich Stark]]
+|
+|-
+|202
+|[[Polizeiruf 110: Katz und Kater|Katz und Kater]]
+|NDR
+|{{DatumZelle|1998-06-14}}
+|[[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+|[[Kurt Böwe|Groth]] (11), [[Uwe Steimle|Hinrichs]] (11)
+|[[Gert Möbius]], [[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|[[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+|203
+|[[Polizeiruf 110: Rot ist eine schöne Farbe|Rot ist eine schöne Farbe]]
+|MDR
+|{{DatumZelle|1998-07-19}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (7), [[Wolfgang Winkler (Schauspieler)|Schneider]] (7)
+|[[Knut Bosser]]
+|[[Peter Patzak]]
+|
+|-
+|204
+|[[Polizeiruf 110: Discokiller|Discokiller]]
+|MDR
+|{{DatumZelle|1998-10-04}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (8), [[Wolfgang Winkler (Schauspieler)|Schneider]] (8)
+|[[Scarlett Kleint]], [[Michael Illner]]
+|[[Marco Serafini]]
+|
+|-
+|205
+|[[Polizeiruf 110: Spurlos verschwunden|Spurlos verschwunden]]
+|BR
+|{{DatumZelle|1998-10-18}}
+|[[Gaby Dohm|Silvia Jansen]], [[Edgar Selge|Jürgen Tauber]]
+|Jansen (3), Tauber (1)
+|[[Christian Jeltsch]]
+|[[Ulrich Stark]]
+|
+|-
+|206
+|[[Polizeiruf 110: Tod und Teufel|Tod und Teufel]]
+|BR
+|{{DatumZelle|1998-11-22}}
+|[[Gaby Dohm|Silvia Jansen]]
+|Jansen (4)
+|[[Berthold Mittermayr]]
+|[[Berthold Mittermayr]]
+|
+|-
+|207
+|[[Polizeiruf 110: Sumpf|Sumpf]]
+|MDR
+|{{DatumZelle|1999-02-21}}{{Anker|A1999}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (9), [[Wolfgang Winkler (Schauspieler)|Schneider]] (9)
+|[[Holger K. Schmidt]]
+|[[Marijan David Vajda]]
+|
+|-
+|208
+|[[Polizeiruf 110: Schellekloppe|Schellekloppe]]
+|HR
+|{{DatumZelle|1999-02-28}}
+|[[Dieter Montag|Schlosser]], [[Chantal de Freitas|Reeding]], [[Oliver Stokowski|Grosche]]
+|Schlosser (2), Reeding (2), Grosche (2)
+|[[Rolf Silber]], [[Rudolf Bergmann (Autor)|Rudolf Bergmann]]
+|[[Michael Knof]]
+|
+|-
+|209
+|[[Polizeiruf 110: Mörderkind|Mörderkind]]
+|ORB
+|{{DatumZelle|1999-03-14}}
+|[[Jutta Hoffmann|Rosenbaum]], [[Horst Krause (Filmfigur)|Krause]]
+|Rosenbaum (1), [[Horst Krause|Krause]] (1)
+|[[Stefan Kolditz]], [[Thomas Wilkening]], [[Robert Stadlober]]
+|[[Matti Geschonneck]]
+|Erster Fall mit [[Jutta Hoffmann|Rosenbaum]] und [[Horst Krause (Filmfigur)|Krause]].
+|-
+|210
+|[[Polizeiruf 110: Rasputin|Rasputin]]
+|NDR
+|{{DatumZelle|1999-04-11}}
+|[[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+|[[Kurt Böwe|Groth]] (12), [[Uwe Steimle|Hinrichs]] (12)
+|[[Edmund Grote]]
+|[[Hans-Erich Viet]]
+|
+|-
+|211
+|[[Polizeiruf 110: Mordsfreunde|Mordsfreunde]]
+|MDR
+|{{DatumZelle|1999-07-11}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (10), [[Wolfgang Winkler (Schauspieler)|Schneider]] (10)
+|[[Rainer Bär]]
+|[[Rainer Bär]]
+|
+|-
+|212
+|[[Polizeiruf 110: Über den Dächern von Schwerin|Über den Dächern von Schwerin]]
+|NDR
+|{{DatumZelle|1999-07-18}}
+|[[Kurt Groth|Groth]] und [[Jens Hinrichs|Hinrichs]]
+|[[Kurt Böwe|Groth]] (13), [[Uwe Steimle|Hinrichs]] (13)
+|[[Hans-Erich Viet]], [[Jürgen Pomorin|Leo P. Ard]], [[Rainer Butt]]
+|[[Hans-Erich Viet]]
+|
+|-
+|213
+|[[Polizeiruf 110: Kopfgeldjäger|Kopfgeldjäger]]
+|BR
+|{{DatumZelle|1999-11-21}}
+|[[Gaby Dohm|Silvia Jansen]], [[Edgar Selge|Jürgen Tauber]]
+|Jansen (5), Tauber (2)
+|[[Wolfgang Limmer]]
+|[[Ulrich Stark]]
+|
+|-
+|214
+|[[Polizeiruf 110: Blutiges Eis|Blutiges Eis]]
+|MDR
+|{{DatumZelle|2000-01-23}}{{Anker|A2000}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (11), [[Wolfgang Winkler (Schauspieler)|Schneider]] (11)
+|[[Michael Illner]], [[Scarlett Kleint]]
+|[[Dietmar Klein]]
+|
+|-
+|215
+|[[Polizeiruf 110: Totenstille|Totenstille]]
+|HR
+|{{DatumZelle|2000-02-06}}
+|[[Dieter Montag|Schlosser]], [[Chantal de Freitas|Reeding]], [[Oliver Stokowski|Grosche]]
+|Schlosser (3), Reeding (3), Grosche (3)
+|[[Rudolf Bergmann (Autor)|Rudolf Bergmann]], [[Rolf Silber]]
+|[[Marc Hertel]]
+|Letzter Fall mit [[Chantal de Freitas]] als Reeding.
+|-
+|216
+|[[Polizeiruf 110: Ihr größter Fall|Ihr größter Fall]]
+|NDR
+|{{DatumZelle|2000-02-27}}
+|[[Kurt Böwe|Groth]], [[Uwe Steimle|Hinrichs]]
+|[[Kurt Böwe|Groth]] (14), [[Uwe Steimle|Hinrichs]] (14)
+|[[Hans-Erich Viet]], [[Edmund Grote]]
+|[[Hans-Erich Viet]]
+|Letzter Fall mit [[Kurt Böwe|Groth]].
+|-
+|217
+|[[Polizeiruf 110: Böse Wetter|Böse Wetter]]
+|MDR
+|{{DatumZelle|2000-03-19}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (12), [[Wolfgang Winkler (Schauspieler)|Schneider]] (12)
+|[[Peter Scheibler]]
+|[[Marco Serafini]]
+|
+|-
+|218
+|[[Polizeiruf 110: La Paloma|La Paloma]]
+|WDR
+|{{DatumZelle|2000-05-07}}
+|[[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+|Möller (5), Küppers (5)
+|[[Margot Rothkirch]], [[Michael Fengler]]
+|[[Ulrich Stark]]
+|
+|-
+|219
+|[[Polizeiruf 110: Bruderliebe|Bruderliebe]]
+|WDR
+|{{DatumZelle|2000-09-17}}
+|[[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+|Möller (6), Küppers (6)
+|[[Dirk Salomon]], [[Thomas Wesskamp]]
+|[[Ulrich Stark]]
+|
+|-
+|220
+|[[Polizeiruf 110: Bis zur letzten Sekunde|Bis zur letzten Sekunde]]
+|MDR
+|{{DatumZelle|2000-10-08}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (13), [[Wolfgang Winkler (Schauspieler)|Schneider]] (13)
+|[[Marlies Ewald]]
+|[[Bodo Fürneisen]]
+|
+|-
+|221
+|[[Polizeiruf 110: Verzeih mir|Verzeih mir]]
+|BR
+|{{DatumZelle|2000-10-22}}
+|[[Gaby Dohm|Silvia Jansen]], [[Edgar Selge|Jürgen Tauber]]
+|Jansen (6), Tauber (3)
+|[[Horst Vocks]]
+|[[Hartmut Griesmayr]]
+|Letzter Fall mit [[Gaby Dohm|Silvia Jansen]].
+|-
+|222
+|[[Polizeiruf 110: Die Macht und ihr Preis|Die Macht und ihr Preis]]
+|NDR
+|{{DatumZelle|2000-11-05}}
+|[[Jens Hinrichs|Hinrichs und Dieckmann]]
+|[[Uwe Steimle|Hinrichs]] (15), [[Jürgen Schmidt (Schauspieler)|Dieckmann]] (1)
+|[[Edmund Grote]], [[Hans-Erich Viet]]
+|[[Hans-Erich Viet]]
+|Erster Fall mit [[Jürgen Schmidt (Schauspieler)|Dieckmann]]. War als letzter Fall mit [[Kurt Böwe|Groth]] (†) geplant.
+|-
+|223
+|[[Polizeiruf 110: Tote erben nicht|Tote erben nicht]]
+|MDR
+|{{DatumZelle|2000-11-19}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (14), [[Wolfgang Winkler (Schauspieler)|Schneider]] (14)
+|[[Peter Kahane]]
+|[[Jan Ruzicka (Regisseur)|Jan Růžička]]
+|
+|-
+|224
+|[[Polizeiruf 110: Gelobtes Land|Gelobtes Land]]
+|BR
+|{{DatumZelle|2001-01-14}}{{Anker|A2001}}
+|[[Tauber und Obermaier]]
+|Obermaier (1), Tauber (4)
+|[[Christian Jeltsch]]
+|[[Peter Patzak]]
+|Erster Fall mit dem Team [[Tauber und Obermaier]].
+|-
+|225
+|[[Polizeiruf 110: Jugendwahn|Jugendwahn]]
+|MDR
+|{{DatumZelle|2001-01-21}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (15), [[Wolfgang Winkler (Schauspieler)|Schneider]] (15)
+|[[Wolfgang Hesse (Drehbuchautor)|Wolfgang Hesse]]
+|[[Bodo Fürneisen]]
+|
+|-
+|226
+|[[Polizeiruf 110: Bis unter die Haut|Bis unter die Haut]]
+|HR
+|{{DatumZelle|2001-02-04}}
+|[[Dieter Montag|Schlosser]], [[Dennenesch Zoudé|Reeding]], [[Oliver Stokowski|Grosche]]
+|Schlosser (4), Reeding (4/1), Grosche (4)
+|[[Rudolf Bergmann (Autor)|Rudolf Bergmann]], [[Rolf Silber]]
+|[[Marc Hertel]]
+|Letzter Fall mit [[Oliver Stokowski|Grosche]];<br />[[Dennenesch Zoudé]] ersetzt [[Chantal de Freitas]] als Carol Reeding.
+|-
+|227
+|[[Polizeiruf 110: Bei Klingelzeichen Mord|Bei Klingelzeichen Mord]]
+|ORB
+|{{DatumZelle|2001-02-18}}
+|[[Jutta Hoffmann|Rosenbaum]], [[Horst Krause (Filmfigur)|Krause]]
+|Rosenbaum (2), [[Horst Krause|Krause]] (2)
+|[[Stefan Kolditz]]
+|[[Andreas Kleinert]]
+|
+|-
+|228
+|[[Polizeiruf 110: Zerstörte Träume|Zerstörte Träume]]
+|MDR
+|{{DatumZelle|2001-03-18}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (16), [[Wolfgang Winkler (Schauspieler)|Schneider]] (16)
+|[[Bodo Fürneisen]]
+|[[Bodo Fürneisen]]
+|
+|-
+|229
+|[[Polizeiruf 110: Seestück mit Mädchen|Seestück mit Mädchen]]
+|NDR
+|{{DatumZelle|2001-04-08}}
+|[[Jens Hinrichs|Hinrichs und Diekmann]]
+|[[Uwe Steimle|Hinrichs]] (16), [[Jürgen Schmidt (Schauspieler)|Diekmann]] (2)
+|[[Michael Illner]]
+|[[Helmut Förnbacher]]
+|Robert Dieckmann heißt ab dieser Folge Holm Diekmann.
+|-
+|230
+|[[Polizeiruf 110: Die Frau des Fleischers|Die Frau des Fleischers]]
+|NDR
+|{{DatumZelle|2001-06-04}}
+|[[Uwe Steimle|Hinrichs]], [[Jürgen Schmidt (Schauspieler)|Diekmann]]
+|[[Uwe Steimle|Hinrichs]] (17), [[Jürgen Schmidt (Schauspieler)|Diekmann]] (3)
+|[[Douglas Welbat]]
+|[[Peter Kahane]]
+|
+|-
+|231
+|[[Polizeiruf 110: Kurschatten|Kurschatten]]
+|MDR
+|{{DatumZelle|2001-06-24}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (17), [[Wolfgang Winkler (Schauspieler)|Schneider]] (17)
+|[[Scarlett Kleint]], [[Michael Illner]]
+|[[Marco Serafini]]
+|Jubiläumsfolge zum 30. Geburtstag der Reihe mit zahlreichen ehemaligen und zeitgenössischen Polizeiruf-Darstellern.<ref>[https://www.welt.de/print-welt/article458709/Tatort-Ostdeutschland.html ''Tatort Ostdeutschland.''] [[Die Welt]] vom 23. Juni 2001.</ref>
+|-
+|232
+|[[Polizeiruf 110: Fluch der guten Tat|Fluch der guten Tat]]
+|BR
+|{{DatumZelle|2001-07-01}}
+|[[Tauber und Obermaier]]
+|Obermaier (2), Tauber (5)
+|[[Peter Probst]]
+|[[Hans-Günther Bücking]]
+|
+|-
+|233
+|[[Polizeiruf 110: Angst|Angst]]
+|ORB
+|{{DatumZelle|2001-12-16}}
+|[[Jutta Hoffmann|Rosenbaum]], [[Horst Krause (Filmfigur)|Krause]]
+|Rosenbaum (3), [[Horst Krause|Krause]] (3)
+|[[Stefan Kolditz]]
+|[[Manuel Siebenmann]]
+|
+|-
+|234
+|[[Polizeiruf 110: Fliegende Holländer|Fliegende Holländer]]
+|WDR
+|{{DatumZelle|2001-12-30}}
+|[[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+|Möller (7), Küppers (7)
+|[[Margot Rothkirch]], [[Michael Fengler]]
+|[[Ulrich Stark]]
+|
+|-
+|235
+|[[Polizeiruf 110: Um Kopf und Kragen|Um Kopf und Kragen]]
+|BR
+|{{DatumZelle|2002-01-13}}{{Anker|A2002}}
+|[[Tauber und Obermaier]]
+|Obermaier (3), Tauber (6)
+|[[Carolin Otto]]
+|[[Peter Patzak]]
+|
+|-
+|236
+|[[Polizeiruf 110: Grauzone|Grauzone]]
+|HR
+|{{DatumZelle|2002-02-03}}
+|[[Dieter Montag|Schlosser]], [[Dennenesch Zoudé|Reeding]], [[Barbara Rudnik|Dreyer]]
+|Schlosser (5), Reeding (5/2), Dreyer (1)
+|[[Rudolf Bergmann (Autor)|Rudolf Bergmann]], [[Rolf Silber]]
+|[[Marc Hertel]]
+|
+|-
+|237
+|[[Polizeiruf 110: Henkersmahlzeit|Henkersmahlzeit]]
+|MDR
+|{{DatumZelle|2002-03-17}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (18), [[Wolfgang Winkler (Schauspieler)|Schneider]] (18)
+|[[Peter Probst]]
+|[[Hartmut Griesmayr]]
+|
+|-
+|238
+|[[Polizeiruf 110: Der Spieler|Der Spieler]]
+|MDR
+|{{DatumZelle|2002-05-12}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (19), [[Wolfgang Winkler (Schauspieler)|Schneider]] (19)
+|[[Peter Kahane]]
+|[[Jürgen Brauer]]
+|
+|-
+|239
+|[[Polizeiruf 110: Silikon Walli|Silikon Walli]]
+|BR
+|{{DatumZelle|2002-05-26}}
+|[[Tauber und Obermaier]]
+|Obermaier (4), Tauber (7)
+|[[Wolfgang Limmer]]
+|[[Manfred Stelzer (Regisseur)|Manfred Stelzer]]
+|
+|-
+|240
+|[[Polizeiruf 110: Memory|Memory]]
+|NDR
+|{{DatumZelle|2002-06-23}}
+|[[Jens Hinrichs|Hinrichs und Diekmann]]
+|[[Uwe Steimle|Hinrichs]] (18), [[Jürgen Schmidt (Schauspieler)|Diekmann]] (4)
+|[[Michael Illner]], [[Frank Sommer (Schauspieler)|Frank Sommer]]
+|[[Hans-Erich Viet]]
+|
+|-
+|241
+|[[Polizeiruf 110: Wandas letzter Gang|Wandas letzter Gang]]
+|ORB
+|{{DatumZelle|2002-06-30}}
+|[[Jutta Hoffmann|Rosenbaum]], [[Horst Krause (Filmfigur)|Krause]]
+|Rosenbaum (4), [[Horst Krause|Krause]] (4)
+|[[Stefan Kolditz]]
+|[[Bernd Böhlich]]
+|Letzter Fall mit [[Jutta Hoffmann|Rosenbaum]].
+|-
+|242
+|[[Polizeiruf 110: Braut in Schwarz|Braut in Schwarz]]
+|ORB
+|{{DatumZelle|2002-07-21}}
+|[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (1), [[Horst Krause|Krause]] (5)
+|[[Scarlett Kleint]]
+|[[Bodo Fürneisen]]
+|Erster Fall mit [[Imogen Kogge|Herz]] und [[Horst Krause|Krause]].
+|-
+|243
+|[[Polizeiruf 110: Vom Himmel gefallen|Vom Himmel gefallen]]
+|NDR
+|{{DatumZelle|2002-08-04}}
+|[[Jens Hinrichs|Hinrichs und Diekmann]]
+|[[Uwe Steimle|Hinrichs]] (19), [[Jürgen Schmidt (Schauspieler)|Diekmann]] (5)
+|[[Rudolf Anders]], [[Ernst Josef Lauscher]]
+|[[Dieter Laske]]
+|Letzter Fall mit [[Jürgen Schmidt (Schauspieler)|Diekmann]]
+|-
+|244
+|[[Polizeiruf 110: Angst um Tessa Bülow|Angst um Tessa Bülow]]
+|MDR
+|{{DatumZelle|2002-09-15}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (20), [[Wolfgang Winkler (Schauspieler)|Schneider]] (20)
+|[[Axel Götz]]
+|[[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+|245
+|[[Polizeiruf 110: Tiefe Wunden|Tiefe Wunden]]
+|BR
+|{{DatumZelle|2003-01-19}}{{Anker|A2003}}
+|[[Tauber und Obermaier]]
+|Obermaier (5), Tauber (8)
+|[[Christian Limmer]]
+|[[Buddy Giovinazzo]]
+|[[Deutscher Fernsehpreis 2003]]: ''Bester Schauspieler Fernsehfilm'' [[Edgar Selge]].
+|-
+|246
+|[[Polizeiruf 110: Die Schlacht|Die Schlacht]]
+|ORB
+|{{DatumZelle|2003-02-02}}
+|[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (2), [[Horst Krause|Krause]] (6)
+|[[Scarlett Kleint]], [[Michael Illner]]
+|[[Thomas Bohn (Regisseur)|Thomas Bohn]]
+|
+|-
+|247
+|[[Polizeiruf 110: Abseitsfalle|Abseitsfalle]]
+|HR
+|{{DatumZelle|2003-02-23}}
+|[[Dieter Montag|Schlosser]], [[Dennenesch Zoudé|Reeding]], [[Barbara Rudnik|Dreyer]]
+|Schlosser (6), Reeding (6/3), Dreyer (2)
+|[[Arne Sommer]]
+|[[Marc Hertel]]
+|Letzter Fall mit Schlosser, Reeding und Dreyer.
+|-
+|248
+|[[Polizeiruf 110: Kopf in der Schlinge|Kopf in der Schlinge]]
+|MDR
+|{{DatumZelle|2003-03-16}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (21), [[Wolfgang Winkler (Schauspieler)|Schneider]] (21)
+|[[Sabine Thiesler]]
+|[[Hartmut Griesmayr]]
+|
+|-
+|249
+|[[Polizeiruf 110: Pech und Schwefel|Pech und Schwefel]]
+|BR
+|{{DatumZelle|2003-05-04}}
+|[[Tauber und Obermaier]]
+|Obermaier (6), Tauber (9)
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]], [[Kaspar von Erffa]]
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]]
+|[[Deutscher Fernsehpreis 2003]]: ''Bester Schauspieler Fernsehfilm'' [[Edgar Selge]].
+|-
+|250
+|[[Polizeiruf 110: Doktorspiele|Doktorspiele]]
+|MDR
+|{{DatumZelle|2003-06-29}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (22), [[Wolfgang Winkler (Schauspieler)|Schneider]] (22)
+|[[Scarlett Kleint]], [[Michael Illner]]
+|[[Marco Serafini]]
+|
+|-
+|251
+|[[Polizeiruf 110: Mama kommt bald wieder|Mama kommt bald wieder]]
+|MDR
+|{{DatumZelle|2003-09-07}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (23), [[Wolfgang Winkler (Schauspieler)|Schneider]] (23)
+|[[Lutz Schön]]
+|[[Jürgen Bretzinger]]
+|
+|-
+|252
+|[[Polizeiruf 110: Verloren|Verloren]]
+|NDR
+|{{DatumZelle|2003-09-21}}
+|[[Jens Hinrichs|Hinrichs und Törner]]
+|[[Uwe Steimle|Hinrichs]] (20), [[Henry Hübchen|Törner]] (1)
+|[[Beate Langmaack]]
+|[[Andreas Kleinert]]
+|Erster Fall mit [[Henry Hübchen|Törner]].
+|-
+|253
+|[[Polizeiruf 110: Das Zeichen|Das Zeichen]]
+|[[Rundfunk Berlin-Brandenburg|RBB]]
+|{{DatumZelle|2004-02-15}}{{Anker|A2004}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (3), [[Horst Krause|Krause]] (7)
+|[[Marlis Ewald]]
+|[[Bodo Fürneisen]]
+|
+|-
+|254
+|[[Polizeiruf 110: Barbarossas Rache|Barbarossas Rache]]
+|MDR
+|{{DatumZelle|2004-03-07}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (24), [[Wolfgang Winkler (Schauspieler)|Schneider]] (24)
+|[[Felix Huby]]
+|[[Hartmut Griesmayr]]
+|
+|-
+|255
+|[[Polizeiruf 110: Rosentod|Rosentod]]
+|MDR
+|{{DatumZelle|2004-03-21}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (25), [[Wolfgang Winkler (Schauspieler)|Schneider]] (25)
+|[[Hans Werner (Regisseur)|Hans Werner]], [[Dieter Chill]]
+|[[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+|256
+|[[Polizeiruf 110: Dumm wie Brot|Dumm wie Brot]]
+|NDR
+|{{DatumZelle|2004-05-23}}
+|[[Jens Hinrichs|Hinrichs und Törner]]
+|[[Uwe Steimle|Hinrichs]] (21), [[Henry Hübchen|Törner]] (2)
+|[[Beate Langmaack]]
+|[[Kai Wessel (Regisseur)|Kai Wessel]]
+|
+|-
+|257
+|[[Polizeiruf 110: Mein letzter Wille|Mein letzter Wille]]
+|WDR
+|{{DatumZelle|2004-05-31}}
+|[[Martin Lindow (Schauspieler)|Sigi Möller]], [[Oliver Stritzel|Kalle Küppers]]
+|Möller (8), Küppers (8)
+|[[Thomas Wesskamp]], [[Dirk Salomon]]
+|[[Ulrich Stark]]
+|Letzter Fall mit [[Martin Lindow (Schauspieler)|Möller]] und [[Oliver Stritzel|Küppers]]
+|-
+|258
+|[[Polizeiruf 110: Vater Unser|Vater Unser]]
+|BR
+|{{DatumZelle|2004-08-22}}
+|[[Tauber und Obermaier]]
+|Obermaier (7), Tauber (10)
+|[[Christian Jeltsch]]
+|[[Bernd Schadewald]]
+|
+|-
+|259
+|[[Polizeiruf 110: Winterende|Winterende]]
+|NDR
+|{{DatumZelle|2004-09-12}}
+|[[Jens Hinrichs|Hinrichs und Törner]]
+|[[Uwe Steimle|Hinrichs]] (22), [[Henry Hübchen|Törner]] (3)
+|[[Beate Langmaack]]
+|[[Andreas Kleinert]]
+|
+|-
+|260
+|[[Polizeiruf 110: Der Prinz von Homburg|Der Prinz von Homburg]]
+|HR
+|{{DatumZelle|2004-09-26}}
+|[[Jan-Gregor Kremp|Keller]]
+|Keller (1)
+|[[Titus Selge]]
+|[[Titus Selge]]
+|
+|-
+|261
+|[[Polizeiruf 110: Die Maß ist voll|Die Maß ist voll]]
+|BR
+|{{DatumZelle|2004-10-03}}
+|[[Tauber und Obermaier]]
+|Obermaier (8), Tauber (11)
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]]
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]]
+|
+|-
+|262
+|[[Polizeiruf 110: Ein Bild von einem Mörder|Ein Bild von einem Mörder]]
+|MDR
+|{{DatumZelle|2004-12-19}}
+|[[Schmücke und Schneider]] (Gastauftritt [[Thomas Grawe|Grawe]])
+|[[Jaecki Schwarz|Schmücke]] (26), [[Wolfgang Winkler (Schauspieler)|Schneider]] (26)
+|[[Lise Reiner-Brast]], [[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|[[Thomas Jacob (Regisseur)|Thomas Jacob]]
+|
+|-
+|263
+|[[Polizeiruf 110: Der scharlachrote Engel|Der scharlachrote Engel]]
+|BR
+|{{DatumZelle|2005-02-20}}{{Anker|A2005}}
+|[[Tauber und Obermaier]]
+|Obermaier (9), Tauber (12)
+|[[Günter Schütter]]
+|[[Dominik Graf]]
+| [[Grimme-Preis|Adolf-Grimme-Preis]] mit Gold an Günter Schütter, Dominik Graf, Michaela May, Edgar Selge und [[Nina Kunzendorf]]. [[Deutscher Fernsehpreis 2005]]: ''Beste Krimi-Reihe''.
+|-
+|264
+|[[Polizeiruf 110: Dettmanns weite Welt|Dettmanns weite Welt]]
+|RBB
+|{{DatumZelle|2005-02-27}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (4), [[Horst Krause|Krause]] (8)
+|[[Bernd Böhlich]]
+|[[Bernd Böhlich]]
+|
+|-
+|265
+|[[Polizeiruf 110: Heimkehr in den Tod|Heimkehr in den Tod]]
+|MDR
+|{{DatumZelle|2005-05-01}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (27), [[Wolfgang Winkler (Schauspieler)|Schneider]] (27)
+|[[Clemens Berger (Drehbuchautor)|Clemens Berger]]
+|[[Karola Hattop]]
+|
+|-
+|266
+|[[Polizeiruf 110: Resturlaub|Resturlaub]]
+|NDR
+|{{DatumZelle|2005-05-16}}
+|[[Jens Hinrichs|Hinrichs und Törner]]
+|[[Uwe Steimle|Hinrichs]] (23), [[Henry Hübchen|Törner]] (4)
+|[[Beate Langmaack]]
+|[[Hannu Salonen]]
+|
+|-
+|267
+|[[Polizeiruf 110: Die Prüfung|Die Prüfung]]
+|BR
+|{{DatumZelle|2005-07-03}}
+|[[Tauber und Obermaier]]
+|Obermaier (10), Tauber (13)
+|[[Boris Gullotta]]
+|[[Eoin Moore]]
+|
+|-
+|268
+|[[Polizeiruf 110: Vergewaltigt|Vergewaltigt]]
+|RBB
+|{{DatumZelle|2005-07-17}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (5), [[Horst Krause|Krause]] (9)
+|[[Stefan Kolditz]]
+|[[Christian von Castelberg]]
+|
+|-
+|269
+|[[Polizeiruf 110: Vollgas|Vollgas]]
+|MDR
+|{{DatumZelle|2005-09-11}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (28), [[Wolfgang Winkler (Schauspieler)|Schneider]] (28)
+|[[Felix Huby]]
+|[[Hartmut Griesmayr]]
+|
+|-
+|270
+|[[Polizeiruf 110: Die Tote aus der Saale|Die Tote aus der Saale]]
+|MDR
+|{{DatumZelle|2005-12-04}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (29), [[Wolfgang Winkler (Schauspieler)|Schneider]] (29)
+|[[Clemens Berger (Drehbuchautor)|Clemens Berger]], [[Lutz Schön]]
+|[[Marco Serafini]]
+|
+|-
+|271
+|[[Polizeiruf 110: Vorwärts wie rückwärts|Vorwärts wie rückwärts]]
+|NDR
+|{{DatumZelle|2005-12-11}}
+|[[Jens Hinrichs|Hinrichs und Törner]]
+|[[Uwe Steimle|Hinrichs]] (24), [[Henry Hübchen|Törner]] (5)
+|[[Beate Langmaack]]
+|[[Hannu Salonen]]
+|Letzter Fall mit [[Henry Hübchen|Törner]].
+|-
+|272
+|[[Polizeiruf 110: Kleine Frau|Kleine Frau]]
+|RBB
+|{{DatumZelle|2006-01-08}}{{Anker|A2006}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (6), [[Horst Krause|Krause]] (10)
+|[[Stefan Rogall]]
+|[[Andreas Kleinert]]
+|[[Grimme-Preis|Adolf-Grimme-Preis]] an Stefan Rogall, Andreas Kleinert, [[Thomas Plenert]] (Kamera), [[Imogen Kogge]] und [[Johanna Gastdorf]].
+|-
+|273
+|[[Polizeiruf 110: Die Mutter von Monte Carlo|Die Mutter von Monte Carlo]]
+|HR
+|{{DatumZelle|2006-01-29}}
+|[[Jan-Gregor Kremp|Keller]]
+|Keller (2)
+|[[Titus Selge]]
+|[[Titus Selge]]
+|Gastauftritt von [[Jörg Schüttauf]] als Frankfurter Tatort-Kommissar [[Dellwo und Sänger|Fritz Dellwo]]
+|-
+|274
+|[[Polizeiruf 110: Schneewittchen|Schneewittchen]]
+|MDR
+|{{DatumZelle|2006-02-12}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (30), [[Wolfgang Winkler (Schauspieler)|Schneider]] (30)
+|[[Rodica Doehnert]]
+|[[Christiane Balthasar]]
+|
+|-
+|275
+|[[Polizeiruf 110: Tod im Ballhaus|Tod im Ballhaus]]
+|MDR
+|{{DatumZelle|2006-04-09}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (31), [[Wolfgang Winkler (Schauspieler)|Schneider]] (31)
+|[[Peter Kahane]], [[Hans Werner (Regisseur)|Hans Werner]]
+|[[Hans Werner (Regisseur)|Hans Werner]]
+|
+|-
+|276
+|[[Polizeiruf 110: Matrosenbraut|Matrosenbraut]]
+|NDR
+|{{DatumZelle|2006-04-30}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (25), [[Felix Eitner|Tellheim]] (1)
+|[[Beate Langmaack]]
+|[[Christine Hartmann]]
+|Erster Fall mit [[Felix Eitner|Tellheim]].
+|-
+|277
+|[[Polizeiruf 110: Er sollte tot|Er sollte tot]]
+|BR
+|{{DatumZelle|2006-08-06}}
+|[[Tauber und Obermaier]]
+|Obermaier (11), Tauber (14)
+|[[Rolf Basedow]]
+|[[Dominik Graf]]
+|[[Grimme-Preis|Adolf-Grimme-Preis]] an Rolf Basedow, Dominik Graf, Edgar Selge und [[Rosalie Thomass]]. Sonderpreis für das [[Drehbuch]] beim [[Fernsehfilmfestival Baden-Baden]] 2006. [[Deutscher Fernsehpreis 2006]]: Förderpreis an Rosalie Thomass.
+|-
+|278
+|[[Polizeiruf 110: Bis dass der Tod euch scheidet|Bis dass der Tod euch scheidet]]
+|MDR
+|{{DatumZelle|2006-08-13}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (32), [[Wolfgang Winkler (Schauspieler)|Schneider]] (32)
+|[[Kerstin Höckel]], [[Michael Wallner]]
+|[[Elsa Kern]]
+|
+|-
+|279
+|[[Polizeiruf 110: Traumtod|Traumtod]]
+|NDR
+|{{DatumZelle|2006-09-03}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (26), [[Felix Eitner|Tellheim]] (2)
+|[[Ulli Stephan]]
+|[[Christine Hartmann]]
+|
+|-
+|280
+|[[Polizeiruf 110: Die Lettin und ihr Lover|Die Lettin und ihr Lover]]
+|HR
+|{{DatumZelle|2006-09-17}}
+|[[Jan-Gregor Kremp|Keller]]
+|Keller (3)
+|[[Titus Selge]]
+|[[Titus Selge]]
+|
+|-
+|281
+|[[Polizeiruf 110: Mit anderen Augen|Mit anderen Augen]]
+|BR
+|{{DatumZelle|2006-10-22}}
+|[[Tauber und Obermaier]]
+|Obermaier (12), Tauber (15)
+|[[Christian Limmer]]
+|[[Buddy Giovinazzo]]
+|
+|-
+|282
+|[[Polizeiruf 110: Dunkler Sommer|Dunkler Sommer]]
+|NDR
+|{{DatumZelle|2007-01-14}}{{Anker|A2007}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (27), [[Felix Eitner|Tellheim]] (3)
+|[[Ulli Stephan]]
+|[[Hendrik Handloegten]]
+|
+|-
+|283
+|[[Polizeiruf 110: Taubers Angst|Taubers Angst]]
+|BR
+|{{DatumZelle|2007-02-04}}
+|[[Tauber und Obermaier]]
+|Obermaier (13), Tauber (16)
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]]
+|[[Klaus Krämer (Regisseur)|Klaus Krämer]]
+|
+|-
+|284
+|[[Polizeiruf 110: Tod in der Bank|Tod in der Bank]]
+|MDR
+|{{DatumZelle|2007-05-13}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (33), [[Wolfgang Winkler (Schauspieler)|Schneider]] (33)
+|[[Hans-Werner Honert]]
+|[[Dirk Regel]]
+|
+|-
+|285
+|[[Polizeiruf 110: Gefährliches Vertrauen|Gefährliches Vertrauen]]
+|RBB
+|{{DatumZelle|2007-06-03}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (7), [[Horst Krause|Krause]] (11)
+|[[Felix Mennen]], [[Jan Hellstern]]
+|[[Bodo Fürneisen]]
+|
+|-
+|286
+|[[Polizeiruf 110: Verstoßen|Verstoßen]]
+|MDR
+|{{DatumZelle|2007-06-17}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (34), [[Wolfgang Winkler (Schauspieler)|Schneider]] (34)
+|[[Nicolas Jacob]], [[Olaf Winkler]], [[Marco Serafini]]
+|[[Marco Serafini]]
+|
+|-
+|287
+|[[Polizeiruf 110: Tod eines Fahnders|Tod eines Fahnders]]
+|MDR
+|{{DatumZelle|2007-08-19}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (35), [[Wolfgang Winkler (Schauspieler)|Schneider]] (35)
+|[[Clemens Berger (Drehbuchautor)|Clemens Berger]]
+|[[Wolfgang Münstermann]]
+|
+|-
+|288
+|[[Polizeiruf 110: Farbwechsel|Farbwechsel]]
+|NDR
+|{{DatumZelle|2007-09-02}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (28), [[Felix Eitner|Tellheim]] (4)
+|[[Rolf Greulich]]
+|[[Hans-Erich Viet]]
+|
+|-
+|289
+|[[Polizeiruf 110: Jenseits|Jenseits]]
+|BR
+|{{DatumZelle|2007-11-04}}
+|[[Tauber und Obermaier]]
+|Obermaier (14), Tauber (17)
+|[[Markus Thebe]], [[Boris Gullotta]]
+|[[Eoin Moore]]
+|
+|-
+|290
+|[[Polizeiruf 110: Kellers Kind|Kellers Kind]]
+|HR
+|{{DatumZelle|2008-01-13}}{{Anker|A2008}}
+|[[Jan-Gregor Kremp|Keller]]
+|Keller (4)
+|[[Titus Selge]]
+|[[Titus Selge]]
+|
+|-
+|291
+|[[Polizeiruf 110: Geliebter Mörder|Geliebter Mörder]]
+|RBB
+|{{DatumZelle|2008-02-03}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (8), [[Horst Krause|Krause]] (12)
+|[[Daniela Mohr]]
+|[[Christiane Balthasar]]
+|
+|-
+|292
+|[[Polizeiruf 110: Wie ist die Welt so stille|Wie ist die Welt so stille]]
+|BR
+|{{DatumZelle|2008-04-13}}
+|[[Tauber und Obermaier]]
+|Obermaier (15), Tauber (18)
+|[[Alexander Buresch]], [[Alain Gsponer]]
+|[[Alain Gsponer]]
+|
+|-
+|293
+|[[Polizeiruf 110: Keiner schreit|Keiner schreit]]
+|MDR
+|{{DatumZelle|2008-06-01}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (36), [[Wolfgang Winkler (Schauspieler)|Schneider]] (36)
+|[[Annette Hess]], [[Alexander Pfeuffer]]
+|[[Jürgen Brauer]]
+|
+|-
+|294
+|[[Polizeiruf 110: Rosis Baby|Rosis Baby]]
+|BR
+|{{DatumZelle|2008-08-03}}
+|[[Tauber und Obermaier]]
+|Obermaier (16), Tauber (19)
+|[[Matthias Pacht]], [[Alexander Buresch]]
+|[[Andreas Kleinert]]
+|
+|-
+|295
+|[[Polizeiruf 110: Verdammte Sehnsucht|Verdammte Sehnsucht]]
+|RBB
+|{{DatumZelle|2008-08-24}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (9), [[Horst Krause|Krause]] (13)
+|[[Stefan Rogall]]
+|[[Bodo Fürneisen]]
+|
+|-
+|296
+|[[Polizeiruf 110: Taximord|Taximord]]
+|MDR
+|{{DatumZelle|2008-09-07}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (37), [[Wolfgang Winkler (Schauspieler)|Schneider]] (37)
+|[[Arthur Böttger]]<!--- wird so laut Vorspann geschrieben --->
+|[[Mathias Luther]]
+|
+|-
+|297
+|[[Polizeiruf 110: Eine Maria aus Stettin|Eine Maria aus Stettin]]
+|NDR
+|{{DatumZelle|2008-09-21}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (29), [[Felix Eitner|Tellheim]] (5)
+|[[Eckhard Theophil]]
+|[[Stephan Wagner (Regisseur)|Stefan Wagner]]
+|
+|-
+|298
+|[[Polizeiruf 110: Wolfsmilch|Wolfsmilch]]
+|MDR
+|{{DatumZelle|2008-11-02}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (38), [[Wolfgang Winkler (Schauspieler)|Schneider]] (38)
+|[[Hans-Werner Honert]]
+|[[Hajo Gies]]
+|
+|-
+|299
+|[[Polizeiruf 110: Schweineleben|Schweineleben]]
+|NDR
+|{{DatumZelle|2009-01-11}}{{Anker|A2009}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (30), [[Felix Eitner|Tellheim]] (6)
+|[[Rolf Greulich]]
+|[[Eoin Moore]]
+|
+|-
+|300
+|[[Polizeiruf 110: Fehlschuss|Fehlschuss]]
+|MDR
+|{{DatumZelle|2009-04-05}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (39), [[Wolfgang Winkler (Schauspieler)|Schneider]] (39)
+|[[Thorsten Näter]]
+|[[Thorsten Näter]]
+|
+|-
+|301
+|[[Polizeiruf 110: Der Tod und das Mädchen|Der Tod und das Mädchen]]
+|MDR
+|{{DatumZelle|2009-05-17}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (40), [[Wolfgang Winkler (Schauspieler)|Schneider]] (40)
+|[[Xaõ Seffcheque]], [[Jürgen Starbatty]]
+|[[Karola Hattop]]
+|
+|-
+|302
+|[[Polizeiruf 110: Die armen Kinder von Schwerin|Die armen Kinder von Schwerin]]
+|NDR
+|{{DatumZelle|2009-06-28}}
+|[[Jens Hinrichs|Hinrichs und Tellheim]]
+|[[Uwe Steimle|Hinrichs]] (31), [[Felix Eitner|Tellheim]] (7)
+|[[Christine Hartmann]], [[Eckhard Theophil]]
+|[[Christine Hartmann]]
+|Letzter Fall mit [[Uwe Steimle|Hinrichs]] und [[Felix Eitner|Tellheim]].
+|-
+|303
+|[[Polizeiruf 110: Tod im Atelier|Tod im Atelier]]
+|MDR
+|{{DatumZelle|2009-08-09}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (41), [[Wolfgang Winkler (Schauspieler)|Schneider]] (41)
+|[[Thorsten Näter]]
+|[[Thorsten Näter]]
+|
+|-
+|304
+|[[Polizeiruf 110: Alles Lüge|Alles Lüge]]
+|RBB
+|{{DatumZelle|2009-08-30}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (10), [[Horst Krause|Krause]] (14)
+|[[Stefan Rogall]]
+|[[Ed Herzog]]
+|
+|-
+|305
+|[[Polizeiruf 110: Endspiel|Endspiel]]
+|BR
+|{{DatumZelle|2009-11-08}}
+|[[Tauber und Obermaier]]
+|Obermaier (17), Tauber (20)
+|[[Alexander Adolph]]
+|[[Andreas Kleinert]]
+|Letzter Fall mit [[Michaela May|Obermaier]] und [[Edgar Selge|Tauber]].
+|-
+|306
+|[[Polizeiruf 110: Klick gemacht|Klick gemacht]]
+|BR
+|{{DatumZelle|2009-11-29}}
+|[[Jörg Hube|Papen]], [[Stefanie Stappenbeck|Steiger]]
+|Papen (1), Steiger (1)
+|[[Christian Jeltsch]]
+|[[Stephan Wagner (Regisseur)|Stephan Wagner]]
+|Einziger Fall mit [[Jörg Hube]] (†).
+|-
+|307
+|[[Polizeiruf 110: Falscher Vater|Falscher Vater]]
+|RBB
+|{{DatumZelle|2009-12-20}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (11), [[Horst Krause|Krause]] (15)
+|[[Nils Willbrandt]], [[Claudia Kock]]
+|[[Nils Willbrandt]]
+|
+|-
+|308
+|[[Polizeiruf 110: Schatten|Schatten]]
+|MDR
+|{{DatumZelle|2010-03-07}}{{Anker|A2010}}
+|[[Schmücke und Schneider]]
+|[[Jaecki Schwarz|Schmücke]] (42), [[Wolfgang Winkler (Schauspieler)|Schneider]] (42)
+|[[Hans-Werner Honert]], [[Renate Ziemer]]
+|[[Jorgo Papavassiliou]]
+|
+|-
+|309
+|[[Polizeiruf 110: Blutiges Geld|Blutiges Geld]]
+|MDR
+|{{DatumZelle|2010-04-05}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (43), [[Wolfgang Winkler (Schauspieler)|Schneider]] (43), [[Isabell Gerschke|Lindner]] (1)
+|[[Michael Arnal]], [[Hans Werner (Regisseur)|Hans Werner]]
+|[[Hans Werner (Regisseur)|Hans Werner]]
+|Erster Fall mit [[Isabell Gerschke|Nora Lindner]], die das Team [[Jaecki Schwarz|Schmücke]] und [[Wolfgang Winkler (Schauspieler)|Schneider]] verstärkt.
+|-
+|310
+|[[Polizeiruf 110: Die Lücke, die der Teufel lässt|Die Lücke, die der Teufel lässt]]
+|BR
+|{{DatumZelle|2010-04-11}}
+|[[Stefanie Stappenbeck|Steiger]]
+|Steiger (2)
+|[[Dirk Kämper]]
+|[[Lars Montag]]
+|Der 2009 verstorbene Jörg Hube (Friedrich Papen) wird durch ein Double ersetzt.
+|-
+|311
+|[[Polizeiruf 110: Einer von uns|Einer von uns]]
+|NDR
+|{{DatumZelle|2010-04-18}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (1), [[Anneke Kim Sarnau|König]] (1)
+|[[Eoin Moore]]
+|[[Eoin Moore]]
+|Erster Fall von [[Anneke Kim Sarnau|Katrin König]] und [[Charly Hübner|Alexander Bukow]].
+|-
+|312
+|[[Polizeiruf 110: Aquarius|Aquarius]]
+|NDR
+|{{DatumZelle|2010-05-02}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (2), [[Anneke Kim Sarnau|König]] (2)
+|[[Edward Berger]], [[Martin Rosefeldt]]
+|[[Edward Berger]]
+|
+|-
+|313
+|[[Polizeiruf 110: Zapfenstreich|Zapfenstreich]]
+|BR
+|{{DatumZelle|2010-05-09}}
+|[[Stefanie Stappenbeck|Steiger]], [[Lars Eidinger|Reiter]]
+|Steiger (3), Reiter (1)
+|[[Andreas Schlüter (Schriftsteller)|Andreas Schlüter]], [[Mario Giordano]]
+|[[Christoph Stark (Regisseur)|Christoph Stark]]
+|Letzter Fall mit [[Stefanie Stappenbeck|Ulrike Steiger]]. Einziger Fall mit [[Lars Eidinger|Reiter]].
+|-
+|314
+|[[Polizeiruf 110: Risiko|Risiko]]
+|MDR
+|{{DatumZelle|2010-08-15}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (44), [[Wolfgang Winkler (Schauspieler)|Schneider]] (44), [[Isabell Gerschke|Lindner]] (2)
+|[[Xaõ Seffcheque]], [[Jürgen Starbatty]]
+|[[Thorsten Schmidt (Regisseur)|Thorsten Schmidt]]
+|
+|-
+|315
+|[[Polizeiruf 110: Fremde im Spiegel|Fremde im Spiegel]]
+|RBB
+|{{DatumZelle|2010-11-07}}
+||[[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+|Herz (12), [[Horst Krause|Krause]] (16)
+|[[Annette Hess]]
+|[[Ed Herzog]]
+|Letzter Fall mit [[Imogen Kogge|Johanna Herz]].
+|-
+|316
+|[[Polizeiruf 110: Feindbild|Feindbild]]
+|NDR
+|{{DatumZelle|2011-02-06}}{{Anker|A2011}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (3), [[Anneke Kim Sarnau|König]] (3)
+|[[Eoin Moore]]
+|[[Eoin Moore]]
+|[[Grimme-Preis]]-Nominierung „Spezial“ 2012 an [[Charly Hübner]] und [[Anneke Kim Sarnau]].
+|-
+|317
+|[[Polizeiruf 110: Leiser Zorn|Leiser Zorn]]
+|MDR
+|{{DatumZelle|2011-03-13}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (45), [[Wolfgang Winkler (Schauspieler)|Schneider]] (45), [[Isabell Gerschke|Lindner]] (3)
+|[[Thorsten Näter]]
+|[[Thorsten Näter]]
+|
+|-
+|318
+|[[Polizeiruf 110: Ein todsicherer Plan|Ein todsicherer Plan]]
+|MDR
+|{{DatumZelle|2011-04-17}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (46), [[Wolfgang Winkler (Schauspieler)|Schneider]] (46), [[Isabell Gerschke|Lindner]] (4)
+|[[Matthias Herbert]]
+|[[Jorgo Papavassiliou]]
+|
+|-
+|319
+|[[Polizeiruf 110: …und raus bist du!|…und raus bist du!]]
+|NDR
+|{{DatumZelle|2011-05-22}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (4), [[Anneke Kim Sarnau|König]] (4)
+|[[Wolfgang Stauch]]
+|[[Christian von Castelberg]]
+|[[Grimme-Preis]]-Nominierung „Spezial“ 2012 an Charly Hübner und Anneke Kim Sarnau.
+|-
+|<nowiki>–</nowiki>
+|[[Polizeiruf 110: Im Alter von …|Im Alter von …]]
+|Fernsehen der DDR (1974); MDR (2011)
+|{{DatumZelle|2011-06-23}}
+|[[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]], [[Jürgen Frohriep|Jürgen Hübner]]
+|Fuchs, Arndt, Hübner
+|[[Heinz H. Seibert]]
+|[[Heinz H. Seibert]] (1974), [[Hans Werner (Regisseur)|Hans Werner]] (2011)
+|Film sollte vor der Fertigstellung [[Polizeiruf 110#Wiederholungen und verschollene Folgen|auf Anordnung vernichtet]] werden. Das 2009 aufgefundene Kameranegativ wurde neu bearbeitet und synchronisiert.
+|-
+|320
+|[[Polizeiruf 110: Die verlorene Tochter|Die verlorene Tochter]]
+|RBB
+|{{DatumZelle|2011-06-26}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (1), [[Horst Krause|Krause]] (17)
+|[[Annette Hess]], [[Bernd Böhlich]]
+|[[Bernd Böhlich]]
+|Erster Fall mit [[Maria Simon|Olga Lenski]], Jubiläumsfolge 40 Jahre Polizeiruf.<ref>Katja Hübner: [https://www.tagesspiegel.de/medien/tv-krimi-sehr-sozialistisch-sehr-beliebig/4323884.html ''Sehr sozialistisch – sehr beliebig''.] Tagesspiegel, 25. Juni 2011.</ref><ref>{{Webarchiv|url=http://www.mediabiz.de/film/news/ard-feiert-40-jahre-polizeiruf-mit-maria-simon/305322/1623 |wayback=20150626112716 |text=''ARD feiert 40 Jahre „Polizeiruf“ mit Maria Simon''. |archiv-bot=2026-05-02 05:16:01 InternetArchiveBot }} mediabiz.de, 19. Mai 2011.</ref>
+|-
+|321
+|[[Polizeiruf 110: Cassandras Warnung|Cassandras Warnung]]
+|BR
+|{{DatumZelle|2011-08-21}}
+|[[Hanns von Meuffels|von Meuffels und Burnhauser]]
+|[[Matthias Brandt|von Meuffels]] (1), [[Anna Maria Sturm|Burnhauser]] (1)
+|[[Günter Schütter]]
+|[[Dominik Graf]]
+|Erster Fall mit [[Matthias Brandt|von Meuffels]] und [[Anna Maria Sturm|Burnhauser]]. [[Hamburger Krimipreis]] 2012 an Dominik Graf. Nominiert für den [[Grimme-Preis]] 2012.
+|-
+|322
+|[[Polizeiruf 110: Denn sie wissen nicht, was sie tun|Denn sie wissen nicht, was sie tun]]
+|BR
+|{{DatumZelle|2011-09-23}}
+|[[Hanns von Meuffels|von Meuffels und Burnhauser]]
+|[[Matthias Brandt|von Meuffels]] (2), [[Anna Maria Sturm|Burnhauser]] (2)
+|[[Christian Jeltsch]]
+|[[Hans Steinbichler]]
+|Wegen [[Jugendschutz]]bedenken des BR Freitags um 22:00 Uhr ausgestrahlt. Nominiert für die Wettbewerbe des [[Fernsehfilmfestival Baden-Baden|Fernsehfilm-Festivals Baden-Baden]] 2011.
+|-
+|323
+|[[Polizeiruf 110: Blutige Straße|Blutige Straße]]
+|MDR
+|{{DatumZelle|2011-10-30}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (47), [[Wolfgang Winkler (Schauspieler)|Schneider]] (47), [[Isabell Gerschke|Lindner]] (5)
+|[[Hans-Werner Honert]]
+|[[Dror Zahavi]]
+|
+|-
+|324
+|[[Polizeiruf 110: Zwei Brüder|Zwei Brüder]]
+|RBB
+|{{DatumZelle|2011-11-13}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (2), [[Horst Krause|Krause]] (18)
+|[[Stefan Kuhlmann (Autor)|Stefan Kuhlmann]], [[Nils Willbrandt]]
+|[[Nils Willbrandt]]
+|
+|-
+|325
+|[[Polizeiruf 110: Einer trage des anderen Last|Einer trage des anderen Last]]
+|NDR
+|{{DatumZelle|2012-02-19}}{{Anker|A2012}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (5), [[Anneke Kim Sarnau|König]] (5)
+|[[Eckhard Theophil]]
+|[[Christian von Castelberg]]
+|
+|-
+|326
+|[[Polizeiruf 110: Raubvögel|Raubvögel]]
+|MDR
+|{{DatumZelle|2012-03-18}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (48), [[Wolfgang Winkler (Schauspieler)|Schneider]] (48), [[Isabell Gerschke|Lindner]] (6)
+|[[Andreas Pflüger (Autor)|Andreas Pflüger]]
+|[[Esther Wenger]]
+|
+|-
+|327
+|[[Polizeiruf 110: Die Gurkenkönigin|Die Gurkenkönigin]]
+|RBB
+|{{DatumZelle|2012-04-15}}
+|[[Sophie Rois|Tamara Rusch]], [[Horst Krause (Filmfigur)|Horst Krause]]
+|Rusch (1), [[Horst Krause|Krause]] (19)
+|[[Wolfgang Stauch]]
+|[[Ed Herzog]]
+|Tamara Rusch vertritt die schwangere [[Maria Simon|Olga Lenski]]. Nominiert für die Wettbewerbe des [[Fernsehfilmfestival Baden-Baden|Fernsehfilm-Festivals Baden-Baden]] 2012.
+|-
+|328
+|[[Polizeiruf 110: Schuld|Schuld]]
+|BR
+|{{DatumZelle|2012-04-29}}
+|[[Hanns von Meuffels|von Meuffels und Burnhauser]]
+|[[Matthias Brandt|von Meuffels]] (3), [[Anna Maria Sturm|Burnhauser]] (3)
+|[[Stefan Kolditz]]
+|[[Hans Steinbichler]]
+| [[Deutscher Schauspielerpreis]] 2013: Bestes Ensemble. Nominiert für den [[Grimme-Preis]] 2013.
+|-
+|329
+|[[Polizeiruf 110: Bullenklatschen|Bullenklatschen]]
+|MDR
+|{{DatumZelle|2012-05-20}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (49), [[Wolfgang Winkler (Schauspieler)|Schneider]] (49), [[Isabell Gerschke|Lindner]] (7)
+|[[Matthias Herbert]]
+|[[Thorsten Schmidt (Regisseur)|Thorsten Schmidt]]
+|
+|-
+|330
+|[[Polizeiruf 110: Stillschweigen|Stillschweigen]]
+|NDR
+|{{DatumZelle|2012-09-30}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (6), [[Anneke Kim Sarnau|König]] (6)
+|[[Eoin Moore]]
+|[[Eoin Moore]]
+|
+|-
+|331
+|[[Polizeiruf 110: Fieber|Fieber]]
+|BR
+|{{DatumZelle|2012-11-04}}
+|[[Hanns von Meuffels|von Meuffels und Burnhauser]]
+|[[Matthias Brandt|von Meuffels]] (4), [[Anna Maria Sturm|Burnhauser]] (4)
+|[[Alexander Buresch]], [[Matthias Pacht]]
+|[[Hendrik Handloegten]]
+|Uraufgeführt am 30. September 2012 beim Filmfest Hamburg<ref>Filmfest Hamburg: {{Webarchiv |url=http://www.filmfesthamburg.de/de/programm/film/Polizeiruf-110%3A-Fieber/8409 |text=''Polizeiruf 110: Fieber'' |archive-is=20130211132507}}</ref>
+|-
+|332
+|[[Polizeiruf 110: Eine andere Welt|Eine andere Welt]]
+|RBB
+|{{DatumZelle|2012-12-23}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (3), [[Horst Krause|Krause]] (20)
+|[[Clemens Murath]]
+|[[Nicolai Rohde]]
+|
+|-
+|333
+|[[Polizeiruf 110: Fischerkrieg|Fischerkrieg]]
+|NDR
+|{{DatumZelle|2013-01-20}}{{Anker|A2013}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (7), [[Anneke Kim Sarnau|König]] (7)
+|[[Florian Oeller]]
+|[[Alexander Dierbach]]
+|[[Bayerischer Fernsehpreis]] 2013 an Charly Hübner als bester Schauspieler in der Kategorie „Serien und Reihen“
+|-
+|334
+|[[Polizeiruf 110: Laufsteg in den Tod|Laufsteg in den Tod]]
+|MDR
+|{{DatumZelle|2013-03-03}}
+|[[Schmücke und Schneider|Schmücke, Schneider und Lindner]]
+|[[Jaecki Schwarz|Schmücke]] (50), [[Wolfgang Winkler (Schauspieler)|Schneider]] (50), [[Isabell Gerschke|Lindner]] (8)
+|[[Hans Werner (Regisseur)|Hans Werner]], [[Peter Gust]]
+|[[Hans Werner (Regisseur)|Hans Werner]]
+|Letzter Fall des gesamten Teams. Mit 9,37 Millionen Zuschauern die erfolgreichste Folge seit fast 20 Jahren und die dritterfolgreichste Folge überhaupt.<ref>{{Internetquelle |url=http://www.stimme.de/deutschland-welt/panorama/report/tv-news/Hallenser-Polizeiruf-Schwarz-und-Winkler-gehen-mit-Topquote;art4337,2741249 |titel=Hallenser "Polizeiruf": Schwarz und Winkler gehen mit Topquote |werk=stimme.de |datum=2013-03-07 |sprache=de |offline=1 |archiv-url=https://web.archive.org/web/20141205034427/http://www.stimme.de/deutschland-welt/panorama/report/tv-news/Hallenser-Polizeiruf-Schwarz-und-Winkler-gehen-mit-Topquote;art4337,2741249 |archiv-datum=2014-12-05 |abruf=2018-08-29}}</ref>
+|-
+|335
+|[[Polizeiruf 110: Vor aller Augen|Vor aller Augen]]
+|RBB
+|{{DatumZelle|2013-05-05}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (4), [[Horst Krause|Krause]] (21)
+|[[Bernd Böhlich]]
+|[[Bernd Böhlich]]
+|
+|-
+|336
+|[[Polizeiruf 110: Der Tod macht Engel aus uns allen|Der Tod macht Engel aus uns allen]]
+|BR
+|{{DatumZelle|2013-07-14}}
+|[[Hanns von Meuffels|von Meuffels und Burnhauser]]
+|[[Matthias Brandt|von Meuffels]] (5), [[Anna Maria Sturm|Burnhauser]] (5)
+|[[Günter Schütter]]
+|[[Jan Bonny]]
+|Uraufgeführt am 4. Juli 2013 beim [[Filmfest München]]<ref>{{Webarchiv |url=http://www.filmfest-muenchen.de/de/filmprogramm/film-abc.aspx?filmId=3914 |text=''Der Tod macht Engel aus uns allen'' beim Filmfest München |archive-is=20130713045958}}</ref><br />[[Hamburger Krimipreis|Jürgen-Roland-Preis]] 2014 für Regisseur [[Jan Bonny]]<br />Letzter Fall mit [[Anna Maria Sturm|Burnhauser]].
+|-
+|337
+|[[Polizeiruf 110: Zwischen den Welten|Zwischen den Welten]]
+|NDR
+|{{DatumZelle|2013-08-25}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (8), [[Anneke Kim Sarnau|König]] (8)
+|[[Michael B. Müller]],<br />[[Jens Köster]],<br />Drehbuchbearbeitung: [[Thomas Stiller]],<br />Headautor: [[Eoin Moore]]
+|[[René Heisig]]
+|
+|-
+|338
+|[[Polizeiruf 110: Kinderparadies|Kinderparadies]]
+|BR
+|{{DatumZelle|2013-09-29}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (6)
+|[[Daniel Nocke]],<br />[[Leander Haußmann]]
+|[[Leander Haußmann]]
+|
+|-
+|339
+|[[Polizeiruf 110: Der verlorene Sohn|Der verlorene Sohn]]
+|MDR
+|{{DatumZelle|2013-10-13}}
+|[[Doreen Brasch|Brasch und Drexler]]
+|[[Claudia Michelsen|Brasch]] (1), [[Sylvester Groth|Drexler]] (1)
+|[[Christoph Fromm]], [[Friedemann Fromm]]
+|[[Friedemann Fromm]]
+|Erster Fall mit [[Claudia Michelsen|Brasch]] und [[Sylvester Groth|Drexler]]
+|-
+|340
+|[[Polizeiruf 110: Wolfsland|Wolfsland]]
+|RBB
+|{{DatumZelle|2013-12-15}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (5), [[Horst Krause|Krause]] (22)
+|[[Rainer Butt]], [[Ed Herzog]]
+|[[Ed Herzog]]
+|
+|-
+|341
+|[[Polizeiruf 110: Liebeswahn|Liebeswahn]]
+|NDR
+|{{DatumZelle|2014-01-12}}{{Anker|A2014}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (9), [[Anneke Kim Sarnau|König]] (9)
+|[[Thomas Stiller]]
+|[[Thomas Stiller]]
+|
+|-
+|342
+|[[Polizeiruf 110: Käfer und Prinzessin|Käfer und Prinzessin]]
+|RBB
+|{{DatumZelle|2014-04-06}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (6), [[Horst Krause|Krause]] (23)
+|[[Clemens Murath]]
+|[[Robert Thalheim]]
+|
+|-
+|343
+|[[Polizeiruf 110: Abwärts|Abwärts]]
+|MDR
+|{{DatumZelle|2014-07-06}}
+|[[Doreen Brasch|Brasch und Drexler]]
+|[[Claudia Michelsen|Brasch]] (2), [[Sylvester Groth|Drexler]] (2)
+|[[Nils Willbrandt]]
+|[[Nils Willbrandt]]
+|
+|-
+|344
+|[[Polizeiruf 110: Morgengrauen|Morgengrauen]]
+|BR
+|{{DatumZelle|2014-08-24}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (7)
+|[[Alexander Adolph]]
+|[[Alexander Adolph]]
+|
+|-
+|345
+|[[Polizeiruf 110: Smoke on the Water|Smoke on the Water]]
+|BR
+|{{DatumZelle|2014-10-19}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (8)
+|[[Günter Schütter]]
+|[[Dominik Graf]]
+|
+|-
+|346
+|[[Polizeiruf 110: Familiensache|Familiensache]]
+|NDR
+|{{DatumZelle|2014-11-02}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (10), [[Anneke Kim Sarnau|König]] (10)
+|[[Eoin Moore]]
+|[[Eoin Moore]]
+|Uraufführung und Auszeichnung mit dem TV-Produzentenpreis beim [[Filmfest Hamburg]] 2014<ref>[https://www.abendblatt.de/hamburg/article132836128/NDR-Polizeiruf-110-gewinnt-Produzentenpreis.html ''NDR Polizeiruf 110 gewinnt Produzentenpreis.''] Hamburger Abendblatt, 1. Oktober 2014</ref>
+|-
+|347
+|[[Polizeiruf 110: Eine mörderische Idee|Eine mörderische Idee]]
+|MDR
+|{{DatumZelle|2014-11-09}}
+|[[Doreen Brasch|Brasch und Drexler]]
+|[[Claudia Michelsen|Brasch]] (3), [[Sylvester Groth|Drexler]] (3)
+|[[Stephan Brüggenthies]], [[Olaf Kaiser]], [[Stephan Rick]]
+|[[Stephan Rick]]
+|
+|-
+|348
+|[[Polizeiruf 110: Hexenjagd|Hexenjagd]]
+|RBB
+|{{DatumZelle|2014-12-14}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (7), [[Horst Krause|Krause]] (24)
+|[[Kristin Derfler]], [[Angelina Maccarone]]
+|[[Angelina Maccarone]]
+|
+|-
+|349
+|[[Polizeiruf 110: Sturm im Kopf|Sturm im Kopf]]
+|NDR
+|{{DatumZelle|2015-03-01}}{{Anker|A2015}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (11), [[Anneke Kim Sarnau|König]] (11)
+|[[Florian Oeller]]
+|[[Christian von Castelberg]]
+|
+|-
+|350
+|[[Polizeiruf 110: Ikarus|Ikarus]]
+|RBB
+|{{DatumZelle|2015-05-10}}
+|[[Olga Lenski]] und [[Horst Krause (Filmfigur)|Horst Krause]]
+|[[Maria Simon|Lenski]] (8), [[Horst Krause|Krause]] (25)
+|[[Uwe Wilhelm]]
+|[[Peter Kahane]]
+|Letzter Fall mit [[Horst Krause (Filmfigur)|Krause]]
+|-
+|351
+|[[Polizeiruf 110: Kreise|Kreise]]
+|BR
+|{{DatumZelle|2015-06-28}}
+|[[Hanns von Meuffels|von Meuffels]] und [[Barbara Auer|Hermann]]
+|[[Matthias Brandt|von Meuffels]] (9), [[Barbara Auer|Hermann]] (1)
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|
+|-
+|352
+|[[Polizeiruf 110: Wendemanöver|Wendemanöver (1)]]
+|NDR und MDR
+|{{DatumZelle|2015-09-27}}
+|[[Bukow und König]] und [[Doreen Brasch|Brasch und Drexler]]
+|[[Charly Hübner|Bukow]] (12), [[Anneke Kim Sarnau|König]] (12), [[Claudia Michelsen|Brasch]] (4), [[Sylvester Groth|Drexler]] (4)
+|[[Thomas Kirchner (Drehbuchautor)|Thomas Kirchner]], [[Eoin Moore]] und [[Anika Wangard]]
+|[[Eoin Moore]]
+|Erster Teil einer Doppelfolge
+|-
+|353
+|[[Polizeiruf 110: Wendemanöver|Wendemanöver (2)]]
+|NDR und MDR
+|{{DatumZelle|2015-10-04}}
+|[[Bukow und König]] und [[Doreen Brasch|Brasch und Drexler]]
+|[[Charly Hübner|Bukow]] (13), [[Anneke Kim Sarnau|König]] (13), [[Claudia Michelsen|Brasch]] (5), [[Sylvester Groth|Drexler]] (5)
+|[[Thomas Kirchner (Drehbuchautor)|Thomas Kirchner]], [[Eoin Moore]] und [[Anika Wangard]]
+|[[Eoin Moore]]
+|Zweiter Teil einer Doppelfolge; letzter Fall mit [[Sylvester Groth|Drexler]]
+|-
+|354
+|[[Polizeiruf 110: Grenzgänger|Grenzgänger]]
+|RBB
+|{{DatumZelle|2015-12-20}}
+|[[Olga Lenski]] und Adam Raczek
+|[[Maria Simon|Lenski]] (9), [[Lucas Gregorowicz|Raczek]] (1)
+|[[Claudia Boysen]], [[Uwe Wilhelm]], [[Jakob Ziemnicki]]
+|[[Jakob Ziemnicki]]
+|Erster Fall mit Raczek
+|-
+|355
+|[[Polizeiruf 110: Und vergib uns unsere Schuld|Und vergib uns unsere Schuld]]
+|BR
+|{{DatumZelle|2016-01-17}}{{Anker|A2016}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Hanns von Meuffels|von Meuffels]] (10)
+|[[Alexander Buresch]], [[Matthias Pacht]]
+|[[Marco Kreuzpaintner]]
+|
+|-
+|356
+|[[Polizeiruf 110: Der Preis der Freiheit|Der Preis der Freiheit]]
+|RBB
+|{{DatumZelle|2016-04-17}}
+|[[Olga Lenski|Lenski]] und Raczek
+|[[Maria Simon|Lenski]] (10), [[Lucas Gregorowicz|Raczek]] (2)
+|[[Michael Vershinin]]
+|[[Stephan Rick]]
+|
+|-
+|357
+|[[Polizeiruf 110: Endstation|Endstation]]
+|MDR
+|{{DatumZelle|2016-05-29}}
+|[[Doreen Brasch|Brasch und Köhler]]
+|[[Claudia Michelsen|Brasch]] (6), [[Matthias Matschke|Köhler]] (1)
+|[[Stefan Rogall]]
+|[[Matthias Tiefenbacher]]
+|Erster Fall von [[Matthias Matschke|Dirk Köhler]]
+|-
+|358
+|[[Polizeiruf 110: Wölfe|Wölfe]]
+|BR
+|{{DatumZelle|2016-09-11}}
+|[[Hanns von Meuffels|von Meuffels]] und [[Barbara Auer|Hermann]]
+|[[Matthias Brandt|von Meuffels]] (11), [[Barbara Auer|Hermann]] (2)
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|
+|-
+|359
+||[[Polizeiruf 110: Im Schatten|Im Schatten]]
+|NDR
+|{{DatumZelle|2016-10-16}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (14), [[Anneke Kim Sarnau|König]] (14)
+|[[Florian Oeller]]
+|[[Philipp Leinemann]]
+|
+|-
+|360
+|[[Polizeiruf 110: Sumpfgebiete|Sumpfgebiete]]
+|BR
+|{{DatumZelle|2016-11-27}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (12)
+|[[Holger Karsten Schmidt]], [[Volker Einrauch]]
+|[[Hermine Huntgeburth]]
+|
+|-
+|361
+|[[Polizeiruf 110: Angst heiligt die Mittel|Angst heiligt die Mittel]]
+|NDR
+|{{DatumZelle|2017-01-01}}{{Anker|A2017}}
+|[[Bukow und König]]
+||[[Charly Hübner|Bukow]] (15), [[Anneke Kim Sarnau|König]] (15)
+|[[Susanne Schneider (Drehbuchautorin)|Susanne Schneider]]
+|[[Christian von Castelberg]]
+|Vor dem eigentlichen Veröffentlichungstermin ausgestrahlt, da ein geplanter [[Tatort (Fernsehreihe)|Tatort]] aufgrund seiner thematischen Nähe zum [[Anschlag auf den Berliner Weihnachtsmarkt an der Gedächtniskirche|Anschlag von Berlin]] kurzfristig verschoben wurde.
+|-
+|362
+|[[Polizeiruf 110: Dünnes Eis|Dünnes Eis]]
+|MDR
+|{{DatumZelle|2017-02-12}}
+|[[Doreen Brasch|Brasch und Köhler]]
+|[[Claudia Michelsen|Brasch]] (7), [[Matthias Matschke|Köhler]] (2)
+|[[Eoin Moore]], [[Anika Wangard]]
+|[[Jochen Alexander Freydank]]
+|
+|-
+|363
+|[[Polizeiruf 110: Nachtdienst|Nachtdienst]]
+|BR
+|{{DatumZelle|2017-05-07}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (13)
+|[[Ariela Bogenberger]], [[Astrid Ströher]]
+|[[Rainer Kaufmann]]
+|
+|-
+|364
+|[[Polizeiruf 110: Muttertag|Muttertag]]
+|RBB
+|{{DatumZelle|2017-05-14}}
+|[[Olga Lenski|Lenski]] und Raczek
+|[[Maria Simon|Lenski]] (11), [[Lucas Gregorowicz|Raczek]] (3)
+|[[Eoin Moore]], [[Anika Wangard]]
+|[[Eoin Moore]]
+|
+|-
+|365
+|[[Polizeiruf 110: Einer für alle, alle für Rostock|Einer für alle, alle für Rostock]]
+|NDR
+|{{DatumZelle|2017-05-28}}
+|[[Bukow und König]]
+|[[Charly Hübner|Bukow]] (16), [[Anneke Kim Sarnau|König]] (16)
+|[[Wolfgang Stauch]]
+|[[Matthias Tiefenbacher]]
+|
+|-
+|366
+|[[Polizeiruf 110: Das Beste für mein Kind|Das Beste für mein Kind]]
+|RBB
+|{{DatumZelle|2017-12-03}}
+|[[Olga Lenski|Lenski]] und Raczek
+|[[Maria Simon|Lenski]] (12), [[Lucas Gregorowicz|Raczek]] (4)
+|[[Elke Rössler]], [[Jakob Ziemnicki]]
+|Jakob Ziemnicki
+|
+|-
+|367
+|[[Polizeiruf 110: Starke Schultern|Starke Schultern]]
+|MDR
+|{{DatumZelle|2018-03-25}}{{Anker|A2018}}
+|[[Doreen Brasch|Brasch und Köhler]]
+|[[Claudia Michelsen|Brasch]] (8), [[Matthias Matschke|Köhler]] (3)
+|[[Josef Rusnak]]
+|[[Maris Pfeiffer]]
+|
+|-
+|368
+|[[Polizeiruf 110: Demokratie stirbt in Finsternis|Demokratie stirbt in Finsternis]]
+|RBB
+|{{DatumZelle|2018-04-29}}
+|[[Olga Lenski|Lenski]] und Raczek
+|[[Maria Simon|Lenski]] (13), [[Lucas Gregorowicz|Raczek]] (5)
+|[[Matthias Glasner]], [[Mario Salazar]]
+|[[Matthias Glasner]]
+|
+|-
+|369
+|[[Polizeiruf 110: In Flammen|In Flammen]]
+|NDR
+|{{DatumZelle|2018-06-10}}
+|[[Bukow und König]]
+||[[Charly Hübner|Bukow]] (17), [[Anneke Kim Sarnau|König]] (17)
+|[[Florian Oeller]]
+|[[Lars-Gunnar Lotz]]
+|
+|-
+|370
+|[[Polizeiruf 110: Das Gespenst der Freiheit|Das Gespenst der Freiheit]]
+|BR
+|{{DatumZelle|2018-08-19}}
+|[[Hanns von Meuffels|von Meuffels]]
+|[[Matthias Brandt|von Meuffels]] (14)
+|[[Günter Schütter]]
+|[[Jan Bonny]]
+|
+|-
+|371
+|[[Polizeiruf 110: Crash|Crash]]
+|MDR
+|{{DatumZelle|2018-09-23}}
+|[[Doreen Brasch|Brasch und Köhler]]
+|[[Claudia Michelsen|Brasch]] (9), [[Matthias Matschke|Köhler]] (4)
+|[[Wolfgang Stauch]]
+|[[Torsten C. Fischer]]
+|
+|-
+|372
+|[[Polizeiruf 110: Für Janina|Für Janina]]
+|NDR
+|{{DatumZelle|2018-11-11}}
+|[[Bukow und König]]
+||[[Charly Hübner|Bukow]] (18), [[Anneke Kim Sarnau|König]] (18)
+|[[Eoin Moore]], [[Anika Wangard]]
+|[[Eoin Moore]]
+|
+|-
+|373
+|[[Polizeiruf 110: Der Fall Sikorska|Der Fall Sikorska]]
+|RBB
+|{{DatumZelle|2018-11-25}}
+|[[Olga Lenski|Lenski]] und Raczek
+|[[Maria Simon|Lenski]] (14), [[Lucas Gregorowicz|Raczek]] (6)
+|[[Bernd Lange (Drehbuchautor)|Bernd Lange]], [[Hans-Christian Schmid]]
+|[[Stefan Kornatz]]
+|
+|-
+|374
+|[[Polizeiruf 110: Tatorte|Tatorte]]
+|BR
+|{{DatumZelle|2018-12-16}}
+|[[Hanns von Meuffels|von Meuffels]] und [[Barbara Auer|Hermann]]
+|[[Matthias Brandt|von Meuffels]] (15), [[Barbara Auer|Hermann]] (3)
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|[[Christian Petzold (Regisseur)|Christian Petzold]]
+|Letzter Fall mit [[Hanns von Meuffels|von Meuffels]]
+|-
+| 375
+| [[Polizeiruf 110: Zehn Rosen|Zehn Rosen]]
+| MDR
+| {{DatumZelle|2019-02-10}}{{Anker|A2019}}
+| [[Doreen Brasch|Brasch und Köhler]]
+| |[[Claudia Michelsen|Brasch]] (10), [[Matthias Matschke|Köhler]] (5)
+| [[Wolfgang Stauch]]
+| [[Torsten C. Fischer]]
+|
+|-
+| 376
+| [[Polizeiruf 110: Kindeswohl|Kindeswohl]]
+| NDR
+| {{DatumZelle|2019-04-07}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (19), [[Anneke Kim Sarnau|König]] (19)
+| [[Christina Sothmann]], [[Lars Jessen]]
+| Lars Jessen
+|
+|-
+| 377
+| [[Polizeiruf 110: Mörderische Dorfgemeinschaft|Mörderische Dorfgemeinschaft]]
+| MDR
+| {{DatumZelle|2019-08-11}}
+| [[Doreen Brasch|Brasch und Köhler]]
+| |[[Claudia Michelsen|Brasch]] (11), [[Matthias Matschke|Köhler]] (6)
+| [[Katrin Bühlig]]
+| [[Philipp Leinemann]]
+| Letzter Fall mit [[Matthias Matschke|Köhler]]
+|-
+| 378
+| [[Polizeiruf 110: Heimatliebe|Heimatliebe]]
+| RBB
+| {{DatumZelle|2019-08-25}}
+| [[Olga Lenski|Lenski]] und Raczek
+| [[Maria Simon|Lenski]] (15), [[Lucas Gregorowicz|Raczek]] (7)
+| [[Christian Bach (Regisseur)|Christian Bach]]
+| [[Christian Bach (Regisseur)|Christian Bach]]
+|
+|-
+| 379
+| [[Polizeiruf 110: Der Ort, von dem die Wolken kommen|Der Ort, von dem die Wolken kommen]]
+| BR
+| {{DatumZelle|2019-09-15}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| [[Verena Altenberger|Eyckhoff]] (1)
+| [[Thomas Korte (Drehbuchautor)|Thomas Korte]], [[Michael Proehl]]
+| [[Florian Schwarz (Regisseur)|Florian Schwarz]]
+| Erster Fall mit Ermittlerin [[Elisabeth Eyckhoff]]; Premiere am 24. August 2019 auf dem [[Festival des deutschen Films]]<ref>{{Internetquelle |url=https://www.festival-des-deutschen-films.de/filme/der-ort-von-dem-die-wolken-kommen/ |titel=Polizeiruf 110: Der Ort, von dem die Wolken kommen |hrsg=[[Festival des deutschen Films]] |abruf=2019-07-16}}</ref><ref>{{Internetquelle |url=https://www.br.de/presse/inhalt/pressedossiers/polizeiruf/polizeiruf-verena-altenberger-elisabeth-bessie-eyckhoff-der-ort-von-dem-die-wolken-kommen100.html |titel=Polizeiruf 110: Der Ort, von dem die Wolken kommen: Verena Altenberger ermittelt erstmals im BR-Polizeiruf 110 |datum=2019-02-28 |abruf=2019-07-16}}</ref>
+|-
+| 380
+| [[Polizeiruf 110: Dunkler Zwilling|Dunkler Zwilling]]
+| NDR
+| {{DatumZelle|2019-10-06}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (20), [[Anneke Kim Sarnau|König]] (20)
+| Damir Lukacevic, Péter Palátsik
+| Damir Lukacevic
+| Uraufführung am 1. Oktober 2019 auf dem Filmfest Hamburg<ref name="ffh_2019" />
+|-
+| 381
+| [[Polizeiruf 110: Die Lüge, die wir Zukunft nennen|Die Lüge, die wir Zukunft nennen]]
+| BR
+| {{DatumZelle|2019-12-08}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| [[Elisabeth Eyckhoff|Eyckhoff]] (2)
+| [[Günter Schütter]]
+| [[Dominik Graf]]
+| Premiere am 25. Oktober 2019 auf den [[Internationale Hofer Filmtage|Internationalen Hofer Filmtagen]]<ref>{{Internetquelle |url=https://hofer-filmtage.com/festivalfilme/die-luege-die-wir-zukunft-nennen/ |titel=Die Lüge, die wir Zukunft nennen |werk=[[Internationale Hofer Filmtage]] |sprache=de |offline=1 |archiv-url=https://web.archive.org/web/20191018112240/https://hofer-filmtage.com/festivalfilme/die-luege-die-wir-zukunft-nennen/ |archiv-datum=2019-10-18 |archiv-bot=2022-03-18 08:39:31 InternetArchiveBot |abruf=2019-10-18}}</ref>
+|-
+| 382
+| [[Polizeiruf 110: Tod einer Journalistin|Tod einer Journalistin]]
+| RBB
+| {{DatumZelle|2019-12-29}}
+| [[Olga Lenski|Lenski]] und Raczek
+| [[Maria Simon|Lenski]] (16), [[Lucas Gregorowicz|Raczek]] (8)
+| [[Silja Clemens]], [[Stephan Rick]], [[Thorsten Wettcke]]
+| [[Stephan Rick]]
+|
+|-
+| 383
+| [[Polizeiruf 110: Söhne Rostocks|Söhne Rostocks]]
+| NDR
+| {{DatumZelle|2020-01-19}}{{Anker|A2020}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (21), [[Anneke Kim Sarnau|König]] (21)
+| [[Markus Busch (Drehbuchautor)|Markus Busch]]
+| [[Christian von Castelberg]]
+|
+|-
+| 384
+| [[Polizeiruf 110: Totes Rennen|Totes Rennen]]
+| MDR
+| {{DatumZelle|2020-02-16}}
+| [[Doreen Brasch|Brasch]]
+| [[Claudia Michelsen|Brasch]] (12)
+| [[Stefan Dähnert]], [[Lion H. Lau]]
+| [[Torsten C. Fischer]]
+|
+|-
+| 385
+| [[Polizeiruf 110: Heilig sollt ihr sein!|Heilig sollt ihr sein!]]
+| RBB
+| {{DatumZelle|2020-05-03}}
+| [[Olga Lenski|Lenski]] und Raczek
+| [[Maria Simon|Lenski]] (17), [[Lucas Gregorowicz|Raczek]] (9)
+| [[Hendrik Hölzemann]]
+| [[Rainer Kaufmann]]
+|
+|-
+| 386
+| [[Polizeiruf 110: Der Tag wird kommen|Der Tag wird kommen]]
+| NDR
+| {{DatumZelle|2020-06-14}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (22), [[Anneke Kim Sarnau|König]] (22)
+| [[Florian Oeller]]
+| [[Eoin Moore]]
+|
+|-
+| 387
+|[[Polizeiruf 110: Tod einer Toten|Tod einer Toten]]
+| MDR
+| {{DatumZelle|2020-09-20}}
+| [[Doreen Brasch|Brasch]]
+| [[Claudia Michelsen|Brasch]] (13)
+| [[Michael Gantenberg]], [[David Nawrath]], [[Paul Salisbury]]
+| [[David Nawrath]]
+|
+|-
+| 388
+| [[Polizeiruf 110: Der Verurteilte|Der Verurteilte]]
+| MDR
+| {{DatumZelle|2020-12-27}}
+| [[Doreen Brasch|Brasch]]
+| [[Claudia Michelsen|Brasch]] (14)
+| [[Jan Braren]]
+| [[Brigitte Maria Bertele]]
+|
+|-
+| 389
+| [[Polizeiruf 110: Monstermutter|Monstermutter]]
+| RBB
+| {{DatumZelle|2021-01-31}}{{Anker|A2021}}
+| [[Olga Lenski|Lenski]] und Raczek
+| [[Maria Simon|Lenski]] (18), [[Lucas Gregorowicz|Raczek]] (10)
+| [[Christian Bach (Regisseur)|Christian Bach]]
+| Christian Bach
+| Letzter Fall mit [[Olga Lenski|KHKin Lenski]]
+|-
+| 390
+| [[Polizeiruf 110: Sabine|Sabine]]
+| NDR
+| {{DatumZelle|2021-03-14}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (23), [[Anneke Kim Sarnau|König]] (23)
+| [[Florian Oeller]]
+| [[Stefan Schaller]]
+|
+|-
+| 391
+| [[Polizeiruf 110: An der Saale hellem Strande|An der Saale hellem Strande]]
+| MDR
+| {{DatumZelle|2021-05-30}}
+| [[Koitzsch und Lehmann]] (Gastauftritt [[Thomas Grawe|Grawe]])
+| Koitzsch (1), Lehmann (1)
+| [[Clemens Meyer (Schriftsteller)|Clemens Meyer]]
+| [[Thomas Stuber]]
+| Erster Fall für das neue MDR-Team aus Halle (Saale) - Koitzsch (Peter Kurth) und Lehmann (Peter Schneider), Ausstrahlung anlässlich des 50-jährigen Bestehens der Krimireihe. Gastauftritt von [[Andreas Schmidt-Schaller]] als [[Thomas Grawe]].
+|-
+| 392
+| [[Polizeiruf 110: Frau Schrödingers Katze|Frau Schrödingers Katze]]
+| BR
+| {{DatumZelle|2021-06-20}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| Eyckhoff (3)
+| [[Clemens Schönborn|Clemens Maria Schönborn]]
+| [[Oliver Haffner]]
+|
+|-
+| 393
+| [[Polizeiruf 110: Bis Mitternacht|Bis Mitternacht]]
+| BR
+| {{DatumZelle|2021-09-05}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| Eyckhoff (4)
+| [[Tobias Kniebe]] und [[Josef Wilfling]]
+| [[Dominik Graf]]
+| Premiere am 2. Juli 2021 beim Filmfest München 2021<ref name="pv" />, Eyckhoff wechselt zur Mordkommission
+|-
+| 394
+| [[Polizeiruf 110: Hermann|Hermann]]
+| RBB
+| {{DatumZelle|2021-12-05}}
+| [[Polizeiruf 110 (Świecko)|Raczek und Luschke]]
+| [[Lucas Gregorowicz|Raczek]] (11), Luschke (1)
+| [[Mike Bäuml]]
+| [[Dror Zahavi]]
+|
+|-
+| 395
+| [[Polizeiruf 110: Keiner von uns|Keiner von uns]]
+| NDR
+| {{DatumZelle|2022-01-09}} {{Anker|A2022}}
+| [[Bukow und König]]
+| [[Charly Hübner|Bukow]] (24), [[Anneke Kim Sarnau|König]] (24)
+| [[Anika Wangard]] und [[Eoin Moore]]
+| Eoin Moore
+| Letzter Fall mit Bukow
+|-
+| 396
+| [[Polizeiruf 110: Hildes Erbe|Hildes Erbe]]
+| RBB
+| {{DatumZelle|2022-01-30}}<!--ref name="rbb_presse" /-->
+| [[Polizeiruf 110 (Świecko)|Raczek und Ross]]
+| Raczek (12), Ross (1)
+| [[Anika Wangard]] und [[Eoin Moore]]
+| Eoin Moore
+|
+|-
+| 397
+| [[Polizeiruf 110: Seine Familie kann man sich nicht aussuchen|Seine Familie kann man sich nicht aussuchen]]
+| NDR
+| {{DatumZelle|2022-04-24}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (25), Böwe (1)
+| [[Florian Oeller]]
+| [[Stefan Krohmer]]
+| Erster Fall mit Böwe als Ermittlerin
+|-
+| 398
+| [[Polizeiruf 110: Das Licht, das die Toten sehen|Das Licht, das die Toten sehen]]
+| BR
+| {{DatumZelle|2022-05-15}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| Eyckhoff (5)
+| [[Sebastian Brauneis]], [[Roderick Warich]]
+| [[Filippos Tsitos]]
+|
+|-
+| 399
+| [[Polizeiruf 110: Black Box|Black Box]]
+| [[Mitteldeutscher Rundfunk|MDR]]
+| {{DatumZelle|2022-07-03}}
+| [[Doreen Brasch|Brasch]]
+| [[Claudia Michelsen|Brasch]] (15)
+| [[Zora Holt|Zora Holtfreter]]
+| [[Ute Wieland]]
+|
+|-
+| 400
+| [[Polizeiruf 110: Hexen brennen|Hexen brennen]]
+| [[Mitteldeutscher Rundfunk|MDR]]
+| {{DatumZelle|2022-10-30}}
+| [[Doreen Brasch|Brasch]]
+| [[Claudia Michelsen|Brasch]] (16)
+| [[Wolfgang Stauch]]
+| [[Ute Wieland]]
+|
+|-
+| 401
+| [[Polizeiruf 110: Abgrund|Abgrund]]
+| RBB
+| {{DatumZelle|2022-12-11}}
+| [[Polizeiruf 110 (Świecko)|Raczek und Ross]]
+| Raczek (13), Ross (2)
+| [[Peter Dommaschk]], [[Ralf Leuther]]
+| [[Stephan Rick]]
+| Letzter Fall mit Raczek
+|-
+| 402
+| [[Polizeiruf 110: Der Gott des Bankrotts|Der Gott des Bankrotts]]
+| RBB
+| {{DatumZelle|2023-02-05}} {{Anker|A2023}}
+| [[Polizeiruf 110 (Świecko)|Ross]]
+| Ross (3), Rogov (1)
+| [[Mike Bäuml]]
+| [[Felix Karolus]]
+|
+|-
+| 403
+| [[Polizeiruf 110: Daniel A.|Daniel A.]]
+| NDR
+| {{DatumZelle|2023-02-19}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (26), Böwe (2)
+| [[Benjamin Hessler]]
+| [[Dustin Loose]]
+| Premiere am 1. September 2022 im Rahmen des [[Filmkunstfest Mecklenburg-Vorpommern|Filmkunstfestes Mecklenburg-Vorpommern]]<ref>{{Internetquelle |url=https://www.filmkunstfest.de/festivalprogramm/programm-film?VNr=2816 |titel=Filmkunstfest MV: Filmfestival in Schwerin mit vier dotierten Wettbewerben: Programm Film |abruf=2022-08-25}}</ref>
+|-
+| 404
+| [[Polizeiruf 110: Ronny|Ronny]]
+| MDR
+| {{DatumZelle|2023-03-19}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (17)
+| [[Jan Braren]]
+| [[Barbara Ott]]
+|
+|-
+| 405
+| [[Polizeiruf 110: Paranoia|Paranoia]]
+| BR
+| {{DatumZelle|2023-06-11}}
+| [[Elisabeth Eyckhoff|Eyckhoff]]
+| Eyckhoff (6)
+| [[Martin Maurer]] und [[Claus Cornelius Fischer]]
+| [[Tobias Ineichen]]
+| Letzter Fall mit Eyckhoff, Drehbuchvorlage von Fischer, Überarbeitung von Maurer
+|-
+| 406
+| [[Polizeiruf 110: Du gehörst mir|Du gehörst mir]]
+| MDR
+| {{DatumZelle|2023-08-27}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (18)
+| [[Khyana el Bitar]]
+| [[Jens Wischnewski]]
+|
+|-
+| 407
+| [[Polizeiruf 110: Little Boxes|Little Boxes]]
+| BR
+| {{DatumZelle|2023-09-17}}
+| [[Cris Blohm|Blohm]]
+| Blohm (1)
+| [[Stefan Weigl]]
+| [[Dror Zahavi]]
+|
+|-
+| 408
+| [[Polizeiruf 110: Cottbus Kopflos|Cottbus Kopflos]]
+| RBB
+| {{DatumZelle|2023-11-12}}
+| [[Polizeiruf 110 (Świecko)|Ross, Luschke und Rogov]]
+| Ross (4), Luschke (2), Rogov (2)
+| [[Mike Bäuml]], [[Axel Hildebrand]]
+| [[Christoph Schnee]]
+|
+|-
+| 409
+| [[Polizeiruf 110: Nur Gespenster|Nur Gespenster]]
+| NDR
+| {{DatumZelle|2023-12-17}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (27), Böwe (3)
+| [[Astrid Ströher]]
+| [[Andreas Herzog (Regisseur)|Andreas Herzog]]
+|
+|-
+| 410
+| [[Polizeiruf 110: Diebe|Diebe]]
+| NDR
+| {{DatumZelle|2024-02-25}} {{Anker|A2024}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (28), Böwe (4)
+| [[Elke Schuch]]
+| [[Andreas Herzog (Regisseur)|Andreas Herzog]]
+|
+|-
+| 411
+| [[Polizeiruf 110: Schweine|Schweine]]
+| RBB
+| {{DatumZelle|2024-03-24}}
+| [[Polizeiruf 110 (Świecko)|Luschke und Rogov]]
+| Luschke (3), Rogov (3)
+| Seraina Nyikos, Lucas Flasch, Mike Bäuml und Tomasz E. Rudzik
+| [[Tomasz E. Rudzik]]
+|
+|-
+| 412
+| [[Polizeiruf 110: Der Dicke liebt|Der Dicke liebt]]
+| MDR
+| {{DatumZelle|2024-04-21}}
+| [[Koitzsch und Lehmann]]
+| Koitzsch (2), Lehmann (2)
+| [[Clemens Meyer (Schriftsteller)|Clemens Meyer]], Thomas Stuber
+| [[Thomas Stuber]]
+|
+|-
+| 413
+| [[Polizeiruf 110: Unsterblich|Unsterblich]]
+| MDR
+| {{DatumZelle|2024-05-12}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (19)
+| [[Michael Gantenberg]]
+| [[Florian Knittel]]
+|
+|-
+| 414
+| [[Polizeiruf 110: Funkensommer|Funkensommer]]
+| BR
+| {{DatumZelle|2024-05-26}}
+| [[Cris Blohm|Blohm]]
+| Blohm (2)
+| [[Alexander Adolph]]
+| [[Alexander Adolph]]
+|
+|-
+| 415
+| [[Polizeiruf 110: Wasserwege|Wasserwege]]
+| RBB
+| {{DatumZelle|2024-10-13}}
+| [[Polizeiruf 110 (Świecko)|Ross und Rogov]]
+| Ross (5), Rogov (4)
+| [[Seraina Nyikos]], [[Lucas Flasch]], [[Mike Bäuml]] und [[Felix Karolus]]
+| [[Felix Karolus]]
+|
+|-
+| 416
+| [[Polizeiruf 110: Jenseits des Rechts|Jenseits des Rechts]]
+| BR
+| {{DatumZelle|2024-12-29}}
+| [[Cris Blohm|Blohm]]
+| Blohm (3)
+| [[Tobias Kniebe]]
+| [[Dominik Graf]]
+|
+|-
+| 417
+| [[Polizeiruf 110: Widerfahrnis|Widerfahrnis]]
+| MDR
+| {{DatumZelle|2025-05-04}} {{Anker|A2025}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (20)
+| [[Zora Holt|Zora Holtfreter]], [[Lucas Thiem]]
+| [[Umut Dag]]
+|
+|-
+| 418
+| [[Polizeiruf 110: Ein feiner Tag für den Bananenfisch|Ein feiner Tag für den Bananenfisch]]
+| BR
+| {{DatumZelle|2025-05-18}}
+| [[Cris Blohm|Blohm]]
+| Blohm (4)
+| [[Günter Schütter]]
+| [[Dror Zahavi]]
+|
+|-
+| 419
+| [[Polizeiruf 110: Böse geboren|Böse geboren]]
+| NDR
+| {{DatumZelle|2025-05-25}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (29), Böwe (5)
+| [[Elke Schuch]], [[Catharina Junk]]
+| [[Alexander Dierbach]]
+|
+|-
+| 420
+| [[Polizeiruf 110: Spiel gegen den Ball|Spiel gegen den Ball]]
+| RBB
+| {{DatumZelle|2025-06-22}}
+| [[Polizeiruf 110 (Świecko)|Ross und Luschke]]
+| Ross (6), Luschke (4)
+| [[Michael Fetter Nathansky]], [[Daniel Bickermann]], [[Christian Werner (Regisseur)|Christian Werner]]
+| Christian Werner
+|
+|-
+| 421
+| [[Polizeiruf 110: Sie sind unter uns|Sie sind unter uns]]
+| MDR
+| {{DatumZelle|2025-09-21}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (21)
+| [[Jan Braren]]
+| [[Esther Bialas]]
+|
+|-
+| 422
+| [[Polizeiruf 110: Tu es!|Tu es!]]
+| NDR
+| {{DatumZelle|2025-10-19}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (30), Böwe (6)
+| [[Florian Oeller]]
+| [[Max Gleschinski]]
+| Die Premiere erfolgte am 25. April 2025 auf dem [[FiSH Filmfestival Rostock]] in [[Rostock]].<ref name="fish_2025" />
+|-
+| 423
+| [[Polizeiruf 110: Der Wanderer zieht von dannen|Der Wanderer zieht von dannen]]
+| MDR
+| {{DatumZelle|2026-02-15}} {{Anker|A2026}}
+| [[Koitzsch und Lehmann]]
+| Koitzsch (3), Lehmann (3) 
+| [[Clemens Meyer (Schriftsteller)|Clemens Meyer]], [[Thomas Stuber]]
+| [[Thomas Stuber]]
+| Letzte Folge mit Koitzsch und Lehmann
+|-
+| 424
+| [[Polizeiruf 110: Your Body My Choice|Your Body My Choice]]
+| MDR
+| {{DatumZelle|2026-03-08}}
+| [[Doreen Brasch|Brasch]]
+| Brasch (22)
+| [[Annika Tepelmann]]
+| [[Franziska Schlotterer]]
+| 
+|-
+| 425
+| [[Polizeiruf 110: Ablass|Ablass]]
+| BR
+| {{DatumZelle|2026-03-15}}
+| [[Cris Blohm|Blohm]]
+| Blohm (5)
+| [[Christian_Bach_(Regisseur)|Christian Bach]]
+| [[Christian_Bach_(Regisseur)|Christian Bach]]
+| 
+|-
+|426
+|[[Polizeiruf 110: Goldraub|Goldraub]]
+|RBB
+
+| {{DatumZelle|2026-03-29}}
+
+|[[Polizeiruf 110 (Świecko)|Ross und Rogov]]
+|Ross (7), Rogov (5)
+|[[Peter Dommaschk]], [[Ralf Leuther]]
+|[[Felix Karolus]]
+|
+|-
+| 427
+| [[Polizeiruf 110: Sie haben Namen|Sie haben Namen]]
+| NDR
+| {{DatumZelle|2026-11-01}}
+| [[Polizeiruf 110 (Rostock)|König und Böwe]]
+| König (31), Böwe (7)
+| [[Florian Oeller]]
+| [[Franziska Schlotterer]]
+| Die Premiere fand am 7. Mai 2026 auf dem [[Deutscher Fernsehkrimipreis#2026|Deutschen FernsehKrimi-Festival 2026]] in Wiesbaden statt.<ref name= "dfkf_2026"/>
+|}
+
+<div class="noprint" style="background:#F2F2F2; border:1px solid #AAAAAA; padding:0; max-width:38em;">
+<div class="center">'''Direkt zum Jahrgang'''<br />
+----
+{{0|1970 –}} [[#A1971|1971]] – [[#A1972|1972]] – [[#A1973|1973]] – [[#A1974|1974]] – [[#A1975|1975]] – [[#A1976|1976]] – [[#A1977|1977]] – [[#A1978|1978]] – [[#A1979|1979]]<br />
+[[#A1980|1980]] – [[#A1981|1981]] – [[#A1982|1982]] – [[#A1983|1983]] – [[#A1984|1984]] – [[#A1985|1985]] – [[#A1986|1986]] – [[#A1987|1987]] – [[#A1988|1988]] – [[#A1989|1989]]<br />
+[[#A1990|1990]] – [[#A1991|1991]] {{0|– 1992 –}} [[#A1993|1993]] – [[#A1994|1994]] – [[#A1995|1995]] – [[#A1996|1996]] – [[#A1997|1997]] – [[#A1998|1998]] – [[#A1999|1999]]<br />
+[[#A2000|2000]] – [[#A2001|2001]] – [[#A2002|2002]] – [[#A2003|2003]] – [[#A2004|2004]] – [[#A2005|2005]] – [[#A2006|2006]] – [[#A2007|2007]] – [[#A2008|2008]] – [[#A2009|2009]]<br />
+[[#A2010|2010]] – [[#A2011|2011]] – [[#A2012|2012]] – [[#A2013|2013]] – [[#A2014|2014]] – [[#A2015|2015]] – [[#A2016|2016]] – [[#A2017|2017]] – [[#A2018|2018]] – [[#A2019|2019]]<br />
+[[#A2020|2020]] – [[#A2021|2021]] – [[#A2022|2022]] – [[#A2023|2023]] – [[#A2024|2024]] – [[#A2025|2025]] – [[#A2026|2026]] {{0|2027 –}} {{0|2028 –}} {{0|2029 –}} <!-- – [[#A2027|2027]] – [[#A2018|2028]] – [[#A2029|2029]]-->
+</div></div>
+
+== Noch nicht ausgestrahlte Folgen ==
+
+{| class="wikitable sortable" style="width: 100%; font-size: 93%;"
+! style="width:1%"| Nr.
+! style="width:15%"| Titel
+! style="width:3%"| Sender
+! style="width:8%"| Geplante Erstausstr.
+! style="width:16%"| Ermittler
+! style="width:16%"| Fall
+! style="width:13%"| Autor
+! style="width:13%"| [[Liste der Polizeiruf-110-Regisseure|Regie]]
+! style="width:15%"| Besonderheiten
+
+|-
+| 428
+| [[Polizeiruf 110: Stalker|Stalker]]
+| RBB
+| {{DatumZelle|2026-11-29}}
+| [[Polizeiruf 110 (Świecko)|Rogov und Luschke]]
+| 20
+| [[Mike Bäuml]]
+| [[Oliver_Schmitz_(Regisseur)|Oliver Schmitz]]
+| Die Premiere soll am 7. November 2026 auf dem [[Filmfestival Cottbus]] stattfinden.<ref name= "ffc_2026"/>
+
+<!--
+
+Vorlage für neue Tabellenzeile
+|-
+| Nr
+| [[Polizeiruf 110: …|…]]
+| Sender
+| {{DatumZelle|2026-MM-TT}}
+| Ermittler
+| Fall Nr.
+| Autor
+| Regie
+| Bemerkung
+-->
+|}
+
+== Weitere Folgen ==
+=== Folgen außerhalb der Reihe ===
+Einige Folgen wurden zwar in der Produktionsgruppe des ''Polizeiruf 110'' gedreht, dann aber außerhalb der Reihe ohne Serienvorspann ausgestrahlt.<ref>[https://web.archive.org/web/20201230001437/http://krimiserien.heimat.eu/p/polizeiruf_110_episoden_extern.htm Folgen außerhalb der Reihe Polizeiruf 110] Krimiserien (Memento), vollständig bis 1990 </ref> Diese wurden bei den späteren Serienwiederholiungen bis in die Gegenwart mit gesendet (bisher außer ''[[Frank und Robert]]'', 1992).
+
+{| class="wikitable"
+! Nr.
+! Titel
+! Datum 
+! Regisseur
+! Drehbuchautor
+! Bemerkungen
+|-
+| nach 59 || [[Gelb ist nicht nur die Farbe der Sonne]] ||24.06.1979 ||[[Rainer Bär]], [[Manfred Dorschan]] ||[[Rainer Bär]] ||
+|-
+| nach 62 ||[[Polizeiruf 110: Herbstzeit|Herbstzeit]]|| 11.12.1979||[[Manfred Mosblech]], [[Fred Unger]]||[[Manfred Mosblech]]||
+|-
+| nach 82|| [[Polizeiruf 110: Die lieben Luder|Die lieben Luder]] ||15.02.1983 || [[Helmut Krätzig]], [[Eberhard Görner]]||	[[Helmut Krätzig]] ||
+|-
+| nach 93 || [[Klassenkameraden]] ||18.11.1984|| [[Rainer Bär]] ||[[Rainer Bär]]
+|-
+| nach 94 || [[Außenseiter (Film)|Außenseiter]] ||27.01.1985||	[[Günther Karl]], [[Karl-Heinz Berger]]	||[[Peter Vogel (Regisseur)|Peter Vogel]] ||
+|-
+|nach 107 || [[Polizeiruf 110: Kalter Engel|Kalter Engel]]|| 06.12.1986||	[[Lothar Dutombé]], [[Peter Vogel (Regisseur)|Peter Vogel]]|| [[Peter Vogel (Regisseur)|Peter Vogel]]	||
+|-
+| nach 153 || [[Frank und Robert]] || 17.04.1992 || [[Manfred Hoffmann]]|| [[Peter Vogel (Regisseur)|Peter Vogel]] || ''Überläuferfilm'' vom DFF zum MDR, bisher nach 1998 keine Wiederholungen bekannt
+|-
+|}
+
+=== Verbotene Folgen===
+Zwei Folgen durften nicht ausgestrahlt werden, eine wurde vernichtet, die andere wurde später wiedergefunden und 2011 erstmals  ausgestrahlt.
+{|class="wikitable
+! Gepl. Datum
+! Titel 
+! Drehbuch
+! Regie
+! Bemerkungen
+|-
+| 1975 ||[[Polizeiruf 110: Im Alter von …|Im Alter von …]]|| [[Heinz H. Seibert]]|| [[Heinz H. Seibert]] || galt als verschollen, Negativ 2009 entdeckt, am 23. Juni 2011 erstmals gesendet
+|-
+| 1984 || [[Polizeiruf 110: Rosis Mann|Rosis Mann]] || [[Brigitte Hähnel]] || [[Hans Joachim Hildebrandt (Regisseur)|Hans Joachim Hildebrandt]] || vernichtet
+|-
+|}
+
+== Siehe auch ==
+* [[Liste der Polizeiruf-110-Ermittler]]
+* [[Liste der Polizeiruf-110-Regisseure]]
+
+== Weblinks ==
+* {{IMDb|tt0806901|Liste der Polizeiruf-110-Folgen|typ=episodenliste}}
+* [https://www.daserste.de/unterhaltung/krimi/polizeiruf-110/sendung/index.html ''Polizeiruf 110 – Die Fälle''] auf ''Das Erste.de''
+* [https://www.fernsehserien.de/polizeiruf-110 ''Polizeiruf 110''] bei fernsehserien.de
+
+== Anmerkungen ==
+<references group="Anm." />
+
+== Einzelnachweise ==
+<references responsive>
+
+<ref name= "dfkf_2026">{{Internetquelle | autor= 
+| url= https://fernsehkrimifestival.de/2026/03/23/polizeiruf-110-sie-haben-namen/
+| titel= Polizeiruf 110 – Sie haben Namen 
+| titelerg= Premiere
+| werk= FernsehKrimi-Preis
+| hrsg= Deutsches Fernsehkrimi-Festival
+| datum= 2026-03 | seiten= | archiv-url= | archiv-datum= 
+| abruf= 2026-03-30 | format= 
+| sprache= de | kommentar=
+| zitat= Donnerstag, 7.5.2026 20:00 Uhr | offline= 
+}}</ref>
+
+<ref name= "ffc_2026">{{Internetquelle | autor= 
+| url= https://filmfestivalcottbus.de/de/program/movies/polizeiruf-110-stalker
+| titel= Polizeiruf 110: Stalker
+| titelerg= Kompass Crime Nights 
+| werk= FFC Festival of East European Cinema
+| hrsg= pool production GmbH 
+| datum= 2026 | seiten= | archiv-url= | archiv-datum= 
+| abruf= 2026-10-24 | format= 
+| sprache= de | kommentar= 
+| zitat= Die Ausstrahlung im Ersten ist für den 29. November 2026 geplant. | offline= 
+}}</ref>
+
+<ref name="ffh_2019">{{Internetquelle
+ |url=https://www.filmfesthamburg.de/de/programm/Film/32593/Polizeiruf_110_Dunkler_Zwilling
+ |titel=Polizeiruf 110 – Dunkler Zwilling
+ |werk=Programm
+ |hrsg=Filmfest Hamburg
+ |abruf=2019-09-18
+ |zitat=Nominiert für Hamburger Produzentenpreis für Deutsche Fernsehproduktionen
+ |archiv-datum=2019-09-24
+ |archiv-url=https://web.archive.org/web/20190924100215/https://www.filmfesthamburg.de/de/programm/Film/32593/Polizeiruf_110_Dunkler_Zwilling
+ |offline=ja
+ |archiv-bot=2026-05-02 05:16:01 InternetArchiveBot
+ }}</ref>
+
+<ref name="fish_2025">
+{{Internetquelle
+ |autor=
+ |url=https://fish-festival.de/sehsterne-polizeiruf/
+ |titel=Polizeiruf 110: Tu es!
+ |werk=FiSH Filmfestival Rostock
+ |hrsg=institut für neue medien gGmbH // Medienwerkstatt Rostock
+ |datum=2025-04
+ |format=
+ |sprache=de
+ |offline=
+ |archiv-url=
+ |archiv-datum=
+ |abruf=2025-08-07
+ |zitat=Freitag, 25. April / 20:00 – 22:00 Uhr / Premiere / Li.Wu., Metropol}}
+</ref>
+<ref name="pv">
+{{Internetquelle
+ |url=http://www.provobis.de/produktion/polizeiruf-110-bis-mitternacht-at
+ |titel=Polizeiruf 110 - Bis Mitternacht
+ |hrsg=Provobis Gesellschaft für Film und Fernsehen mbH
+ |sprache=de
+ |abruf=2021-05-31
+ |zitat=2. Juli 2021 – Welturaufführung beim Filmfest München 2021}}
+</ref>
+
+</references>
+
+{{SORTIERUNG:Polizeiruf110folgen}}
+[[Kategorie:Polizeiruf 110 (Fernsehfilm)|!]]
+[[Kategorie:Episodenliste|Polizeiruf 110]]

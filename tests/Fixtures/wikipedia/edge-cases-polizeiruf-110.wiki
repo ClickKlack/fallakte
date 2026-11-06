@@ -1,0 +1,110 @@
+== Gesendete Folgen ==
+{| class="wikitable sortable tabelle-kopf-fixiert" style="width: 100%;"
+|- class="hintergrundfarbe6"
+! style="width:1%"| Nr.
+! style="width:15%"| Titel
+! style="width:3%"| Sender
+! style="width:8%"| Erstausstr.
+! style="width:16%"| [[Liste der Polizeiruf-110-Ermittler|Ermittler]]
+! style="width:16%"| Fall
+! style="width:13%"| Autor
+! style="width:13%"| [[Liste der Polizeiruf-110-Regisseure|Regie]]
+! style="width:15%"| Besonderheiten
+|-
+| 59
+| [[Polizeiruf 110: Vorher|Vorher]]
+| [[Deutscher Fernsehfunk|DFF]]
+| {{DatumZelle|1979-05-01}}
+| [[Peter Borgelt|Peter Fuchs]], [[Sigrid Göhler|Vera Arndt]]
+| Fuchs (1), Arndt (1)
+| Autor
+| Regie
+|
+|-
+| <nowiki>–</nowiki>
+| [[Gelb ist nicht nur die Farbe der Sonne]]
+| Fernsehen der DDR
+| {{DatumZelle|1979-06-24}}
+| [[Werner Tietze|Woltersdorf]]
+| Woltersdorf (5)
+| Autor
+| Regie
+| Als Polizeiruf geplant, jedoch als Einzelfilm gesendet, ohne Folgennummer.
+|-
+| 60
+| [[Polizeiruf 110: Schwere Jahre (1. Teil)|Schwere Jahre (1)]]
+| DFF
+| {{DatumZelle|1979-07-01}} {{Anker|A1979}}
+| [[Peter Borgelt|Peter Fuchs]], Arndt, ([[Werner Tietze|Woltersdorf]])
+| Fuchs
+| Autor
+| Regie
+| Doppelfolge
+|-
+| 61
+| [[Polizeiruf 110: Schwere Jahre (2. Teil)|Schwere Jahre (2)]]
+| DFF
+| {{DatumZelle|1979-07-08}}
+| [[Imogen Kogge|Herz]], [[Horst Krause (Filmfigur)|Krause]]
+| Fuchs
+| Autor
+| Regie
+| Doppelfolge
+|-
+|156
+|[[Polizeiruf 110: In Erinnerung an …|"In Erinnerung an …"]]
+|DFF
+|{{DatumZelle|1991-12-01}}
+|[[Polizeiruf 110 (Świecko)|Ross und Rogov]]<!-- Kommentar -->
+|x
+|Autor
+|Regie
+|
+|}
+
+== Noch nicht ausgestrahlte Folgen ==
+{| class="wikitable sortable"
+! Nr.
+! Titel
+! Sender
+! Geplante Erstausstr.
+! Ermittler
+! Fall
+! Autor
+! [[Liste der Polizeiruf-110-Regisseure|Regie]]
+! Besonderheiten
+
+|-
+| 428
+| [[Polizeiruf 110: Stalker|Stalker]]
+| RBB
+| {{DatumZelle|2099-11-29}}
+| [[Polizeiruf 110 (Świecko)|Rogov und Luschke]]
+| 20
+| Autor
+| Regie
+| Premiere<ref name= "ffc_2026"/>
+
+<!--
+
+Vorlage für neue Tabellenzeile
+|-
+| Nr
+| [[Polizeiruf 110: …|…]]
+| Sender
+| {{DatumZelle|2026-MM-TT}}
+| Ermittler
+| Fall Nr.
+| Autor
+| Regie
+| Bemerkung
+-->
+|}
+
+== Weitere Folgen ==
+=== Folgen außerhalb der Reihe ===
+{| class="wikitable"
+! Nr. !! Titel !! Datum !! Regisseur !! Drehbuchautor !! Bemerkungen
+|-
+| nach 59 || [[Gelb ist nicht nur die Farbe der Sonne]] || 24.06.1979 || Regie || Autor || Doppelt aufgeführt
+|}
