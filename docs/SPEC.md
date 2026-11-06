@@ -128,6 +128,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Filter (kombinierbar, im URL-Query gehalten):
   - Reihe (Tatort / Polizeiruf / beide)
   - Team
+  - Sender (einzelne Sender; Koproduktionen wie „SWR/SRF“ werden bei beiden beteiligten Sendern gefunden)
   - Status: gesehen / ungesehen / angekündigt / alle
   - Jahr der Erstausstrahlung (von–bis)
   - Titelsuche (Teilstring)

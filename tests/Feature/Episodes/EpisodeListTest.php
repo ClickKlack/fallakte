@@ -71,7 +71,19 @@ test('page renders with episodes, filters and options', function () {
             ->where('options.teams.0.name', 'Münster')
             ->where('options.teams.0.series_slug', 'tatort')
             ->where('options.statuses', ['all', 'seen', 'unseen', 'announced'])
+            ->where('options.sorts', ['number', 'date', 'title', 'team'])
+            ->where('options.broadcasters', ['NDR'])
+            ->where('options.per_page', [25, 50, 100])
+            ->has('episodes.links')
+            ->has('episodes.meta.links')
             ->where('options.years', ['min' => 1970, 'max' => 1970]));
+});
+
+test('only imported series are offered in the filter', function () {
+    Series::factory()->create(['name' => 'Testreihe']);
+
+    $this->get('/')->assertInertia(fn (Assert $page) => $page
+        ->where('options.series', [['slug' => 'tatort', 'name' => 'Tatort'], ['slug' => 'polizeiruf-110', 'name' => 'Polizeiruf 110']]));
 });
 
 test('announced episodes cannot be marked as seen', function () {
@@ -157,6 +169,18 @@ describe('filters', function () {
             ->and(listTitles(['q' => '%']))->toBe(['Kiel 100%'])
             ->and(listTitles(['q' => '_']))->toBe([])
             ->and(listTitles(['q' => '!']))->toBe([]);
+    });
+
+    test('by broadcaster including co-productions', function () {
+        Episode::query()->update(['broadcaster' => 'NDR']);
+        Episode::where('title', 'Der dunkle Fleck')->update(['broadcaster' => 'WDR']);
+        Episode::where('title', 'Fakten, Fakten')->update(['broadcaster' => 'Radio Bremen/WDR']);
+        Episode::where('title', 'Kiel 100%')->update(['broadcaster' => 'WDR und NDR']);
+        Episode::where('title', 'Einer von uns')->update(['broadcaster' => 'WDRX']);
+
+        expect(listTitles(['broadcaster' => 'WDR', 'sort' => 'title']))->toBe(['Der dunkle Fleck', 'Fakten, Fakten', 'Kiel 100%'])
+            ->and(listTitles(['broadcaster' => 'Radio Bremen']))->toBe(['Fakten, Fakten'])
+            ->and(listTitles(['broadcaster' => 'SWR']))->toBe([]);
     });
 
     test('combined filters', function () {

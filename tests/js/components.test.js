@@ -178,3 +178,26 @@ describe('StatusBadge', () => {
         expect(mountWithI18n(StatusBadge, { status: 'aired' }).text()).toBe('');
     });
 });
+
+describe('SeriesIcon', () => {
+    it('has an accessible name and a symbol per series', async () => {
+        const { default: SeriesIcon } = await import('@/Components/SeriesIcon.vue');
+        const tatort = mount(SeriesIcon, { props: { slug: 'tatort', name: 'Tatort' } });
+        const polizeiruf = mount(SeriesIcon, {
+            props: { slug: 'polizeiruf-110', name: 'Polizeiruf 110' },
+        });
+
+        expect(tatort.attributes('aria-label')).toBe('Tatort');
+        expect(tatort.find('svg path').exists()).toBe(true);
+        expect(polizeiruf.attributes('aria-label')).toBe('Polizeiruf 110');
+        expect(polizeiruf.find('svg text').text()).toBe('110');
+    });
+
+    it('falls back to the name for unknown series', async () => {
+        const { default: SeriesIcon } = await import('@/Components/SeriesIcon.vue');
+
+        expect(mount(SeriesIcon, { props: { slug: 'x', name: 'Andere Reihe' } }).text()).toBe(
+            'Andere Reihe',
+        );
+    });
+});

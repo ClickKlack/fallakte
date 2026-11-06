@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\UpdateEpisodeSeenRequest;
 use App\Http\Resources\EpisodeListResource;
+use App\Import\ParserRegistry;
 use App\Models\Episode;
 use App\Models\Series;
 use App\Models\Team;
 use App\Queries\EpisodeFilters;
 use App\Queries\EpisodeListQuery;
+use App\Support\BroadcasterNames;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -20,12 +22,13 @@ class EpisodeController extends Controller
     /**
      * Folgenliste (Startseite) mit Filtern, Sortierung und Paginierung.
      */
-    public function index(Request $request, EpisodeListQuery $query): Response
+    public function index(Request $request, EpisodeListQuery $query, ParserRegistry $parsers): Response
     {
         // Angekündigte Folgen, deren Datum erreicht ist, werden beim Anzeigen freigeschaltet.
         Episode::promoteAiredAnnouncements();
 
-        $series = Series::query()->orderBy('id')->get(['id', 'name', 'slug']);
+        // Nur die Reihen, die importiert werden (keine Test- oder Altdaten in der Auswahl)
+        $series = Series::query()->whereIn('slug', $parsers->slugs())->orderBy('id')->get(['id', 'name', 'slug']);
         $filters = EpisodeFilters::fromArray($request->query(), $series->pluck('slug')->all());
 
         return Inertia::render('Episodes/Index', [
@@ -37,6 +40,9 @@ class EpisodeController extends Controller
                     ->join('series', 'series.id', '=', 'teams.series_id')
                     ->orderBy('teams.name')
                     ->get(['teams.id', 'teams.name', 'series.slug as series_slug']),
+                'broadcasters' => BroadcasterNames::distinct(
+                    Episode::query()->whereNotNull('broadcaster')->distinct()->pluck('broadcaster'),
+                ),
                 'statuses' => EpisodeFilters::STATUSES,
                 'sorts' => EpisodeFilters::SORTS,
                 'per_page' => EpisodeFilters::PER_PAGE,

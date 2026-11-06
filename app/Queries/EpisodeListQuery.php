@@ -4,6 +4,7 @@ namespace App\Queries;
 
 use App\Enums\EpisodeStatus;
 use App\Models\Episode;
+use App\Support\BroadcasterNames;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 
@@ -27,6 +28,16 @@ class EpisodeListQuery
 
         if ($filters->team !== null) {
             $query->where('episodes.team_id', $filters->team);
+        }
+
+        if ($filters->broadcaster !== null) {
+            // Auch Koproduktionen finden („SWR“ trifft „SWR/SRF“)
+            $query->where(function (Builder $q) use ($filters) {
+                $q->where('episodes.broadcaster', $filters->broadcaster);
+                foreach (BroadcasterNames::likePatterns($filters->broadcaster) as $pattern) {
+                    $q->orWhereRaw('episodes.broadcaster LIKE ? ESCAPE ?', [$pattern, '!']);
+                }
+            });
         }
 
         match ($filters->status) {

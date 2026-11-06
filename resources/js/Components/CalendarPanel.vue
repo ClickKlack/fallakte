@@ -3,7 +3,7 @@
  * Monatskalender im App-Design: Montag als Wochenbeginn, Monats-/Jahresauswahl,
  * Tage außerhalb von min/max sind gesperrt. Gibt den gewählten Tag als "select" (ISO) aus.
  */
-import { computed, ref } from 'vue';
+import { computed, ref, watch } from 'vue';
 import {
     addMonths,
     isWithin,
@@ -19,12 +19,24 @@ const props = defineProps({
     min: { type: String, default: null },
     max: { type: String, default: null },
     today: { type: String, required: true },
+    // Monat, der angezeigt werden soll (z. B. beim Eintippen eines Datums)
+    viewDate: { type: String, default: null },
 });
 
 const emit = defineEmits(['select']);
 
 const start = parseIso(props.modelValue) ?? parseIso(props.today);
 const view = ref({ year: start.year, month: start.month });
+
+watch(
+    () => props.viewDate,
+    (iso) => {
+        const date = parseIso(iso);
+        if (date) {
+            view.value = { year: date.year, month: date.month };
+        }
+    },
+);
 
 const days = computed(() => monthGrid(view.value.year, view.value.month));
 const years = computed(() => yearRange(props.min, props.max));

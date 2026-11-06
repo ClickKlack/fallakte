@@ -25,6 +25,7 @@ final readonly class EpisodeFilters
     public function __construct(
         public ?string $series = null,
         public ?int $team = null,
+        public ?string $broadcaster = null,
         public string $status = 'all',
         public ?int $yearFrom = null,
         public ?int $yearTo = null,
@@ -50,12 +51,16 @@ final readonly class EpisodeFilters
             [$yearFrom, $yearTo] = [$yearTo, $yearFrom];
         }
 
+        $broadcaster = $string('broadcaster');
+        $broadcaster = $broadcaster === null || $broadcaster === '' ? null : mb_substr($broadcaster, 0, 50);
+
         $search = $string('q');
         $search = $search === null || $search === '' ? null : mb_substr($search, 0, 100);
 
         return new self(
             series: in_array($string('series'), $allowedSeries, true) ? $string('series') : null,
             team: ($team = $int('team')) !== null && $team > 0 ? $team : null,
+            broadcaster: $broadcaster,
             status: in_array($string('status'), self::STATUSES, true) ? $string('status') : 'all',
             yearFrom: $yearFrom,
             yearTo: $yearTo,
@@ -76,6 +81,7 @@ final readonly class EpisodeFilters
         return [
             'series' => $this->series,
             'team' => $this->team,
+            'broadcaster' => $this->broadcaster,
             'status' => $this->status,
             'year_from' => $this->yearFrom,
             'year_to' => $this->yearTo,

@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { addMonths, isWithin, monthGrid, parseIso, toIso, yearRange } from '@/lib/calendar.js';
+import {
+    addMonths,
+    isWithin,
+    monthGrid,
+    parseIso,
+    parseTypedDate,
+    toIso,
+    yearRange,
+} from '@/lib/calendar.js';
 
 describe('monthGrid', () => {
     it('has six full weeks starting on monday', () => {
@@ -51,5 +59,47 @@ describe('helpers', () => {
 
     it('lists years newest first', () => {
         expect(yearRange('2020-05-01', '2023-01-01')).toEqual([2023, 2022, 2021, 2020]);
+    });
+});
+
+describe('parseTypedDate', () => {
+    const today = '2026-11-06';
+
+    it('reads common German notations', () => {
+        expect(parseTypedDate('14.03.2020', today)).toBe('2020-03-14');
+        expect(parseTypedDate('14.3.2020', today)).toBe('2020-03-14');
+        expect(parseTypedDate('1.2.1999', today)).toBe('1999-02-01');
+        expect(parseTypedDate(' 14,03,2020 ', today)).toBe('2020-03-14');
+        expect(parseTypedDate('14 03 2020', today)).toBe('2020-03-14');
+    });
+
+    it('reads digits without separators', () => {
+        expect(parseTypedDate('14032020', today)).toBe('2020-03-14');
+        expect(parseTypedDate('140320', today)).toBe('2020-03-14');
+    });
+
+    it('reads ISO dates', () => {
+        expect(parseTypedDate('2020-03-14', today)).toBe('2020-03-14');
+    });
+
+    it('expands two-digit years relative to today', () => {
+        expect(parseTypedDate('14.3.20', today)).toBe('2020-03-14');
+        expect(parseTypedDate('14.3.26', today)).toBe('2026-03-14');
+        expect(parseTypedDate('14.3.27', today)).toBe('1927-03-14');
+        expect(parseTypedDate('14.3.85', today)).toBe('1985-03-14');
+    });
+
+    it('rejects impossible or unknown input', () => {
+        expect(parseTypedDate('30.02.2020', today)).toBeNull();
+        expect(parseTypedDate('31.04.2020', today)).toBeNull();
+        expect(parseTypedDate('14.13.2020', today)).toBeNull();
+        expect(parseTypedDate('gestern', today)).toBeNull();
+        expect(parseTypedDate('14.03', today)).toBeNull();
+        expect(parseTypedDate('', today)).toBeNull();
+    });
+
+    it('accepts leap days only in leap years', () => {
+        expect(parseTypedDate('29.02.2024', today)).toBe('2024-02-29');
+        expect(parseTypedDate('29.02.2023', today)).toBeNull();
     });
 });
