@@ -52,3 +52,16 @@ test('login is throttled after too many attempts', function () {
 
     expect(session('errors')->first('email'))->toContain('Zu viele');
 });
+
+test('styleguide is not available outside local development', function () {
+    $this->actingAs(User::factory()->create())
+        ->get('/styleguide')
+        ->assertNotFound();
+});
+
+test('statistics page renders', function () {
+    $this->actingAs(User::factory()->create())
+        ->get('/dashboard')
+        ->assertOk()
+        ->assertInertia(fn ($page) => $page->component('Dashboard'));
+});

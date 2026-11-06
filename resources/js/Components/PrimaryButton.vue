@@ -1,6 +1,14 @@
+<script setup>
+// Hauptaktion: weiße Fläche mit dunkelblauer Schrift.
+defineProps({
+    type: { type: String, default: 'submit' },
+});
+</script>
+
 <template>
     <button
-        class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-white transition duration-150 ease-in-out hover:bg-gray-700 focus:bg-gray-700 focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 active:bg-gray-900"
+        :type="type"
+        class="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-fg px-4 py-2 text-sm font-semibold text-on-accent transition hover:bg-accent-strong active:bg-accent disabled:cursor-not-allowed disabled:opacity-50"
     >
         <slot />
     </button>

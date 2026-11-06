@@ -9,8 +9,7 @@ export function translate(messages, key, replacements = {}) {
     const value = key
         .split('.')
         .reduce(
-            (node, part) =>
-                node !== null && typeof node === 'object' ? node[part] : undefined,
+            (node, part) => (node !== null && typeof node === 'object' ? node[part] : undefined),
             messages,
         );
 
@@ -19,8 +18,7 @@ export function translate(messages, key, replacements = {}) {
     }
 
     return Object.entries(replacements).reduce(
-        (text, [name, replacement]) =>
-            text.replaceAll(`:${name}`, String(replacement)),
+        (text, [name, replacement]) => text.replaceAll(`:${name}`, String(replacement)),
         value,
     );
 }

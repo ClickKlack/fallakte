@@ -22,19 +22,16 @@ const form = useForm({
 <template>
     <section>
         <header>
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-lg font-medium text-fg">
                 {{ $t('profile.info_title') }}
             </h2>
 
-            <p class="mt-1 text-sm text-gray-600">
+            <p class="mt-1 text-sm text-muted">
                 {{ $t('profile.info_hint') }}
             </p>
         </header>
 
-        <form
-            @submit.prevent="form.patch(route('profile.update'))"
-            class="mt-6 space-y-6"
-        >
+        <form @submit.prevent="form.patch(route('profile.update'))" class="mt-6 space-y-6">
             <div>
                 <InputLabel for="name" :value="$t('profile.name')" />
 
@@ -75,10 +72,7 @@ const form = useForm({
                     leave-active-class="transition ease-in-out"
                     leave-to-class="opacity-0"
                 >
-                    <p
-                        v-if="form.recentlySuccessful"
-                        class="text-sm text-gray-600"
-                    >
+                    <p v-if="form.recentlySuccessful" class="text-sm text-muted">
                         {{ $t('common.saved') }}
                     </p>
                 </Transition>

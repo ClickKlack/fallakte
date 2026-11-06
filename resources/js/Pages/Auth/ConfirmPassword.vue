@@ -21,7 +21,7 @@ const submit = () => {
     <GuestLayout>
         <Head :title="$t('auth.confirm_title')" />
 
-        <div class="mb-4 text-sm text-gray-600">
+        <div class="mb-4 text-sm text-muted">
             {{ $t('auth.confirm_hint') }}
         </div>
 
@@ -42,7 +42,7 @@ const submit = () => {
 
             <div class="mt-4 flex justify-end">
                 <PrimaryButton
-                    class="ms-4"
+                    class="w-full sm:w-auto"
                     :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing"
                 >

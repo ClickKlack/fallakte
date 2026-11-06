@@ -1,5 +1,8 @@
 <script setup>
+// Statistik-Dashboard – wird in Schritt 9 ausgebaut.
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+import Card from '@/Components/Card.vue';
+import PageTitle from '@/Components/PageTitle.vue';
 import { Head } from '@inertiajs/vue3';
 </script>
 
@@ -8,23 +11,11 @@ import { Head } from '@inertiajs/vue3';
 
     <AuthenticatedLayout>
         <template #header>
-            <h2
-                class="text-xl font-semibold leading-tight text-gray-800"
-            >
-                {{ $t('dashboard.title') }}
-            </h2>
+            <PageTitle :title="$t('dashboard.title')" />
         </template>
 
-        <div class="py-12">
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div
-                    class="overflow-hidden bg-white shadow-xs sm:rounded-lg"
-                >
-                    <div class="p-6 text-gray-900">
-                        {{ $t('dashboard.logged_in') }}
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Card>
+            <p class="text-muted">{{ $t('dashboard.coming_soon') }}</p>
+        </Card>
     </AuthenticatedLayout>
 </template>

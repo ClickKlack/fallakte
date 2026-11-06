@@ -30,7 +30,9 @@ const submit = () => {
     <GuestLayout>
         <Head :title="$t('auth.login_title')" />
 
-        <div v-if="status" class="mb-4 text-sm font-medium text-green-600">
+        <h1 class="mb-6 text-xl font-semibold">{{ $t('auth.login_title') }}</h1>
+
+        <div v-if="status" class="mb-4 text-sm font-medium text-success">
             {{ status }}
         </div>
 
@@ -67,17 +69,15 @@ const submit = () => {
             </div>
 
             <div class="mt-4 block">
-                <label class="flex items-center">
+                <label class="flex min-h-11 items-center">
                     <Checkbox name="remember" v-model:checked="form.remember" />
-                    <span class="ms-2 text-sm text-gray-600"
-                        >{{ $t('auth.remember') }}</span
-                    >
+                    <span class="ms-2 text-sm text-muted">{{ $t('auth.remember') }}</span>
                 </label>
             </div>
 
             <div class="mt-4 flex items-center justify-end">
                 <PrimaryButton
-                    class="ms-4"
+                    class="w-full"
                     :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing"
                 >

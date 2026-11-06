@@ -6,8 +6,10 @@ export default {
     nav: {
         episodes: 'Folgen',
         dashboard: 'Dashboard',
+        statistics: 'Statistik',
         profile: 'Profil',
         logout: 'Abmelden',
+        menu: 'Menü',
     },
     auth: {
         login_title: 'Anmelden',
@@ -25,8 +27,41 @@ export default {
         count: ':count Folgen',
     },
     dashboard: {
-        title: 'Dashboard',
-        logged_in: 'Du bist angemeldet.',
+        title: 'Statistik',
+        coming_soon: 'Hier entsteht die Statistik zu deinen gesehenen Folgen.',
+    },
+    status: {
+        announced: 'Angekündigt',
+    },
+    seen: {
+        toggle: 'Als gesehen markieren',
+        toggle_label: '„:title“ als gesehen markieren',
+        not_yet_aired: 'Noch nicht ausgestrahlt',
+        change_date: 'Datum ändern',
+        no_date: 'ohne Datum',
+        seen_on: 'gesehen am :date',
+        seen_without_date: 'gesehen, ohne Datum',
+        dialog_title: 'Gesehen am',
+    },
+    datepicker: {
+        previous_month: 'Vorheriger Monat',
+        next_month: 'Nächster Monat',
+        month: 'Monat',
+        year: 'Jahr',
+        today: 'Heute',
+        no_date: 'Ohne Datum',
+    },
+    progress: {
+        of: ':done von :total gesehen',
+    },
+    filters: {
+        title: 'Filter',
+    },
+    pagination: {
+        label: 'Seiten',
+        previous: 'Zurück',
+        next: 'Weiter',
+        page_of: 'Seite :page von :pages',
     },
     profile: {
         title: 'Profil',
@@ -42,6 +77,7 @@ export default {
     },
     common: {
         save: 'Speichern',
+        cancel: 'Abbrechen',
         saved: 'Gespeichert.',
     },
 };

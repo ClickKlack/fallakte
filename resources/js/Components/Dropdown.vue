@@ -12,7 +12,7 @@ const props = defineProps({
     },
     contentClasses: {
         type: String,
-        default: 'py-1 bg-white',
+        default: 'py-1 bg-surface-raised',
     },
 });
 
@@ -51,11 +51,7 @@ const open = ref(false);
         </div>
 
         <!-- Full Screen Dropdown Overlay -->
-        <div
-            v-show="open"
-            class="fixed inset-0 z-40"
-            @click="open = false"
-        ></div>
+        <div v-show="open" class="fixed inset-0 z-40" @click="open = false"></div>
 
         <Transition
             enter-active-class="transition ease-out duration-200"
@@ -73,7 +69,7 @@ const open = ref(false);
                 @click="open = false"
             >
                 <div
-                    class="rounded-md ring-1 ring-black ring-opacity-5"
+                    class="rounded-lg border border-line shadow-xl shadow-black/40"
                     :class="contentClasses"
                 >
                     <slot name="content" />

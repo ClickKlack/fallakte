@@ -36,11 +36,11 @@ const updatePassword = () => {
 <template>
     <section>
         <header>
-            <h2 class="text-lg font-medium text-gray-900">
+            <h2 class="text-lg font-medium text-fg">
                 {{ $t('profile.password_title') }}
             </h2>
 
-            <p class="mt-1 text-sm text-gray-600">
+            <p class="mt-1 text-sm text-muted">
                 {{ $t('profile.password_hint') }}
             </p>
         </header>
@@ -58,10 +58,7 @@ const updatePassword = () => {
                     autocomplete="current-password"
                 />
 
-                <InputError
-                    :message="form.errors.current_password"
-                    class="mt-2"
-                />
+                <InputError :message="form.errors.current_password" class="mt-2" />
             </div>
 
             <div>
@@ -80,10 +77,7 @@ const updatePassword = () => {
             </div>
 
             <div>
-                <InputLabel
-                    for="password_confirmation"
-                    :value="$t('profile.confirm_password')"
-                />
+                <InputLabel for="password_confirmation" :value="$t('profile.confirm_password')" />
 
                 <TextInput
                     id="password_confirmation"
@@ -93,10 +87,7 @@ const updatePassword = () => {
                     autocomplete="new-password"
                 />
 
-                <InputError
-                    :message="form.errors.password_confirmation"
-                    class="mt-2"
-                />
+                <InputError :message="form.errors.password_confirmation" class="mt-2" />
             </div>
 
             <div class="flex items-center gap-4">
@@ -108,10 +99,7 @@ const updatePassword = () => {
                     leave-active-class="transition ease-in-out"
                     leave-to-class="opacity-0"
                 >
-                    <p
-                        v-if="form.recentlySuccessful"
-                        class="text-sm text-gray-600"
-                    >
+                    <p v-if="form.recentlySuccessful" class="text-sm text-muted">
                         {{ $t('common.saved') }}
                     </p>
                 </Transition>

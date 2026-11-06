@@ -5,19 +5,73 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 
+/*
+  Design-Tokens „Amis Fallakte“: Dunkelblau mit weißer Schrift, helles Blau als Akzent.
+  Komponenten verwenden nur diese semantischen Namen (bg-app, text-muted, bg-accent …),
+  nie direkte Farbwerte – so lässt sich das Farbschema an einer Stelle ändern.
+*/
 @theme {
   --font-sans:
     Figtree, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  /* Flächen, von außen nach innen heller */
+  --color-app: #0b1a33;
+  --color-bar: #071226;
+  --color-surface: #12284a;
+  --color-surface-raised: #1a355f;
+  --color-surface-hover: #21416f;
+
+  /* Linien */
+  --color-line: #2a4a7a;
+  --color-line-strong: #3d6299;
+
+  /* Text */
+  --color-fg: #ffffff;
+  --color-muted: #b4c3dc;
+  --color-subtle: #8399bd;
+
+  /* Akzent: helles, klares Blau */
+  --color-accent: #6cb4ff;
+  --color-accent-strong: #9ccdff;
+  --color-accent-soft: #1d4f8f;
+  --color-on-accent: #071226;
+
+  /* Status */
+  --color-announced: #3b4f70;
+  --color-announced-fg: #d5deeb;
+  --color-danger: #ff9b9b;
+  --color-danger-soft: #4a1f2b;
+  --color-success: #8fe3b5;
 }
 
-/* Kompatibilität: Tailwind 4 nutzt currentcolor als Standard-Rahmenfarbe, Breeze erwartet gray-200. */
 @layer base {
+  html {
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-app text-fg;
+  }
+
   *,
   ::after,
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+    border-color: var(--color-line);
+  }
+
+  /* Einheitlicher, gut sichtbarer Fokus-Rahmen für Tastaturbedienung */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  /* Native Datumsauswahl im dunklen Design */
+  input[type='date']::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 0.8;
   }
 }

@@ -1,13 +1,13 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
+import Card from '@/Components/Card.vue';
+import PageTitle from '@/Components/PageTitle.vue';
 import UpdatePasswordForm from './Partials/UpdatePasswordForm.vue';
 import UpdateProfileInformationForm from './Partials/UpdateProfileInformationForm.vue';
 import { Head } from '@inertiajs/vue3';
 
 defineProps({
-    status: {
-        type: String,
-    },
+    status: { type: String },
 });
 </script>
 
@@ -16,30 +16,16 @@ defineProps({
 
     <AuthenticatedLayout>
         <template #header>
-            <h2
-                class="text-xl font-semibold leading-tight text-gray-800"
-            >
-                {{ $t('profile.title') }}
-            </h2>
+            <PageTitle :title="$t('profile.title')" />
         </template>
 
-        <div class="py-12">
-            <div class="mx-auto max-w-7xl space-y-6 sm:px-6 lg:px-8">
-                <div
-                    class="bg-white p-4 shadow-sm sm:rounded-lg sm:p-8"
-                >
-                    <UpdateProfileInformationForm
-                        :status="status"
-                        class="max-w-xl"
-                    />
-                </div>
-
-                <div
-                    class="bg-white p-4 shadow-sm sm:rounded-lg sm:p-8"
-                >
-                    <UpdatePasswordForm class="max-w-xl" />
-                </div>
-            </div>
+        <div class="max-w-xl space-y-6">
+            <Card>
+                <UpdateProfileInformationForm :status="status" />
+            </Card>
+            <Card>
+                <UpdatePasswordForm />
+            </Card>
         </div>
     </AuthenticatedLayout>
 </template>
