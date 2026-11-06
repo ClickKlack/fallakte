@@ -18,9 +18,13 @@ fi
 
 # 2. Verdächtige Inhalte in hinzugefügten Zeilen
 added=$(git diff --cached -U0 --diff-filter=ACMR -- . ':(exclude).githooks/pre-commit' | grep -E '^\+[^+]')
+# Ohne Tests, Factories, Übersetzungen, Lockfiles und Build-Artefakte (legitime Test-Passwörter, Labels, minifizierter Code)
+added_code=$(git diff --cached -U0 --diff-filter=ACMR -- . ':(exclude).githooks/pre-commit' ':(exclude)tests' ':(exclude)database/factories' ':(exclude)public/build' ':(exclude)lang' ':(exclude)resources/js/lang' ':(exclude)package-lock.json' ':(exclude)composer.lock' | grep -E '^\+[^+]')
 
+# check <muster> <meldung> [quelle] [grep-flags]
 check() {
-    hits=$(printf '%s\n' "$added" | grep -n -i -E -e "$1" | grep -v -i -E -e '[=:][[:space:]]*["'"'"']?(null|false|true|""|<[^>]*>)["'"'"']?[[:space:]]*$')
+    source="${3:-$added}"
+    hits=$(printf '%s\n' "$source" | grep -n ${4:--i} -E -e "$1" | grep -v -i -E -e '[=:][[:space:]]*["'"'"']?(null|false|true|""|<[^>]*>)["'"'"']?[[:space:]]*$')
     if [ -n "$hits" ]; then
         echo "✖ $2:"
         printf '%s\n' "$hits" | head -5 | sed 's/^/    /'
@@ -30,7 +34,8 @@ check() {
 
 check '-----BEGIN [A-Z ]*PRIVATE KEY-----' 'Privater Schlüssel'
 check 'APP_KEY=base64:' 'Laravel APP_KEY'
-check '(PASSWORD|PASSWD|SECRET|TOKEN)[A-Z_]*[[:space:]]*[=:][[:space:]]*["'"'"']?[^[:space:]"'"'"'$<{]{4,}' 'Passwort/Token-Zuweisung'
+check '^\+[[:space:]]*[A-Z0-9_]*(PASSWORD|PASSWD|SECRET|TOKEN|API_KEY)[A-Z0-9_]*=[^[:space:]$]{4,}' 'Zugangsdaten im .env-Format' "$added" '-E'
+check '(password|passwd|secret|token|api_key)[a-z_]*["'"'"']?[[:space:]]*(=>|=|:)[[:space:]]*["'"'"'][^"'"'"'[:space:]]{4,}["'"'"']' 'Passwort/Token-Literal im Code' "$added_code"
 check '(/Users/[A-Za-z0-9._-]+|/home/[A-Za-z0-9._-]+|/var/www/|/kunden/|/homepages/|/htdocs/|/httpdocs/|C:\\\\Users\\\\)' 'Absoluter lokaler/Server-Pfad'
 check '(ssh|sftp|scp|rsync)[^|]*[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[a-z]{2,}' 'SSH-/Deploy-Ziel'
 

@@ -21,6 +21,7 @@ cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
 php artisan migrate
+php artisan user:create   # Login-Benutzer anlegen (Registrierung ist deaktiviert)
 npm install
 npm run dev
 ```
@@ -28,7 +29,9 @@ npm run dev
 Tests:
 
 ```bash
-php artisan test
+php artisan test          # PHP (Pest)
+npm run test              # Frontend (Vitest)
+vendor/bin/pint --test    # Code-Stil
 ```
 
 ### Schutz sensibler Daten

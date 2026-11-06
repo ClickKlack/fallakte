@@ -20,6 +20,7 @@ Persönliche Single-User-Webapp zum Abhaken gesehener Tatort- und Polizeiruf-110
 - Nach jedem Schritt: Tests + Pint grün, kurze Zusammenfassung, dann **Anleitung für einen Nutzer-Smoketest** (was aufrufen/ausführen, was erwartet wird).
 - **Erst wenn der Nutzer den Smoketest bestätigt und den Commit ausdrücklich freigibt, wird committet.** Gilt für jeden Commit, auch kleine Fixes. Push ebenfalls nur nach Freigabe.
 - Vor jedem Commit `git diff --cached` auf sensible Daten prüfen.
+- Commit-Messages und PR-Texte enthalten **keinen Verweis auf Claude/KI** (kein `Co-Authored-By`, kein „Generated with …“).
 
 ### 3. Schrittweise nach Plan
 - Ein Schritt aus SPEC Abschnitt 11 gilt erst als fertig, wenn `php artisan test` (ab Schritt 6 zusätzlich `npm run test`) grün ist und `vendor/bin/pint --test` keine Fehler meldet.
