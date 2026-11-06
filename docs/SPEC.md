@@ -257,6 +257,15 @@ Zeitpunkt bewusst nach dem Import (echte Daten vorhanden) und vor der ersten ech
 - Statistik-Service + Seite mit Diagrammen
 - **Tests (Unit):** alle Kennzahlen gegen bekannte Factory-Daten; angekündigte Folgen zählen nicht; Folgen ohne `seen_at` fehlen in „gesehen pro Jahr"
 
+### Schritt 9a – Über-Seite
+Vom Nutzer gewünschter Zwischenschritt vor dem Abschluss. Inhalte werden zu Beginn des Schritts abgestimmt; naheliegend:
+- Name und Logo der App, kurzer Zweck
+- Datenquelle mit Quellenangabe: deutschsprachige Wikipedia, Lizenz CC BY-SA 4.0, Links zu den beiden Episodenlisten
+- Stand der Daten (letzter Import je Reihe)
+- Hinweis, dass die Bildmarke eine eigene Gestaltung ist (kein Logo der ARD)
+- **Keine** Hosting-Informationen, Pfade oder persönlichen Kontaktdaten
+- **Tests:** Seite rendert, nur mit Login erreichbar
+
 ### Schritt 10 – Abschluss
 - README mit Installation, Deployment (lokaler Build, Upload `public/build`), Import, optional Scheduler
 - Komplettlauf aller Tests, Pint, Prüfung aller Abnahmekriterien aus Abschnitt 9

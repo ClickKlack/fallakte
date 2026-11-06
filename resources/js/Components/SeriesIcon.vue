@@ -6,15 +6,18 @@
 defineProps({
     slug: { type: String, required: true },
     name: { type: String, required: true },
+    // Steht der Name schon als Text daneben, ist das Symbol rein dekorativ (sonst doppelt vorgelesen)
+    decorative: { type: Boolean, default: false },
 });
 </script>
 
 <template>
     <span
         class="inline-flex shrink-0 align-middle"
-        :title="name"
-        role="img"
-        :aria-label="name"
+        :title="decorative ? undefined : name"
+        :role="decorative ? undefined : 'img'"
+        :aria-label="decorative ? undefined : name"
+        :aria-hidden="decorative ? 'true' : undefined"
         :data-series="slug"
     >
         <!-- Tatort: Fingerabdruck -->

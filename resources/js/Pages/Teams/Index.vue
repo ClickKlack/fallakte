@@ -170,7 +170,7 @@ function confirmMerge() {
 
             <section v-for="group in groups" :key="group.series.slug" class="space-y-3">
                 <h2 class="flex items-center gap-2 text-lg font-semibold">
-                    <SeriesIcon :slug="group.series.slug" :name="group.series.name" />
+                    <SeriesIcon decorative :slug="group.series.slug" :name="group.series.name" />
                     {{ group.series.name }}
                     <span class="text-sm font-normal text-subtle">({{ group.teams.length }})</span>
                 </h2>

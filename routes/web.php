@@ -3,6 +3,7 @@
 use App\Http\Controllers\EpisodeController;
 use App\Http\Controllers\EpisodeFormController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\StatisticsController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -21,10 +22,7 @@ Route::middleware('auth')->group(function () {
     Route::put('/teams/{team}', [TeamController::class, 'update'])->name('teams.update');
     Route::post('/teams/{team}/merge', [TeamController::class, 'merge'])->name('teams.merge');
 
-    // Statistik-Dashboard: wird in Schritt 9 ausgebaut.
-    Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
-    })->name('dashboard');
+    Route::get('/statistik', StatisticsController::class)->name('dashboard');
 
     // Übersicht der UI-Bausteine, nur in der lokalen Entwicklung.
     if (app()->isLocal()) {

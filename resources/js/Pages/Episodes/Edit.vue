@@ -122,7 +122,11 @@ const pageTitle = computed(() =>
                     v-if="!isNew"
                     class="mb-5 flex flex-wrap items-center gap-2 text-sm text-muted"
                 >
-                    <SeriesIcon :slug="episode.series.slug" :name="episode.series.name" />
+                    <SeriesIcon
+                        decorative
+                        :slug="episode.series.slug"
+                        :name="episode.series.name"
+                    />
                     <span>{{ episode.series.name }}</span>
                     <span class="font-semibold tabular-nums">· {{ episode.display_number }}</span>
                     <StatusBadge :status="episode.status" />

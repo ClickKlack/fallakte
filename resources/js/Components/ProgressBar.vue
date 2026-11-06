@@ -9,13 +9,18 @@ const props = defineProps({
 });
 
 const value = computed(() => percent(props.done, props.total));
+// Zahlen mit Tausenderpunkt (1.344)
+const label = computed(() => ({
+    done: props.done.toLocaleString('de-DE'),
+    total: props.total.toLocaleString('de-DE'),
+}));
 </script>
 
 <template>
     <div>
         <div v-if="showLabel" class="mb-1 flex items-baseline justify-between gap-2 text-sm">
             <span class="text-muted">
-                {{ $t('progress.of', { done, total }) }}
+                {{ $t('progress.of', label) }}
             </span>
             <span class="font-semibold tabular-nums text-fg">{{ value }} %</span>
         </div>
@@ -25,7 +30,7 @@ const value = computed(() => percent(props.done, props.total));
             :aria-valuenow="value"
             aria-valuemin="0"
             aria-valuemax="100"
-            :aria-label="$t('progress.of', { done, total })"
+            :aria-label="$t('progress.of', label)"
         >
             <div
                 class="h-full rounded-full bg-accent transition-[width] duration-500"

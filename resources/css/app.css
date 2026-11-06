@@ -37,6 +37,12 @@
   --color-accent-soft: #1d4f8f;
   --color-on-accent: #071226;
 
+  /* Diagramme (mit dem Palette-Validator geprüft: Helligkeitsband, Farbsehschwäche ΔE 16,9,
+     normale Sicht ΔE 17,6 auf --color-surface; die Kontextfarbe ist bewusst gedämpft –
+     jede Grafik hat deshalb eine Tabellenansicht) */
+  --color-chart: #3f95ee;
+  --color-chart-context: #3d6299;
+
   /* Status */
   --color-announced: #3b4f70;
   --color-announced-fg: #d5deeb;

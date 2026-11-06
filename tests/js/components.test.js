@@ -156,7 +156,7 @@ describe('ProgressBar', () => {
     it('shows count and percentage', () => {
         const wrapper = mountWithI18n(ProgressBar, { done: 512, total: 1344 });
 
-        expect(wrapper.text()).toContain('512 von 1344 gesehen');
+        expect(wrapper.text()).toContain('512 von 1.344 gesehen');
         expect(wrapper.text()).toContain('38 %');
         expect(wrapper.get('[role="progressbar"]').attributes('aria-valuenow')).toBe('38');
     });
@@ -199,5 +199,18 @@ describe('SeriesIcon', () => {
         expect(mount(SeriesIcon, { props: { slug: 'x', name: 'Andere Reihe' } }).text()).toBe(
             'Andere Reihe',
         );
+    });
+});
+
+describe('SeriesIcon decorative', () => {
+    it('is hidden from screen readers when the name is shown next to it', async () => {
+        const { default: SeriesIcon } = await import('@/Components/SeriesIcon.vue');
+        const icon = mount(SeriesIcon, {
+            props: { slug: 'tatort', name: 'Tatort', decorative: true },
+        });
+
+        expect(icon.attributes('aria-hidden')).toBe('true');
+        expect(icon.attributes('aria-label')).toBeUndefined();
+        expect(icon.attributes('role')).toBeUndefined();
     });
 });

@@ -15,7 +15,7 @@ test('registration routes do not exist', function (string $method, string $uri) 
 
 test('guests are redirected to login', function (string $uri) {
     $this->get($uri)->assertRedirect(route('login'));
-})->with(['/', '/dashboard', '/profile', '/confirm-password']);
+})->with(['/', '/statistik', '/profile', '/confirm-password']);
 
 test('episode list is the start page for authenticated users', function () {
     $this->actingAs(User::factory()->create())
@@ -26,7 +26,7 @@ test('episode list is the start page for authenticated users', function () {
 
 test('dashboard renders for authenticated users', function () {
     $this->actingAs(User::factory()->create())
-        ->get('/dashboard')
+        ->get('/statistik')
         ->assertOk()
         ->assertInertia(fn ($page) => $page->component('Dashboard'));
 });
@@ -61,7 +61,7 @@ test('styleguide is not available outside local development', function () {
 
 test('statistics page renders', function () {
     $this->actingAs(User::factory()->create())
-        ->get('/dashboard')
+        ->get('/statistik')
         ->assertOk()
         ->assertInertia(fn ($page) => $page->component('Dashboard'));
 });
