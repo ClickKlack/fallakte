@@ -49,4 +49,10 @@ vendor/bin/pint --test        # Code-Stil prüfen (ohne --test: korrigieren)
 npm run build                 # Frontend-Build (wird committet)
 npm run test                  # Vitest (ab Schritt 6)
 php artisan episodes:import {series?} {--dry-run}
+npm run format            # Prettier (JS/Vue)
+bin/deploy <major|minor|patch|none> [--dry-run]   # Deployment – nur der Nutzer führt es aus
 ```
+
+## Deployment
+- `bin/deploy` liest Ziel und Zugang ausschließlich aus der ignorierten `deploy.local.env` (Vorlage `deploy.example.env` nur mit Platzhaltern).
+- Das Skript zählt `VERSION` (Semantic Versioning) hoch und committet/taggt/pusht nach Rückfrage – es wird **nur vom Nutzer** gestartet, nie von Claude.

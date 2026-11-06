@@ -1,0 +1,141 @@
+#!/usr/bin/env bash
+# Deployment von „Amis Fallakte“ auf einen Webspace mit SSH und Composer (ohne Node).
+#
+#   bin/deploy <major|minor|patch|none> [--dry-run]
+#
+# Ablauf: Vorabprüfungen und Tests → Version hochzählen → Frontend bauen → (nach Rückfrage)
+# Release-Commit, Tag und Push → Upload per rsync → composer install, Migrationen, Caches auf dem Server.
+#
+# Ziel und Zugang stehen ausschließlich in der lokalen, von Git ignorierten Datei deploy.local.env
+# (Vorlage: deploy.example.env). Niemals Hosts, Pfade oder Zugangsdaten in dieses Skript schreiben.
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+BUMP="${1:-}"
+DRY_RUN=false
+[[ "${2:-}" == "--dry-run" ]] && DRY_RUN=true
+
+say()  { printf '\n\033[1;34m▸ %s\033[0m\n' "$*"; }
+# Lokale Build-Änderungen verwerfen (auch neu entstandene Dateien in public/build)
+restore_build() { git checkout -q -- VERSION public/build 2>/dev/null || true; git clean -fdq public/build; }
+fail() { printf '\n\033[1;31m✖ %s\033[0m\n' "$*" >&2; exit 1; }
+
+case "$BUMP" in
+    major|minor|patch|none) ;;
+    *) fail "Aufruf: bin/deploy <major|minor|patch|none> [--dry-run]" ;;
+esac
+
+# --- Konfiguration -------------------------------------------------------------------------
+[[ -f deploy.local.env ]] || fail "deploy.local.env fehlt – Vorlage deploy.example.env kopieren und ausfüllen."
+# shellcheck disable=SC1091
+source deploy.local.env
+: "${DEPLOY_SSH:?DEPLOY_SSH fehlt in deploy.local.env}"
+: "${DEPLOY_PATH:?DEPLOY_PATH fehlt in deploy.local.env}"
+# Port nur setzen, wenn angegeben – sonst gilt die SSH-Konfiguration (z. B. eines Host-Alias)
+DEPLOY_PORT="${DEPLOY_PORT:-}"
+SSH_CMD=(ssh)
+[[ -n "$DEPLOY_PORT" ]] && SSH_CMD+=(-p "$DEPLOY_PORT")
+DEPLOY_PHP="${DEPLOY_PHP:-php}"
+DEPLOY_COMPOSER="${DEPLOY_COMPOSER:-composer}"
+
+# DEPLOY_SSH=local führt alles im lokalen Ordner DEPLOY_PATH aus (zum Testen des Skripts)
+remote() {
+    if [[ "$DEPLOY_SSH" == "local" ]]; then
+        (cd "$DEPLOY_PATH" && bash -c "$1")
+    else
+        "${SSH_CMD[@]}" "$DEPLOY_SSH" "cd '$DEPLOY_PATH' && $1"
+    fi
+}
+
+# --- Vorabprüfungen ------------------------------------------------------------------------
+say "Vorabprüfungen"
+[[ -z "$(git status --porcelain)" ]] || fail "Es gibt nicht committete Änderungen. Bitte zuerst committen."
+[[ "$(git rev-parse --abbrev-ref HEAD)" == "main" ]] || fail "Deployment nur vom Branch main."
+
+say "Tests und Code-Stil"
+php artisan test --compact
+npm run test --silent
+vendor/bin/pint --test
+npm run format:check --silent
+
+# --- Version -------------------------------------------------------------------------------
+CURRENT="$(tr -d '[:space:]' < VERSION)"
+[[ "${CURRENT}" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]] || fail "VERSION enthält keine gültige Version: ${CURRENT}"
+MAJOR="${BASH_REMATCH[1]}"; MINOR="${BASH_REMATCH[2]}"; PATCH="${BASH_REMATCH[3]}"
+case "$BUMP" in
+    major) NEXT="$((MAJOR + 1)).0.0" ;;
+    minor) NEXT="$MAJOR.$((MINOR + 1)).0" ;;
+    patch) NEXT="$MAJOR.$MINOR.$((PATCH + 1))" ;;
+    none)  NEXT="${CURRENT}" ;;
+esac
+say "Version: ${CURRENT} → ${NEXT}"
+
+# --- Build ---------------------------------------------------------------------------------
+say "Frontend bauen"
+npm run build --silent >/dev/null
+
+if [[ "${NEXT}" != "${CURRENT}" ]] || [[ -n "$(git status --porcelain public/build)" ]]; then
+    # Neue Version: Release-Commit mit Tag. Gleiche Version, aber geänderter Build: Commit ohne Tag.
+    if [[ "${NEXT}" != "${CURRENT}" ]]; then
+        MESSAGE="chore: release v${NEXT}"; TAG="v${NEXT}"
+    else
+        MESSAGE="chore: rebuild frontend assets"; TAG=""
+    fi
+
+    if $DRY_RUN; then
+        say "[Probelauf] Würde committen: ${MESSAGE}${TAG:+ (Tag ${TAG})} und pushen"
+        restore_build
+    else
+        echo "${NEXT}" > VERSION
+        git add VERSION public/build
+        git --no-pager diff --cached --stat
+        read -r -p "„${MESSAGE}“${TAG:+ mit Tag ${TAG}} committen und pushen? [j/N] " answer
+        [[ "$answer" =~ ^[jJyY]$ ]] || { git restore --staged VERSION public/build; restore_build; fail "Abgebrochen – nichts geändert."; }
+        git commit -q -m "${MESSAGE}"
+        git push -q
+        if [[ -n "${TAG}" ]]; then
+            git tag -a "${TAG}" -m "Release ${TAG}"
+            git push -q origin "${TAG}"
+        fi
+    fi
+fi
+
+# --- Upload --------------------------------------------------------------------------------
+# Ausgeschlossen (und auf dem Server nie gelöscht): .env, Datenbankdateien, storage-Inhalte,
+# Abhängigkeiten, Entwicklungs- und Testdateien.
+RSYNC_EXCLUDES=(
+    --exclude=.git/ --exclude=.github/ --exclude=.githooks/ --exclude=.claude/
+    --exclude=node_modules/ --exclude=vendor/ --exclude=tests/ --exclude=docs/
+    --exclude=.env --exclude='.env.*' --exclude='*.local' --exclude='*.local.*' --exclude=deploy.example.env
+    --exclude='database/*.sqlite*' --exclude='*.sqlite' --exclude='*.sqlite3'
+    --exclude='storage/*' --exclude='bootstrap/cache/*.php' --exclude=public/hot
+    --exclude=.phpunit.cache/ --exclude=.phpunit.result.cache --exclude=.DS_Store
+    --exclude=.idea/ --exclude=.vscode/ --exclude=.zed/ --exclude=.cursor/
+)
+RSYNC_FLAGS=(-az --delete "${RSYNC_EXCLUDES[@]}")
+$DRY_RUN && RSYNC_FLAGS+=(--dry-run --itemize-changes)
+
+say "Upload"
+if [[ "$DEPLOY_SSH" == "local" ]]; then
+    mkdir -p "$DEPLOY_PATH"
+    rsync "${RSYNC_FLAGS[@]}" ./ "$DEPLOY_PATH/"
+else
+    rsync "${RSYNC_FLAGS[@]}" -e "${SSH_CMD[*]}" ./ "$DEPLOY_SSH:$DEPLOY_PATH/"
+fi
+
+if $DRY_RUN; then
+    say "[Probelauf] Würde auf dem Server ausführen: composer install --no-dev, migrate --force, config/route/view:cache"
+    exit 0
+fi
+
+# --- Server --------------------------------------------------------------------------------
+say "Server: Abhängigkeiten, Migrationen, Caches"
+remote "mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
+    && $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress \
+    && $DEPLOY_PHP artisan migrate --force \
+    && $DEPLOY_PHP artisan config:cache \
+    && $DEPLOY_PHP artisan route:cache \
+    && $DEPLOY_PHP artisan view:cache"
+
+say "Fertig – Version ${NEXT} ist online."

@@ -19,6 +19,8 @@
     </source>
     <php>
         <env name="APP_ENV" value="testing"/>
+        <!-- Fester Schlüssel nur für Tests, damit ein frischer Checkout ohne .env testbar ist (kein Geheimnis) -->
+        <env name="APP_KEY" value="base64:F2set/MikBrBxmf26jM4RB+pvC1XifKZYrZpswAlHpM="/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
         <env name="BROADCAST_CONNECTION" value="null"/>
