@@ -131,8 +131,11 @@ fi
 
 # --- Server --------------------------------------------------------------------------------
 say "Server: Abhängigkeiten, Migrationen, Caches"
-remote "mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
-    && $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress \
+# Ältere Composer-Versionen melden unter neuem PHP viele harmlose „Deprecated“-Hinweise über sich selbst –
+# diese Zeilen werden ausgeblendet; echte Fehler bleiben sichtbar und brechen weiterhin ab (pipefail).
+remote "set -o pipefail; mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
+    && $DEPLOY_COMPOSER install --no-dev --optimize-autoloader --no-interaction --no-progress 2>&1 \
+       | { grep -v -E '^(PHP )?Deprecat|^Deprecation Notice|^$' || true; } \
     && $DEPLOY_PHP artisan migrate --force \
     && $DEPLOY_PHP artisan config:cache \
     && $DEPLOY_PHP artisan route:cache \
