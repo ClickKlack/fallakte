@@ -1,13 +1,15 @@
 <?php
 
+use App\Http\Controllers\EpisodeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::middleware('auth')->group(function () {
-    // Startseite: wird in Schritt 6 durch die Folgenliste ersetzt.
-    Route::redirect('/', '/dashboard');
+    Route::get('/', [EpisodeController::class, 'index'])->name('episodes.index');
+    Route::patch('/episodes/{episode}/seen', [EpisodeController::class, 'updateSeen'])->name('episodes.seen');
 
+    // Statistik-Dashboard: wird in Schritt 9 ausgebaut.
     Route::get('/dashboard', function () {
         return Inertia::render('Dashboard');
     })->name('dashboard');

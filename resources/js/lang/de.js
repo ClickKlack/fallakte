@@ -4,6 +4,7 @@
  */
 export default {
     nav: {
+        episodes: 'Folgen',
         dashboard: 'Dashboard',
         profile: 'Profil',
         logout: 'Abmelden',
@@ -18,6 +19,10 @@ export default {
         confirm_hint:
             'Dies ist ein geschützter Bereich. Bitte bestätige dein Passwort, um fortzufahren.',
         confirm: 'Bestätigen',
+    },
+    episodes: {
+        title: 'Folgen',
+        count: ':count Folgen',
     },
     dashboard: {
         title: 'Dashboard',

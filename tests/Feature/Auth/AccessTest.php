@@ -17,10 +17,11 @@ test('guests are redirected to login', function (string $uri) {
     $this->get($uri)->assertRedirect(route('login'));
 })->with(['/', '/dashboard', '/profile', '/confirm-password']);
 
-test('authenticated users are redirected from root to dashboard', function () {
+test('episode list is the start page for authenticated users', function () {
     $this->actingAs(User::factory()->create())
         ->get('/')
-        ->assertRedirect('/dashboard');
+        ->assertOk()
+        ->assertInertia(fn ($page) => $page->component('Episodes/Index'));
 });
 
 test('dashboard renders for authenticated users', function () {

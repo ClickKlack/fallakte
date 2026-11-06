@@ -37,7 +37,7 @@ test('created user can log in', function () {
     $this->post('/login', [
         'email' => 'ami@example.com',
         'password' => 'secret-password',
-    ])->assertRedirect(route('dashboard', absolute: false));
+    ])->assertRedirect(route('episodes.index', absolute: false));
 
     $this->assertAuthenticated();
 });

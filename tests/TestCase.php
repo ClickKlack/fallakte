@@ -13,5 +13,8 @@ abstract class TestCase extends BaseTestCase
 
         // Tests dürfen nie echte HTTP-Anfragen stellen (z. B. an Wikipedia).
         Http::preventStrayRequests();
+
+        // Tests sollen nicht vom gebauten Frontend (public/build) abhängen.
+        $this->withoutVite();
     }
 }

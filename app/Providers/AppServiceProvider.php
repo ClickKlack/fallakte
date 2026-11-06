@@ -7,9 +7,12 @@ use App\Import\Wikipedia\Parsers\PolizeirufParser;
 use App\Import\Wikipedia\Parsers\TatortParser;
 use App\Import\Wikipedia\WikipediaClient;
 use App\Models\User;
+use Illuminate\Database\Events\ConnectionEstablished;
 use Illuminate\Http\Client\Factory as HttpFactory;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Vite;
 use Illuminate\Support\ServiceProvider;
+use Pdo\Sqlite;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -53,5 +56,27 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Vite::prefetch(concurrency: 3);
+
+        Event::listen(ConnectionEstablished::class, function (ConnectionEstablished $event) {
+            if ($event->connection->getDriverName() === 'sqlite') {
+                self::registerSqliteFunctions($event->connection->getPdo());
+            }
+        });
+    }
+
+    /**
+     * SQLite kennt Groß-/Kleinschreibung nur für ASCII. unicode_lower() wandelt auch Umlaute um,
+     * damit die Titelsuche „über“ und „Über“ gleich behandelt (MariaDB kann das von Haus aus).
+     */
+    public static function registerSqliteFunctions(\PDO $pdo): void
+    {
+        $lower = fn (?string $value) => $value === null ? null : mb_strtolower($value);
+
+        if ($pdo instanceof Sqlite) {
+            $pdo->createFunction('unicode_lower', $lower, 1, \PDO::SQLITE_DETERMINISTIC);
+        } else {
+            // PHP < 8.4
+            $pdo->sqliteCreateFunction('unicode_lower', $lower, 1, \PDO::SQLITE_DETERMINISTIC);
+        }
     }
 }
