@@ -8,6 +8,7 @@ export default {
         teams: 'Teams',
         dashboard: 'Dashboard',
         statistics: 'Statistik',
+        about: 'Über',
         profile: 'Profil',
         logout: 'Abmelden',
         menu: 'Menü',
@@ -175,6 +176,40 @@ export default {
             show_errors: 'Fehlermeldungen anzeigen',
             unfinished: 'Import wurde nicht abgeschlossen.',
             never: 'Noch kein Import.',
+        },
+    },
+    about: {
+        title: 'Über',
+        tagline: 'Gesehene Tatort- und Polizeiruf-110-Folgen im Blick.',
+        version: 'Version :version',
+        dedication: 'Für Ami mit ❤️ erstellt.',
+        purpose_title: 'Worum es geht',
+        purpose:
+            'Amis Fallakte führt Buch über alle Folgen von Tatort und Polizeiruf 110: Was ist gesehen, was fehlt noch, welche Teams sind fast komplett? Der Folgenkatalog wird aus Wikipedia übernommen und lässt sich in der App korrigieren – eigene Korrekturen bleiben bei späteren Importen erhalten.',
+        data_title: 'Datenstand',
+        counts: ':episodes Folgen · :teams Teams',
+        last_import: 'Zuletzt von Wikipedia übernommen am :date',
+        never_imported: 'Noch nicht von Wikipedia übernommen',
+        import: 'Jetzt von Wikipedia aktualisieren',
+        importing: 'Import läuft …',
+        import_hint: 'Höchstens alle 5 Minuten. Deine Korrekturen und Haken bleiben erhalten.',
+        import_confirm_title: 'Folgen aktualisieren?',
+        import_confirm:
+            'Beide Episodenlisten werden jetzt aus Wikipedia übernommen. Das dauert einige Sekunden. Manuell korrigierte Angaben und deine Haken bleiben unverändert.',
+        source_title: 'Quelle & Lizenz',
+        source: 'Folgennummern, Titel, Ausstrahlungsdaten, Sender und Ermittler stammen aus den Episodenlisten der deutschsprachigen Wikipedia:',
+        license_prefix:
+            'Die Inhalte wurden von den Autorinnen und Autoren der Wikipedia erstellt und stehen unter der Lizenz',
+        license_suffix:
+            'Sie wurden für diese App ausgelesen und können hier gekürzt oder manuell korrigiert sein.',
+        trademark:
+            '„Tatort“ und „Polizeiruf 110“ sind Marken der jeweiligen Rechteinhaber. Das Logo dieser App ist eine eigene Gestaltung und kein Logo der ARD.',
+        tech_title: 'Technik',
+        tech: {
+            version: 'Version',
+            stack: 'Grundlage',
+            code: 'Quellcode',
+            repository: 'Öffentliches Repository auf GitHub',
         },
     },
     charts: {

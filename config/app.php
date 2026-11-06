@@ -1,5 +1,7 @@
 <?php
 
+use App\Support\AppVersion;
+
 return [
 
     /*
@@ -14,6 +16,12 @@ return [
     */
 
     'name' => env('APP_NAME', 'Amis Fallakte'),
+
+    /*
+    | Version nach Semantic Versioning (MAJOR.MINOR.PATCH). Quelle ist die Datei VERSION im
+    | Projekt-Root; das Deploy-Skript zählt sie hoch. APP_VERSION überschreibt sie bei Bedarf.
+    */
+    'version' => env('APP_VERSION') ?: AppVersion::fromFile(dirname(__DIR__).'/VERSION'),
 
     /*
     |--------------------------------------------------------------------------

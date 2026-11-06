@@ -15,6 +15,8 @@ const navigation = [
     { route: 'episodes.index', label: 'nav.episodes' },
     { route: 'teams.index', label: 'nav.teams' },
     { route: 'dashboard', label: 'nav.statistics' },
+    // Über-Seite: bewusst dezenter dargestellt
+    { route: 'about', label: 'nav.about', subtle: true },
 ];
 </script>
 
@@ -34,6 +36,7 @@ const navigation = [
                                 :key="item.route"
                                 :href="route(item.route)"
                                 :active="route().current(item.route)"
+                                :subtle="item.subtle"
                             >
                                 {{ $t(item.label) }}
                             </NavLink>
@@ -116,6 +119,7 @@ const navigation = [
                         :key="item.route"
                         :href="route(item.route)"
                         :active="route().current(item.route)"
+                        :subtle="item.subtle"
                     >
                         {{ $t(item.label) }}
                     </ResponsiveNavLink>

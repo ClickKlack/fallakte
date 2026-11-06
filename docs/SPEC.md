@@ -164,7 +164,8 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - SQLite-Datei liegt außerhalb des Web-Roots in einem für PHP beschreibbaren Verzeichnis (Pfad nur in `.env`); Deployment darf die Datei nie überschreiben
 - Frontend-Build (`npm run build`) erfolgt lokal; `public/build` wird mit deployed
 - README mit Deployment-Schritten: Upload, `composer install --no-dev`, `.env`, `php artisan migrate --force`, `php artisan db:seed --force` (legt die Reihen an, keine Benutzer), `php artisan user:create`, `php artisan episodes:import`
-- Import wird manuell per SSH ausgeführt; optional über Laravel-Scheduler, falls Cron auf dem Webspace verfügbar ist (im README beschreiben, nicht voraussetzen)
+- Import wird manuell per SSH ausgeführt **oder über den Knopf „Jetzt von Wikipedia aktualisieren“ auf der Über-Seite** (synchron im Webaufruf, Erstimport ca. 9 s; höchstens alle 5 Minuten; gemeinsame Sperre mit dem Artisan-Befehl gegen parallele Läufe); optional über Laravel-Scheduler, falls Cron auf dem Webspace verfügbar ist (im README beschreiben, nicht voraussetzen)
+- Mehrere Logins sind möglich (`user:create` mehrfach), teilen sich aber **einen gemeinsamen Datenbestand** – z. B. Ami als Hauptnutzerin plus ein zweiter Login zum Mitschauen. Für den Wikipedia-User-Agent in der produktiven `.env` `WIKIPEDIA_USER_AGENT` mit eigener Kontaktadresse setzen (sonst wird die E-Mail des zuerst angelegten Benutzers verwendet)
 
 ## 8. Nicht im Umfang
 - Bewertungen, Notizen, Merkliste
@@ -259,15 +260,20 @@ Zeitpunkt bewusst nach dem Import (echte Daten vorhanden) und vor der ersten ech
 
 ### Schritt 9a – Über-Seite
 Vom Nutzer gewünschter Zwischenschritt vor dem Abschluss. Inhalte werden zu Beginn des Schritts abgestimmt; naheliegend:
+- Widmung: „Für Ami mit ❤️ erstellt.“
 - Name und Logo der App, kurzer Zweck
 - Datenquelle mit Quellenangabe: deutschsprachige Wikipedia, Lizenz CC BY-SA 4.0, Links zu den beiden Episodenlisten
 - Stand der Daten (letzter Import je Reihe)
 - Hinweis, dass die Bildmarke eine eigene Gestaltung ist (kein Logo der ARD)
 - **Keine** Hosting-Informationen, Pfade oder persönlichen Kontaktdaten
-- **Tests:** Seite rendert, nur mit Login erreichbar
+- Im Block Datenstand: Knopf für den manuellen Import beider Reihen (mit Bestätigung, Sperre und 5-Minuten-Bremse)
+- Version nach Semantic Versioning aus der Datei `VERSION` (Start 0.9.0; Hochzählen übernimmt das Deploy-Skript, Schritt 10)
+- Link in der Hauptnavigation, aber dezenter dargestellt
+- **Tests:** Seite rendert, nur mit Login erreichbar; Version wird gelesen, ungültig/fehlend → „dev“
 
 ### Schritt 10 – Abschluss
-- README mit Installation, Deployment (lokaler Build, Upload `public/build`), Import, optional Scheduler
+- **Deploy-Skript** (lokal ausgeführt): zählt die Version in `VERSION` nach Semantic Versioning hoch (`major` / `minor` / `patch`), baut das Frontend, lädt hoch und führt auf dem Server `composer install --no-dev`, `php artisan migrate --force` und `php artisan config:cache` aus (sonst bleibt die alte Version im Konfig-Cache). Zugangsdaten und Ziel (Host, Pfad, Benutzer) liest es aus einer **lokalen, ignorierten** Datei – nie aus dem Repo
+- README mit Installation, Deployment (lokaler Build, Upload `public/build`), Import, optional Scheduler, zweitem Login und `WIKIPEDIA_USER_AGENT`
 - Komplettlauf aller Tests, Pint, Prüfung aller Abnahmekriterien aus Abschnitt 9
 
 Bei Unklarheiten zur Wikipedia-Struktur oder zur Team-Zuordnung: **nachfragen statt raten.**

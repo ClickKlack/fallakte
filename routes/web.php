@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\EpisodeController;
 use App\Http\Controllers\EpisodeFormController;
+use App\Http\Controllers\ImportController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\StatisticsController;
 use App\Http\Controllers\TeamController;
@@ -23,6 +25,8 @@ Route::middleware('auth')->group(function () {
     Route::post('/teams/{team}/merge', [TeamController::class, 'merge'])->name('teams.merge');
 
     Route::get('/statistik', StatisticsController::class)->name('dashboard');
+    Route::get('/ueber', AboutController::class)->name('about');
+    Route::post('/import', ImportController::class)->name('import.run');
 
     // Übersicht der UI-Bausteine, nur in der lokalen Entwicklung.
     if (app()->isLocal()) {

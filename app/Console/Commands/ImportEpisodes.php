@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Import\EpisodeImporter;
+use App\Import\ImportLock;
 use App\Import\ImportResult;
 use App\Import\ParserRegistry;
 use App\Models\Series;
@@ -20,6 +21,23 @@ class ImportEpisodes extends Command
     protected $description = 'Importiert bzw. aktualisiert die Folgen aus der deutschsprachigen Wikipedia';
 
     public function handle(EpisodeImporter $importer, ParserRegistry $parsers): int
+    {
+        $lock = ImportLock::make();
+
+        if (! $lock->get()) {
+            $this->error('Es läuft bereits ein Import. Bitte später erneut versuchen.');
+
+            return self::FAILURE;
+        }
+
+        try {
+            return $this->importAll($importer, $parsers);
+        } finally {
+            $lock->release();
+        }
+    }
+
+    private function importAll(EpisodeImporter $importer, ParserRegistry $parsers): int
     {
         $slugs = $this->argument('series') !== null ? [$this->argument('series')] : $parsers->slugs();
         $dryRun = (bool) $this->option('dry-run');

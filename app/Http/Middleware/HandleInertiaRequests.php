@@ -37,6 +37,7 @@ class HandleInertiaRequests extends Middleware
             // Kurzmeldungen nach Aktionen (z. B. „Gespeichert“)
             'flash' => [
                 'success' => fn () => $request->session()->get('success'),
+                'error' => fn () => $request->session()->get('error'),
             ],
         ];
     }

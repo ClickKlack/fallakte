@@ -1,0 +1,1 @@
+import{B as e,E as t,O as n,v as r}from"./app-DKADceRW.js";var i={class:`block text-sm font-medium text-muted`},a={key:0},o={key:1},s={__name:`InputLabel`,props:{value:{type:String}},setup(s){return(c,l)=>(t(),r(`label`,i,[s.value?(t(),r(`span`,a,e(s.value),1)):(t(),r(`span`,o,[n(c.$slots,`default`)]))]))}};export{s as t};
