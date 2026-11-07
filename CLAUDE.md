@@ -55,4 +55,5 @@ bin/deploy <major|minor|patch|none> [--dry-run]   # Deployment – nur der Nutze
 
 ## Deployment
 - `bin/deploy` liest Ziel und Zugang ausschließlich aus der ignorierten `deploy.local.env` (Vorlage `deploy.example.env` nur mit Platzhaltern).
+- Alternativ Docker (z. B. Synology): `Dockerfile`, `docker-compose.yml` (Services `app` + `scheduler`), Vorlage `docker.example.env`, Daten im ignorierten `data/`. Anleitung im README.
 - Das Skript zählt `VERSION` (Semantic Versioning) hoch und committet/taggt/pusht nach Rückfrage – es wird **nur vom Nutzer** gestartet, nie von Claude.

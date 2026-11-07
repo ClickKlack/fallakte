@@ -137,16 +137,103 @@ Für den Excel-Export braucht der Server die PHP-Erweiterung `zip`.
 
 ### Optional: automatischer Import per Cron
 
-Nur falls der Webspace Cronjobs anbietet. In `routes/console.php` einen Zeitplan ergänzen, z. B.
+Nur falls der Webspace Cronjobs anbietet. Der Zeitplan ist bereits eingebaut (Standard: montags 04:00,
+änderbar über `IMPORT_SCHEDULE`/`IMPORT_TIMEZONE` in der `.env`, leer = aus). Beim Hoster einen Cronjob
+einrichten, der jede Minute `cd <projektordner> && php artisan schedule:run` ausführt.
 
-```php
-use Illuminate\Support\Facades\Schedule;
+## Betrieb mit Docker (z. B. Synology NAS)
 
-Schedule::command('episodes:import')->weeklyOn(1, '04:00');
+Das Image wird direkt auf dem Zielsystem aus dem Repository gebaut, eine Registry ist nicht nötig. Die
+`docker-compose.yml` startet zwei Container aus demselben Image:
+
+- **app** – Webserver (Apache + PHP 8.4); führt beim Start Migrationen und Stammdaten aus
+- **scheduler** – führt den automatischen Wikipedia-Import aus (Standard: montags 04:00)
+
+Alle Daten – SQLite-Datenbank, Logs, Sessions und der automatisch erzeugte Schlüssel `app.key` – liegen im
+Ordner `data/` neben der `docker-compose.yml`.
+
+### Einrichtung auf einer Synology NAS
+
+Voraussetzung: DSM 7.2 oder neuer mit dem Paket **Container Manager** (Paket-Zentrum). Das Image läuft auf
+Intel/AMD- und ARM64-Modellen.
+
+1. **Ordner anlegen:** In der File Station z. B. `docker/fallakte` im Freigabeordner `docker` anlegen.
+2. **Code holen** – eine der beiden Varianten:
+   - *ohne Kommandozeile:* auf GitHub „Code → Download ZIP“, das ZIP per File Station in den Ordner
+     hochladen und dort entpacken (Rechtsklick → Entpacken), sodass `docker-compose.yml` direkt im Ordner liegt;
+   - *per SSH* (Systemsteuerung → Terminal & SNMP → SSH aktivieren; Git z. B. über das Paket „Git Server“):
+     ```bash
+     cd <pfad-zum-freigabeordner-docker>
+     git clone https://github.com/ClickKlack/fallakte.git fallakte
+     ```
+3. **Konfiguration:** `docker.example.env` im selben Ordner als `.env` kopieren und anpassen (in der File
+   Station: Kopie anlegen, umbenennen, mit dem Texteditor-Paket bearbeiten). Mindestens:
+   - `APP_URL` – Adresse, unter der die App aufgerufen wird (siehe „Zugriff“ unten)
+   - `APP_PORT` – Port auf der NAS (Standard `8080`; muss frei sein)
+   - `WIKIPEDIA_USER_AGENT` – mit eigener Kontaktadresse
+
+   `APP_KEY` kann leer bleiben: Beim ersten Start wird ein Schlüssel erzeugt und in `data/app.key` abgelegt.
+4. **Projekt anlegen:** Container Manager → **Projekt** → **Erstellen**
+   - Projektname: `fallakte`
+   - Pfad: den Ordner aus Schritt 1 wählen
+   - Quelle: „Vorhandene docker-compose.yml verwenden“
+   - Weiter → Fertig. Der erste Build dauert einige Minuten (Frontend und PHP-Abhängigkeiten werden gebaut).
+5. **Logins anlegen und ersten Import starten:** Container Manager → **Container** → `fallakte-app-1` →
+   **Aktion → Terminal öffnen** → **Erstellen** → Befehl `bash`, dann:
+   ```bash
+   artisan user:create
+   artisan episodes:import
+   ```
+   Per SSH alternativ im Projektordner: `sudo docker compose exec app artisan user:create`.
+   (`artisan` ist ein Kurzbefehl im Container, der als Webserver-Benutzer läuft.)
+6. Die App im Browser unter der `APP_URL` aufrufen und anmelden.
+
+### Zugriff
+
+- **Nur im Heimnetz (einfachste Variante):** `APP_URL=http://<nas-ip>:8080`,
+  `SESSION_SECURE_COOKIE=false`. Aufruf über `http://<nas-ip>:8080`.
+- **Über HTTPS mit eigener Domain:** Reverse-Proxy der DSM verwenden. Systemsteuerung → Anmeldeportal →
+  Erweitert → **Reverse Proxy** → Erstellen:
+  - Quelle: Protokoll `HTTPS`, Hostname `<deine-domain>`, Port `443`
+  - Ziel: Protokoll `HTTP`, Hostname `localhost`, Port `8080` (bzw. `APP_PORT`)
+
+  Ein Zertifikat für die Domain unter Systemsteuerung → Sicherheit → Zertifikat einrichten (z. B. Let's Encrypt)
+  und dem Reverse-Proxy-Eintrag zuweisen. In der `.env` dann `APP_URL=https://<deine-domain>` und
+  `SESSION_SECURE_COOKIE=true` setzen und das Projekt neu starten. `TRUSTED_PROXIES` ist in der Vorlage
+  bereits so gesetzt, dass die Weiterleitungs-Header des Reverse-Proxys akzeptiert werden.
+
+Nach Änderungen an der `.env`: Container Manager → Projekt → `fallakte` → **Aktion → Stopp**, dann **Start**
+(bzw. `sudo docker compose up -d`).
+
+### Update auf eine neue Version
+
+1. Neuen Code holen: per SSH `git pull` im Projektordner bzw. das neue ZIP über die alten Dateien entpacken
+   (`.env` und `data/` bleiben dabei unangetastet).
+2. Container Manager → Projekt → `fallakte` → **Aktion → Erstellen** (baut das Image neu und startet die
+   Container), per SSH: `sudo docker compose up -d --build`.
+
+Migrationen laufen beim Start automatisch.
+
+### Backup
+
+Den Ordner `data/` sichern (z. B. mit Hyper Backup) – er enthält Datenbank und Schlüssel. Zusätzlich ist der
+Download auf der Seite „Über“ → Backup möglich. Wiederherstellen: Projekt stoppen, die SQLite-Datei nach
+`data/database/fallakte.sqlite` kopieren, Projekt starten.
+
+### Automatischer Import
+
+Der Container `scheduler` führt `episodes:import` nach `IMPORT_SCHEDULE` aus (Cron-Ausdruck, Standard
+`0 4 * * 1` = montags 04:00 in `IMPORT_TIMEZONE`). Leerer Wert schaltet den automatischen Import ab.
+Ergebnis: Seite „Über“ → letzter Import, Fehler im Protokoll des Containers.
+
+### Lokal testen
+
+Im Entwicklungsordner ist die `.env` bereits für die lokale Entwicklung belegt, daher eine eigene Datei verwenden:
+
+```bash
+cp docker.example.env .env.docker            # .env.docker wird von Git ignoriert
+ENV_FILE=.env.docker docker compose --env-file .env.docker up -d --build
 ```
-
-und beim Hoster einen Cronjob einrichten, der jede Minute
-`cd <projektordner> && php artisan schedule:run` ausführt.
 
 ## Quellen und Lizenz der Daten
 

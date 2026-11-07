@@ -1,0 +1,37 @@
+# Amis Fallakte mit Docker (z. B. Synology Container Manager → Projekt).
+# Konfiguration: docker.example.env nach .env kopieren und anpassen (die .env wird nie committet).
+# Alle Daten (SQLite-Datenbank, Logs, Sessions, Schlüssel) liegen im Ordner ./data neben dieser Datei.
+
+name: fallakte
+
+x-app: &app
+  image: fallakte:latest
+  build:
+    context: .
+    args:
+      APP_NAME: ${APP_NAME:-Amis Fallakte}
+  # Standard: .env neben dieser Datei (ENV_FILE nur zum lokalen Testen im Entwicklungsordner)
+  env_file: ${ENV_FILE:-.env}
+  # Fest vorgegeben, damit die Datenbank immer im Volume liegt (überschreibt Werte aus der .env)
+  environment:
+    DB_CONNECTION: sqlite
+    DB_DATABASE: /app/storage/database/fallakte.sqlite
+  volumes:
+    - ./data:/app/storage
+  restart: unless-stopped
+
+services:
+  app:
+    <<: *app
+    ports:
+      - "${APP_PORT:-8080}:80"
+
+  # Führt den wöchentlichen Wikipedia-Import aus (Zeitpunkt: IMPORT_SCHEDULE in der .env)
+  scheduler:
+    <<: *app
+    command: ["scheduler"]
+    healthcheck:
+      disable: true
+    depends_on:
+      app:
+        condition: service_healthy

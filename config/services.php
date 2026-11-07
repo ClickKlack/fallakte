@@ -34,6 +34,10 @@ return [
         // Ohne WIKIPEDIA_USER_AGENT wird die E-Mail-Adresse des (einzigen) Benutzers als Kontakt angehängt.
         'user_agent' => env('WIKIPEDIA_USER_AGENT'),
         'user_agent_base' => 'fallakte/1.0 (+https://github.com/ClickKlack/fallakte)',
+        // Automatischer Import als Cron-Ausdruck (leer = abgeschaltet). Greift nur, wenn ein Scheduler läuft:
+        // Docker-Service „scheduler“ oder ein Cronjob mit `php artisan schedule:run`.
+        'import_schedule' => env('IMPORT_SCHEDULE', '0 4 * * 1'),
+        'import_timezone' => env('IMPORT_TIMEZONE', 'Europe/Berlin'),
     ],
 
     'slack' => [

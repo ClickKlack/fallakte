@@ -1,0 +1,52 @@
+# Was nicht ins Docker-Image gehört – vor allem keine Zugangsdaten, Datenbanken oder lokalen Hosting-Infos
+
+# Umgebungen und Zugangsdaten
+.env
+.env.*
+*.env
+!.env.example
+auth.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.local
+*.local.*
+deploy/
+.secrets-denylist
+
+# Daten und Laufzeitdateien (kommen im Container aus dem Volume)
+storage/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+data/
+
+# Abhängigkeiten und Build-Artefakte (werden im Image neu gebaut)
+node_modules/
+vendor/
+public/build/
+public/hot
+public/storage
+bootstrap/cache/*.php
+
+# Entwicklung, Tests, Doku
+.git/
+.githooks/
+.github/
+.idea/
+.vscode/
+.claude/
+.cursor/
+.codex/
+tests/
+coverage/
+.phpunit.cache/
+.phpunit.result.cache
+docs/
+bin/
+*.log
+.DS_Store
+Dockerfile
+docker-compose*.yml
