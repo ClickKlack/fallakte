@@ -155,3 +155,12 @@ deutschsprachigen Wikipedia ([Tatort](https://de.wikipedia.org/wiki/Liste_der_Ta
 [Polizeiruf 110](https://de.wikipedia.org/wiki/Liste_der_Polizeiruf-110-Folgen)) und stehen unter
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de). „Tatort“ und „Polizeiruf 110“ sind
 Marken der jeweiligen Rechteinhaber; das Logo dieser App ist eine eigene Gestaltung.
+
+## Lizenz
+
+Der Quellcode steht unter der [MIT-Lizenz](LICENSE) © 2026 Jörg Schönebaum.
+Die Anwendung ist größtenteils mit Unterstützung eines KI-Assistenten entstanden.
+
+Ausgenommen sind die Wikipedia-Auszüge unter `tests/Fixtures/wikipedia`: Sie bleiben unter
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de) (Quelle und Autoren: die jeweiligen
+Wikipedia-Artikel und deren Versionsgeschichte).
