@@ -126,6 +126,13 @@ Die aktuelle Version steht auf der Seite „Über“.
 Es läuft immer nur ein Import gleichzeitig. Manuell korrigierte Felder und „gesehen“ werden nie überschrieben;
 in Wikipedia entfernte Folgen werden nicht gelöscht.
 
+### Backup
+
+Seite „Über“ → Block **Backup**: Download als **Excel** (zum Anschauen), **JSON** (maschinenlesbar) oder
+**SQLite** (vollständige Kopie der Datenbank inkl. Logins – sicher aufbewahren). Wiederherstellen: die
+SQLite-Datei per SSH an die Stelle der Datenbankdatei aus `DB_DATABASE` kopieren (vorher die alte sichern).
+Für den Excel-Export braucht der Server die PHP-Erweiterung `zip`.
+
 ### Optional: automatischer Import per Cron
 
 Nur falls der Webspace Cronjobs anbietet. In `routes/console.php` einen Zeitplan ergänzen, z. B.

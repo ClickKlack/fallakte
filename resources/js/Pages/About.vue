@@ -16,7 +16,15 @@ defineProps({
     laravel: { type: String, required: true },
     repository: { type: String, required: true },
     series: { type: Array, required: true },
+    sqliteBackup: { type: Boolean, default: true },
 });
+
+// Backup-Formate (SQLite nur bei SQLite-Datenbank)
+const backups = [
+    { format: 'xlsx', icon: 'table' },
+    { format: 'json', icon: 'code' },
+    { format: 'sqlite', icon: 'database' },
+];
 
 // Manueller Import beider Reihen
 const confirming = ref(false);
@@ -128,6 +136,42 @@ const dateTime = (iso) =>
                     </SecondaryButton>
                     <p class="text-xs text-subtle">{{ $t('about.import_hint') }}</p>
                 </div>
+            </Card>
+            <Card :title="$t('about.backup_title')" data-test="backup">
+                <p class="-mt-2 mb-4 text-sm text-muted">{{ $t('about.backup_hint') }}</p>
+                <ul class="grid gap-3 sm:grid-cols-3">
+                    <li
+                        v-for="item in backups.filter((b) => b.format !== 'sqlite' || sqliteBackup)"
+                        :key="item.format"
+                    >
+                        <a
+                            :href="route('backup.download', item.format)"
+                            class="flex h-full flex-col gap-1 rounded-lg border border-line p-4 transition hover:border-accent hover:bg-surface-hover"
+                            :data-test="`backup-${item.format}`"
+                            download
+                        >
+                            <span class="flex items-center gap-2 font-semibold">
+                                <svg
+                                    viewBox="0 0 20 20"
+                                    fill="currentColor"
+                                    class="h-4 w-4 text-accent"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M10 3a1 1 0 0 1 1 1v7.6l2.3-2.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4L9 11.6V4a1 1 0 0 1 1-1ZM4 15a1 1 0 0 1 1 1v.5h10V16a1 1 0 1 1 2 0v1.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V16a1 1 0 0 1 1-1Z"
+                                    />
+                                </svg>
+                                {{ $t(`about.backup.${item.format}.label`) }}
+                            </span>
+                            <span class="text-xs text-muted">{{
+                                $t(`about.backup.${item.format}.hint`)
+                            }}</span>
+                        </a>
+                    </li>
+                </ul>
+                <p v-if="sqliteBackup" class="mt-3 text-xs text-subtle">
+                    {{ $t('about.backup_sqlite_note') }}
+                </p>
             </Card>
 
             <Card :title="$t('about.source_title')">

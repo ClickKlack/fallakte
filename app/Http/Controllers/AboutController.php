@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Backup\BackupExporter;
 use App\Import\ParserRegistry;
 use App\Models\ImportRun;
 use App\Models\Series;
@@ -16,7 +17,7 @@ class AboutController extends Controller
 {
     private const REPOSITORY = 'https://github.com/ClickKlack/fallakte';
 
-    public function __invoke(ParserRegistry $parsers): Response
+    public function __invoke(ParserRegistry $parsers, BackupExporter $backup): Response
     {
         $series = Series::query()
             ->whereIn('slug', $parsers->slugs())
@@ -45,6 +46,7 @@ class AboutController extends Controller
             'laravel' => app()->version(),
             'repository' => self::REPOSITORY,
             'series' => $series,
+            'sqliteBackup' => $backup->sqliteAvailable(),
         ]);
     }
 }

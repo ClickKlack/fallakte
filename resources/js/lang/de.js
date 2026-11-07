@@ -196,6 +196,25 @@ export default {
         import_confirm_title: 'Folgen aktualisieren?',
         import_confirm:
             'Beide Episodenlisten werden jetzt aus Wikipedia übernommen. Das dauert einige Sekunden. Manuell korrigierte Angaben und deine Haken bleiben unverändert.',
+        backup_title: 'Backup',
+        backup_hint:
+            'Lade eine Sicherung deiner Fallakte herunter – am besten regelmäßig und an einem sicheren Ort.',
+        backup_sqlite_note:
+            'Die SQLite-Datei enthält auch die Logins (Passwörter nur verschlüsselt) – bitte entsprechend sicher aufbewahren. Wiederherstellen: Datei auf dem Server an die Stelle der Datenbank kopieren.',
+        backup: {
+            xlsx: {
+                label: 'Excel',
+                hint: 'Folgen, Teams und Importe als Tabelle zum Anschauen und Auswerten.',
+            },
+            json: {
+                label: 'JSON',
+                hint: 'Alle Daten maschinenlesbar, z. B. für eigene Auswertungen.',
+            },
+            sqlite: {
+                label: 'SQLite',
+                hint: 'Vollständige Kopie der Datenbank – für eine 1:1-Wiederherstellung.',
+            },
+        },
         source_title: 'Quelle & Lizenz',
         source: 'Folgennummern, Titel, Ausstrahlungsdaten, Sender und Ermittler stammen aus den Episodenlisten der deutschsprachigen Wikipedia:',
         license_prefix:

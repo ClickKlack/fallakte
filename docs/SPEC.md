@@ -271,6 +271,14 @@ Vom Nutzer gewünschter Zwischenschritt vor dem Abschluss. Inhalte werden zu Beg
 - Link in der Hauptnavigation, aber dezenter dargestellt
 - **Tests:** Seite rendert, nur mit Login erreichbar; Version wird gelesen, ungültig/fehlend → „dev“
 
+### Erweiterung – Backup (nach 1.0.0)
+Block „Backup“ auf der Über-Seite mit drei Downloads (nur Herunterladen, keine Wiederherstellung in der App):
+- **SQLite:** vollständige, konsistente Kopie der Datenbank per `VACUUM INTO` (inkl. Logins mit verschlüsselten Passwörtern, ohne Sitzungen/Cache/Jobs) – nur bei SQLite-Datenbank angeboten; Wiederherstellen per SSH durch Zurückkopieren
+- **JSON:** Reihen, Teams mit Schreibweisen, Folgen (inkl. gesehen, geschützte Felder) und Importläufe – ohne Logins
+- **Excel (.xlsx):** Blätter Folgen, Teams, Importe; echte Datums- und Zahlenwerte, fixierte Kopfzeile, Filter – ohne externe Bibliothek (PHP-Erweiterung `zip` erforderlich)
+- Dateiname `fallakte-backup-JJJJ-MM-TT.<endung>`; temporäre Dateien werden nach dem Senden gelöscht, Reste älter als 1 Stunde automatisch entfernt
+- **Tests:** Inhalt und Datenschutz (keine Logins in JSON/Excel), gültige xlsx-Struktur, SQLite-Kopie vollständig und ohne Sitzungen, Login-Pflicht
+
 ### Schritt 10 – Abschluss
 - **Deploy-Skript** (lokal ausgeführt): zählt die Version in `VERSION` nach Semantic Versioning hoch (`major` / `minor` / `patch`), baut das Frontend, lädt hoch und führt auf dem Server `composer install --no-dev`, `php artisan migrate --force` und `php artisan config:cache` aus (sonst bleibt die alte Version im Konfig-Cache). Zugangsdaten und Ziel (Host, Pfad, Benutzer) liest es aus einer **lokalen, ignorierten** Datei – nie aus dem Repo
 - README mit Installation, Deployment (lokaler Build, Upload `public/build`), Import, optional Scheduler, zweitem Login und `WIKIPEDIA_USER_AGENT`

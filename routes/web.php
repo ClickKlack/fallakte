@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\BackupController;
 use App\Http\Controllers\EpisodeController;
 use App\Http\Controllers\EpisodeFormController;
 use App\Http\Controllers\ImportController;
@@ -27,6 +28,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/statistik', StatisticsController::class)->name('dashboard');
     Route::get('/ueber', AboutController::class)->name('about');
     Route::post('/import', ImportController::class)->name('import.run');
+    Route::get('/backup/{format}', BackupController::class)->whereIn('format', ['sqlite', 'json', 'xlsx'])->name('backup.download');
 
     // Übersicht der UI-Bausteine, nur in der lokalen Entwicklung.
     if (app()->isLocal()) {
