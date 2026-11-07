@@ -18,7 +18,7 @@ Single-User-Anwendung, Oberflächensprache Deutsch.
 
 ## 2. Tech-Stack (verbindlich)
 
-- PHP 8.3+, **Laravel 13** (ursprünglich Laravel 11 – ist EOL und wegen offener Sicherheitslücken nicht mehr installierbar)
+- PHP 8.4+, **Laravel 13** (ursprünglich Laravel 11 – ist EOL und wegen offener Sicherheitslücken nicht mehr installierbar)
 - **Vue 3 + Inertia.js**, Tailwind CSS
 - **SQLite** (Single-User, wenige tausend Datensätze; Migrationen bleiben MariaDB-kompatibel, damit ein späterer Wechsel möglich ist)
 - Auth: **Laravel Breeze (Vue/Inertia)**, Registrierung deaktiviert
@@ -160,7 +160,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 - Alle Routen außer Login hinter `auth`
 
 ## 7. Betrieb / Deployment
-- Zielsystem: Webspace mit **SSH und Composer, aber ohne Node**; PHP 8.3+ mit `pdo_sqlite`
+- Zielsystem: Webspace mit **SSH und Composer, aber ohne Node**; PHP 8.4+ mit `pdo_sqlite`
 - SQLite-Datei liegt außerhalb des Web-Roots in einem für PHP beschreibbaren Verzeichnis (Pfad nur in `.env`); Deployment darf die Datei nie überschreiben
 - Frontend-Build (`npm run build`) erfolgt lokal beim Deployment; `public/build` wird per rsync hochgeladen, liegt aber **nicht** im Repository (geändert nach 1.0.0 – vorher eingecheckt)
 - README mit Deployment-Schritten: Upload, `composer install --no-dev`, `.env`, `php artisan migrate --force`, `php artisan db:seed --force` (legt die Reihen an, keine Benutzer), `php artisan user:create`, `php artisan episodes:import`

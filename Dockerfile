@@ -26,7 +26,7 @@ COPY --from=vendor /app/vendor/tightenco/ziggy ./vendor/tightenco/ziggy
 RUN npm run build
 
 # --- 3. Laufzeit: PHP 8.4 + Apache ------------------------------------------------------------
-# PHP 8.4 statt 8.3, weil die composer.lock Symfony 8 (PHP >= 8.4.1) enthält.
+# PHP 8.4 ist Mindestversion (Symfony 8 in der composer.lock verlangt >= 8.4.1).
 FROM php:8.4-apache AS runtime
 
 RUN apt-get update \

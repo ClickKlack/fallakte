@@ -27,7 +27,7 @@ Persönliche Single-User-Webapp zum Abhaken gesehener Tatort- und Polizeiruf-110
 - Bei Unklarheiten (insbesondere Wikipedia-Struktur, Team-Zuordnung): **nachfragen statt raten.**
 
 ## Tech-Stack
-- PHP 8.3+, **Laravel 13** (Spec nannte ursprünglich 11 – EOL), Vue 3 + Inertia.js (Composition API, `<script setup>`), Tailwind CSS
+- PHP 8.4+, **Laravel 13** (Spec nannte ursprünglich 11 – EOL), Vue 3 + Inertia.js (Composition API, `<script setup>`), Tailwind CSS
 - **SQLite** (Dev und Prod; Tests in-memory über `phpunit.xml`). Migrationen datenbankneutral halten, damit MariaDB möglich bleibt.
 - Auth: Laravel Breeze (Vue/Inertia), Registrierung deaktiviert, Benutzer per `php artisan user:create`
 - Tests: Pest/PHPUnit, Vitest für nicht-triviale Vue-Logik (keine Snapshot-Tests)

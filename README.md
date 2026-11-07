@@ -15,11 +15,11 @@ Spezifikation: [docs/SPEC.md](docs/SPEC.md) · Aufbau der Wikipedia-Listen: [doc
 
 ## Tech-Stack
 
-PHP 8.3+, Laravel 13, Vue 3 + Inertia.js, Tailwind CSS 4, SQLite (MariaDB/MySQL ebenfalls getestet).
+PHP 8.4+, Laravel 13, Vue 3 + Inertia.js, Tailwind CSS 4, SQLite (MariaDB/MySQL ebenfalls getestet).
 
 ## Lokale Entwicklung
 
-Voraussetzungen: PHP 8.3+ mit `pdo_sqlite`, Composer, Node.js.
+Voraussetzungen: PHP 8.4+ mit `pdo_sqlite`, Composer, Node.js.
 
 ```bash
 git config core.hooksPath .githooks   # Schutz vor versehentlich committeten Zugangsdaten
@@ -54,7 +54,7 @@ Domain …) zeilenweise in `.secrets-denylist` eintragen – die Datei wird nie 
 
 ## Betrieb auf einem Webspace
 
-Zielsystem: Webspace mit SSH, Composer und PHP 8.3+ (`pdo_sqlite`, `zip`), **ohne Node** – das Frontend wird
+Zielsystem: Webspace mit SSH, Composer und PHP 8.4+ (`pdo_sqlite`, `zip`), **ohne Node** – das Frontend wird
 beim Deployment lokal gebaut und hochgeladen (`public/build` liegt nicht im Repository).
 
 ### Ersteinrichtung (einmalig)
