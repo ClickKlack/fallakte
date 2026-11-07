@@ -5,6 +5,7 @@
  */
 import { computed } from 'vue';
 import Combobox from '@/Components/Combobox.vue';
+import DateField from '@/Components/DateField.vue';
 import FilterPanel from '@/Components/FilterPanel.vue';
 import InputLabel from '@/Components/InputLabel.vue';
 import SecondaryButton from '@/Components/SecondaryButton.vue';
@@ -114,7 +115,7 @@ const active = computed(() => activeFilterCount(props.form));
                     :options="statuses"
                 />
             </div>
-            <div>
+            <div class="lg:col-span-2">
                 <InputLabel for="filter-broadcaster" :value="$t('episodes.filters.broadcaster')" />
                 <SelectInput
                     id="filter-broadcaster"
@@ -148,6 +149,26 @@ const active = computed(() => activeFilterCount(props.form));
                     :placeholder="$t('episodes.filters.any_year')"
                 />
             </div>
+
+            <div class="col-span-2 sm:col-span-1">
+                <InputLabel for="filter-seen-from" :value="$t('episodes.filters.seen_from')" />
+                <DateField
+                    id="filter-seen-from"
+                    v-model="form.seen_from"
+                    class="mt-1"
+                    :dialog-title="$t('episodes.filters.seen_from')"
+                />
+            </div>
+            <div class="col-span-2 sm:col-span-1">
+                <InputLabel for="filter-seen-to" :value="$t('episodes.filters.seen_to')" />
+                <DateField
+                    id="filter-seen-to"
+                    v-model="form.seen_to"
+                    class="mt-1"
+                    :dialog-title="$t('episodes.filters.seen_to')"
+                />
+            </div>
+
             <div class="col-span-2">
                 <InputLabel for="filter-sort" :value="$t('episodes.filters.sort')" />
                 <div class="mt-1 flex gap-2">
@@ -198,7 +219,7 @@ const active = computed(() => activeFilterCount(props.form));
                     :options="pageSizes"
                 />
             </div>
-            <div class="flex items-end lg:col-span-6 lg:justify-end">
+            <div class="flex items-end lg:col-span-3 lg:justify-end">
                 <SecondaryButton
                     class="w-full lg:w-auto"
                     :disabled="active === 0"

@@ -7,19 +7,19 @@ $series = ['tatort', 'polizeiruf-110'];
 test('defaults are used without query', function () use ($series) {
     expect(EpisodeFilters::fromArray([], $series)->toArray())->toBe([
         'series' => null, 'team' => null, 'broadcaster' => null, 'status' => 'all', 'year_from' => null, 'year_to' => null,
-        'q' => null, 'sort' => 'number', 'direction' => 'asc', 'per_page' => 50,
+        'seen_from' => null, 'seen_to' => null, 'q' => null, 'sort' => 'number', 'direction' => 'asc', 'per_page' => 50,
     ]);
 });
 
 test('valid values are taken over', function () use ($series) {
     $filters = EpisodeFilters::fromArray([
-        'series' => 'tatort', 'team' => '12', 'broadcaster' => ' WDR ', 'status' => 'unseen', 'year_from' => '1990', 'year_to' => '1999',
+        'series' => 'tatort', 'team' => '12', 'broadcaster' => ' WDR ', 'status' => 'unseen', 'year_from' => '1990', 'year_to' => '1999', 'seen_from' => '2026-10-01', 'seen_to' => '2026-10-31',
         'q' => '  Münster ', 'sort' => 'date', 'direction' => 'desc', 'per_page' => '100',
     ], $series);
 
     expect($filters->toArray())->toBe([
         'series' => 'tatort', 'team' => 12, 'broadcaster' => 'WDR', 'status' => 'unseen', 'year_from' => 1990, 'year_to' => 1999,
-        'q' => 'Münster', 'sort' => 'date', 'direction' => 'desc', 'per_page' => 100,
+        'seen_from' => '2026-10-01', 'seen_to' => '2026-10-31', 'q' => 'Münster', 'sort' => 'date', 'direction' => 'desc', 'per_page' => 100,
     ]);
 });
 
@@ -38,6 +38,8 @@ test('invalid values are ignored', function (array $query, string $key, mixed $e
     'unknown direction' => [['direction' => 'sideways'], 'direction', 'asc'],
     'unsupported page size' => [['per_page' => '1000'], 'per_page', 50],
     'empty search' => [['q' => '   '], 'q', null],
+    'seen date wrong format' => [['seen_from' => '01.10.2026'], 'seen_from', null],
+    'seen date impossible' => [['seen_to' => '2026-02-30'], 'seen_to', null],
     'empty broadcaster' => [['broadcaster' => ''], 'broadcaster', null],
     'array instead of string' => [['q' => ['x']], 'q', null],
 ]);
@@ -47,6 +49,13 @@ test('swapped year range is corrected', function () use ($series) {
 
     expect($filters->yearFrom)->toBe(2000)
         ->and($filters->yearTo)->toBe(2010);
+});
+
+test('swapped seen range is corrected', function () use ($series) {
+    $filters = EpisodeFilters::fromArray(['seen_from' => '2026-10-31', 'seen_to' => '2026-10-01'], $series);
+
+    expect($filters->seenFrom)->toBe('2026-10-01')
+        ->and($filters->seenTo)->toBe('2026-10-31');
 });
 
 test('search is limited to 100 characters', function () use ($series) {

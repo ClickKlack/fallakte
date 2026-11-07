@@ -55,6 +55,15 @@ class EpisodeListQuery
             $query->whereDate('episodes.first_aired', '<=', "{$filters->yearTo}-12-31");
         }
 
+        // Zeitraum „gesehen am“ – trifft nur gesehene Folgen mit Datum
+        if ($filters->seenFrom !== null) {
+            $query->where('episodes.seen', true)->whereDate('episodes.seen_at', '>=', $filters->seenFrom);
+        }
+
+        if ($filters->seenTo !== null) {
+            $query->where('episodes.seen', true)->whereDate('episodes.seen_at', '<=', $filters->seenTo);
+        }
+
         if ($filters->search !== null) {
             // "!" als Escape-Zeichen funktioniert in SQLite und MariaDB gleich (Backslash nicht).
             $escaped = str_replace(['!', '%', '_'], ['!!', '!%', '!_'], mb_strtolower($filters->search));
@@ -87,6 +96,9 @@ class EpisodeListQuery
             'date' => $query->orderByRaw('episodes.first_aired is null')
                 ->orderBy('episodes.first_aired', $direction),
             'title' => $query->orderBy('episodes.title', $direction),
+            // Folgen ohne „gesehen am“ stehen immer am Ende
+            'seen_at' => $query->orderByRaw('episodes.seen_at is null')
+                ->orderBy('episodes.seen_at', $direction),
             'team' => $query->leftJoin('teams', 'teams.id', '=', 'episodes.team_id')
                 ->orderByRaw('teams.name is null')
                 ->orderBy('teams.name', $direction),

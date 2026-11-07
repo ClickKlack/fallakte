@@ -10,6 +10,8 @@ export const DEFAULT_FILTERS = Object.freeze({
     status: 'all',
     year_from: null,
     year_to: null,
+    seen_from: null,
+    seen_to: null,
     q: null,
     sort: 'number',
     direction: 'asc',
@@ -24,6 +26,8 @@ export const RESTRICTING_FIELDS = [
     'status',
     'year_from',
     'year_to',
+    'seen_from',
+    'seen_to',
     'q',
 ];
 
@@ -111,6 +115,6 @@ export function nextSort(filters, column) {
         return { sort: column, direction: filters.direction === 'asc' ? 'desc' : 'asc' };
     }
 
-    // Datum zuerst absteigend (neueste oben), alles andere aufsteigend
-    return { sort: column, direction: column === 'date' ? 'desc' : 'asc' };
+    // Datumsspalten zuerst absteigend (neueste oben), alles andere aufsteigend
+    return { sort: column, direction: ['date', 'seen_at'].includes(column) ? 'desc' : 'asc' };
 }

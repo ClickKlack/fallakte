@@ -10,6 +10,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import EpisodeFilterBar from '@/Components/Episodes/EpisodeFilterBar.vue';
 import EpisodeListHeader from '@/Components/Episodes/EpisodeListHeader.vue';
 import EpisodeRow from '@/Components/Episodes/EpisodeRow.vue';
+import SeenQuickFilter from '@/Components/Episodes/SeenQuickFilter.vue';
 import PageTitle from '@/Components/PageTitle.vue';
 import Pagination from '@/Components/Pagination.vue';
 import SecondaryButton from '@/Components/SecondaryButton.vue';
@@ -137,6 +138,11 @@ const subtitle = computed(() =>
                 :options="options"
                 @reset="update(resetFilters(form))"
                 @clear-search="update({ q: null })"
+            />
+
+            <SeenQuickFilter
+                :status="form.status"
+                @update:status="(status) => (form.status = status)"
             />
 
             <section

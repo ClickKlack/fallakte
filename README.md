@@ -4,7 +4,8 @@ Persönliche Webapp zur Verwaltung gesehener Folgen von **Tatort** und **Polizei
 Der Episodenkatalog wird aus der deutschsprachigen Wikipedia übernommen und lässt sich in der App korrigieren;
 eigene Korrekturen und die Haken „gesehen“ bleiben bei späteren Importen erhalten.
 
-- Folgenliste mit Filtern (Reihe, Team, Sender, Status, Jahre, Titel), Sortierung und Abhaken direkt in der Liste
+- Folgenliste mit Filtern (Reihe, Team, Sender, Status, Jahre, Zeitraum „gesehen am“, Titel), Schnellumschalter
+  Alle/Gesehen/Ungesehen, Sortierung (auch nach „gesehen am“) und Abhaken direkt in der Liste
 - Folgen bearbeiten und manuell anlegen; manuell geänderte Felder sind vor dem Import geschützt
 - Team-Übersicht mit Fortschritt, Bearbeiten, Zusammenführen und Vorschlägen für zusammengehörige Teams
 - Statistik: Gesamtfortschritt, Fortschritt nach Ausstrahlungsjahr, gesehene Folgen pro Jahr, Team-Ranglisten

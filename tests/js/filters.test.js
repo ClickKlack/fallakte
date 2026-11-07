@@ -67,6 +67,16 @@ describe('filter values', () => {
         ).toBe(4);
     });
 
+    it('treats the seen date range as restricting filter', () => {
+        const filters = normalizeFilters({ seen_from: '2024-01-01', seen_to: '' });
+
+        expect(filters.seen_from).toBe('2024-01-01');
+        expect(filters.seen_to).toBeNull();
+        expect(toQuery(filters)).toEqual({ seen_from: '2024-01-01' });
+        expect(activeFilterCount(filters)).toBe(1);
+        expect(resetFilters(filters).seen_from).toBeNull();
+    });
+
     it('reset keeps sorting and page size', () => {
         const reset = resetFilters({
             ...DEFAULT_FILTERS,
@@ -116,6 +126,10 @@ describe('sorting by column header', () => {
         });
         expect(nextSort({ sort: 'number', direction: 'asc' }, 'date')).toEqual({
             sort: 'date',
+            direction: 'desc',
+        });
+        expect(nextSort({ sort: 'number', direction: 'asc' }, 'seen_at')).toEqual({
+            sort: 'seen_at',
             direction: 'desc',
         });
     });

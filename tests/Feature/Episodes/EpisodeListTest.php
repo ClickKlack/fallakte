@@ -71,7 +71,7 @@ test('page renders with episodes, filters and options', function () {
             ->where('options.teams.0.name', 'Münster')
             ->where('options.teams.0.series_slug', 'tatort')
             ->where('options.statuses', ['all', 'seen', 'unseen', 'announced'])
-            ->where('options.sorts', ['number', 'date', 'title', 'team'])
+            ->where('options.sorts', ['number', 'date', 'title', 'team', 'seen_at'])
             ->where('options.broadcasters', ['NDR'])
             ->where('options.per_page', [25, 50, 100])
             ->has('episodes.links')
@@ -183,6 +183,17 @@ describe('filters', function () {
             ->and(listTitles(['broadcaster' => 'SWR']))->toBe([]);
     });
 
+    test('by seen date range', function () {
+        Episode::where('title', 'Der dunkle Fleck')->update(['seen_at' => '2026-10-05']);
+        Episode::where('title', 'Borowski und die Frau')->update(['seen_at' => '2026-11-02']);
+        Episode::where('title', 'Fakten, Fakten')->update(['seen' => true, 'seen_at' => null]);
+
+        expect(listTitles(['seen_from' => '2026-10-01', 'seen_to' => '2026-10-31']))->toBe(['Der dunkle Fleck'])
+            ->and(listTitles(['seen_from' => '2026-11-01']))->toBe(['Borowski und die Frau'])
+            ->and(listTitles(['seen_to' => '2026-11-30', 'sort' => 'title']))->toBe(['Borowski und die Frau', 'Der dunkle Fleck'])
+            ->and(listTitles(['seen_from' => '2027-01-01']))->toBe([]);
+    });
+
     test('combined filters', function () {
         expect(listTitles(['series' => 'tatort', 'team' => $this->münster->id, 'status' => 'unseen', 'year_from' => 2003, 'q' => 'fakt']))
             ->toBe(['Fakten, Fakten'])
@@ -231,6 +242,15 @@ describe('sorting', function () {
     test('by team with episodes without team last', function () {
         expect(listTitles(['sort' => 'team']))->toBe(['Charlie', 'Bravo', 'Einzelfilm', 'Alpha'])
             ->and(listTitles(['sort' => 'team', 'direction' => 'desc']))->toBe(['Bravo', 'Charlie', 'Alpha', 'Einzelfilm']);
+    });
+
+    test('by seen date with episodes without date last', function () {
+        Episode::where('title', 'Bravo')->update(['seen' => true, 'seen_at' => '2026-01-10']);
+        Episode::where('title', 'Charlie')->update(['seen' => true, 'seen_at' => '2026-03-01']);
+        Episode::where('title', 'Alpha')->update(['seen' => true, 'seen_at' => null]);
+
+        expect(listTitles(['sort' => 'seen_at', 'direction' => 'desc']))->toBe(['Charlie', 'Bravo', 'Alpha', 'Einzelfilm'])
+            ->and(array_slice(listTitles(['sort' => 'seen_at']), 0, 2))->toBe(['Bravo', 'Charlie']);
     });
 
     test('substitute number is shown', function () {
