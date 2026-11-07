@@ -53,8 +53,8 @@ Domain …) zeilenweise in `.secrets-denylist` eintragen – die Datei wird nie 
 
 ## Betrieb auf einem Webspace
 
-Zielsystem: Webspace mit SSH, Composer und PHP 8.3+ (`pdo_sqlite`), **ohne Node** – das Frontend wird lokal
-gebaut und `public/build` ist im Repository enthalten.
+Zielsystem: Webspace mit SSH, Composer und PHP 8.3+ (`pdo_sqlite`, `zip`), **ohne Node** – das Frontend wird
+beim Deployment lokal gebaut und hochgeladen (`public/build` liegt nicht im Repository).
 
 ### Ersteinrichtung (einmalig)
 
@@ -110,8 +110,9 @@ Das Skript
 1. prüft, dass alles committet ist und auf `main` gearbeitet wird,
 2. führt alle Tests und Code-Stil-Prüfungen aus (bricht bei Fehlern ab),
 3. zählt die Version in `VERSION` hoch (Semantic Versioning) und baut das Frontend,
-4. committet nach **Rückfrage** „chore: release vX.Y.Z“, setzt den Tag `vX.Y.Z` und pusht,
-5. lädt per `rsync` hoch – `.env`, Datenbank, `storage/`, Tests, Doku und Entwicklungsdateien bleiben außen vor,
+4. committet nach **Rückfrage** „chore: release vX.Y.Z“ (nur die Datei `VERSION`), setzt den Tag `vX.Y.Z` und pusht,
+5. lädt per `rsync` hoch, inklusive des frisch gebauten Frontends – `.env`, Datenbank, `storage/`, Tests,
+   Doku und Entwicklungsdateien bleiben außen vor,
 6. führt auf dem Server `composer install --no-dev`, `migrate --force` sowie `config:cache`, `route:cache`
    und `view:cache` aus.
 

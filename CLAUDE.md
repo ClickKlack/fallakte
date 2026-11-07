@@ -31,7 +31,7 @@ Persönliche Single-User-Webapp zum Abhaken gesehener Tatort- und Polizeiruf-110
 - **SQLite** (Dev und Prod; Tests in-memory über `phpunit.xml`). Migrationen datenbankneutral halten, damit MariaDB möglich bleibt.
 - Auth: Laravel Breeze (Vue/Inertia), Registrierung deaktiviert, Benutzer per `php artisan user:create`
 - Tests: Pest/PHPUnit, Vitest für nicht-triviale Vue-Logik (keine Snapshot-Tests)
-- Zielsystem: Webspace mit SSH + Composer, **ohne Node** → `npm run build` lokal, `public/build` wird eingecheckt
+- Zielsystem: Webspace mit SSH + Composer, **ohne Node** → `npm run build` lokal beim Deployment, `public/build` ist **nicht** im Repo (wird per rsync hochgeladen)
 
 ## Konventionen
 - **Englisch:** alle Bezeichner (Tabellen, Spalten, Klassen, Methoden, Variablen, Routen-Namen, Enum-Werte, Testnamen) und Commit-Messages (Conventional Commits: `feat:`, `fix:`, `test:`, `chore:`, `docs:`)
@@ -46,7 +46,7 @@ Persönliche Single-User-Webapp zum Abhaken gesehener Tatort- und Polizeiruf-110
 ```bash
 php artisan test              # PHP-Tests
 vendor/bin/pint --test        # Code-Stil prüfen (ohne --test: korrigieren)
-npm run build                 # Frontend-Build (wird committet)
+npm run build                 # Frontend-Build (lokal, nicht im Repo)
 npm run test                  # Vitest (ab Schritt 6)
 php artisan episodes:import {series?} {--dry-run}
 npm run format            # Prettier (JS/Vue)

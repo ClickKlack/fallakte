@@ -32,7 +32,8 @@ id_ed25519*
 /public/storage
 /public/fonts-manifest.dev.json
 /storage/pail
-# public/build wird bewusst eingecheckt (Webspace ohne Node, siehe docs/SPEC.md Abschnitt 7)
+# Frontend-Build: wird beim Deployment lokal erzeugt und per rsync hochgeladen (nicht im Repo)
+/public/build
 
 # Tests
 .phpunit.result.cache

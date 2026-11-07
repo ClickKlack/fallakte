@@ -162,7 +162,7 @@ Protokoll je Importlauf: Serie, Start/Ende, Anzahl neu / aktualisiert / überspr
 ## 7. Betrieb / Deployment
 - Zielsystem: Webspace mit **SSH und Composer, aber ohne Node**; PHP 8.3+ mit `pdo_sqlite`
 - SQLite-Datei liegt außerhalb des Web-Roots in einem für PHP beschreibbaren Verzeichnis (Pfad nur in `.env`); Deployment darf die Datei nie überschreiben
-- Frontend-Build (`npm run build`) erfolgt lokal; `public/build` wird mit deployed
+- Frontend-Build (`npm run build`) erfolgt lokal beim Deployment; `public/build` wird per rsync hochgeladen, liegt aber **nicht** im Repository (geändert nach 1.0.0 – vorher eingecheckt)
 - README mit Deployment-Schritten: Upload, `composer install --no-dev`, `.env`, `php artisan migrate --force`, `php artisan db:seed --force` (legt die Reihen an, keine Benutzer), `php artisan user:create`, `php artisan episodes:import`
 - Import wird manuell per SSH ausgeführt **oder über den Knopf „Jetzt von Wikipedia aktualisieren“ auf der Über-Seite** (synchron im Webaufruf, Erstimport ca. 9 s; höchstens alle 5 Minuten; gemeinsame Sperre mit dem Artisan-Befehl gegen parallele Läufe); optional über Laravel-Scheduler, falls Cron auf dem Webspace verfügbar ist (im README beschreiben, nicht voraussetzen)
 - Mehrere Logins sind möglich (`user:create` mehrfach), teilen sich aber **einen gemeinsamen Datenbestand** – z. B. Ami als Hauptnutzerin plus ein zweiter Login zum Mitschauen. Für den Wikipedia-User-Agent in der produktiven `.env` `WIKIPEDIA_USER_AGENT` mit eigener Kontaktadresse setzen (sonst wird die E-Mail des zuerst angelegten Benutzers verwendet)
@@ -281,7 +281,7 @@ Block „Backup“ auf der Über-Seite mit drei Downloads (nur Herunterladen, ke
 
 ### Schritt 10 – Abschluss
 - **Deploy-Skript** (lokal ausgeführt): zählt die Version in `VERSION` nach Semantic Versioning hoch (`major` / `minor` / `patch`), baut das Frontend, lädt hoch und führt auf dem Server `composer install --no-dev`, `php artisan migrate --force` und `php artisan config:cache` aus (sonst bleibt die alte Version im Konfig-Cache). Zugangsdaten und Ziel (Host, Pfad, Benutzer) liest es aus einer **lokalen, ignorierten** Datei – nie aus dem Repo
-- README mit Installation, Deployment (lokaler Build, Upload `public/build`), Import, optional Scheduler, zweitem Login und `WIKIPEDIA_USER_AGENT`
+- README mit Installation, Deployment (lokaler Build, Upload), Import, optional Scheduler, zweitem Login und `WIKIPEDIA_USER_AGENT`
 - Komplettlauf aller Tests, Pint, Prüfung aller Abnahmekriterien aus Abschnitt 9
 
 Bei Unklarheiten zur Wikipedia-Struktur oder zur Team-Zuordnung: **nachfragen statt raten.**

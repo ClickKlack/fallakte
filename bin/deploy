@@ -4,7 +4,8 @@
 #   bin/deploy <major|minor|patch|none> [--dry-run]
 #
 # Ablauf: Vorabprüfungen und Tests → Version hochzählen → Frontend bauen → (nach Rückfrage)
-# Release-Commit, Tag und Push → Upload per rsync → composer install, Migrationen, Caches auf dem Server.
+# Release-Commit (nur VERSION), Tag und Push → Upload per rsync (inkl. frisch gebautem public/build,
+# das nicht im Repository liegt) → composer install, Migrationen, Caches auf dem Server.
 #
 # Ziel und Zugang stehen ausschließlich in der lokalen, von Git ignorierten Datei deploy.local.env
 # (Vorlage: deploy.example.env). Niemals Hosts, Pfade oder Zugangsdaten in dieses Skript schreiben.
@@ -17,8 +18,8 @@ DRY_RUN=false
 [[ "${2:-}" == "--dry-run" ]] && DRY_RUN=true
 
 say()  { printf '\n\033[1;34m▸ %s\033[0m\n' "$*"; }
-# Lokale Build-Änderungen verwerfen (auch neu entstandene Dateien in public/build)
-restore_build() { git checkout -q -- VERSION public/build 2>/dev/null || true; git clean -fdq public/build; }
+# Versionsänderung verwerfen (z. B. bei Abbruch oder im Probelauf)
+restore_version() { git checkout -q -- VERSION 2>/dev/null || true; }
 fail() { printf '\n\033[1;31m✖ %s\033[0m\n' "$*" >&2; exit 1; }
 
 case "$BUMP" in
@@ -75,31 +76,23 @@ say "Version: ${CURRENT} → ${NEXT}"
 say "Frontend bauen"
 npm run build --silent >/dev/null
 
-if [[ "${NEXT}" != "${CURRENT}" ]] || [[ -n "$(git status --porcelain public/build)" ]]; then
-    # Neue Version: Release-Commit mit Tag. Gleiche Version, aber geänderter Build: Commit ohne Tag.
-    if [[ "${NEXT}" != "${CURRENT}" ]]; then
-        MESSAGE="chore: release v${NEXT}"; TAG="v${NEXT}"
-    else
-        MESSAGE="chore: rebuild frontend assets"; TAG=""
-    fi
-
+# Der Build (public/build) ist nicht im Repository – er wird gleich direkt hochgeladen.
+# Eine neue Version wird als Release-Commit (nur die Datei VERSION) mit Tag festgehalten.
+if [[ "${NEXT}" != "${CURRENT}" ]]; then
     if $DRY_RUN; then
-        say "[Probelauf] Würde committen: ${MESSAGE}${TAG:+ (Tag ${TAG})} und pushen"
-        restore_build
+        say "[Probelauf] Würde VERSION=${NEXT} setzen, „chore: release v${NEXT}“ committen, Tag v${NEXT} setzen und pushen"
     else
         echo "${NEXT}" > VERSION
-        git add VERSION public/build
-        git --no-pager diff --cached --stat
-        read -r -p "„${MESSAGE}“${TAG:+ mit Tag ${TAG}} committen und pushen? [j/N] " answer
-        [[ "$answer" =~ ^[jJyY]$ ]] || { git restore --staged VERSION public/build; restore_build; fail "Abgebrochen – nichts geändert."; }
-        git commit -q -m "${MESSAGE}"
-        git push -q
-        if [[ -n "${TAG}" ]]; then
-            git tag -a "${TAG}" -m "Release ${TAG}"
-            git push -q origin "${TAG}"
-        fi
+        read -r -p "„chore: release v${NEXT}“ mit Tag v${NEXT} committen und pushen? [j/N] " answer
+        [[ "$answer" =~ ^[jJyY]$ ]] || { restore_version; fail "Abgebrochen – nichts geändert."; }
+        git add VERSION
+        git commit -q -m "chore: release v${NEXT}"
+        git tag -a "v${NEXT}" -m "Release v${NEXT}"
+        git push -q && git push -q origin "v${NEXT}"
     fi
 fi
+
+[[ -f public/build/manifest.json ]] || fail "Frontend-Build fehlt (public/build/manifest.json)."
 
 # --- Upload --------------------------------------------------------------------------------
 # Ausgeschlossen (und auf dem Server nie gelöscht): .env, Datenbankdateien, storage-Inhalte,
